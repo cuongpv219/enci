@@ -1,0 +1,70 @@
+#true-false-icon-holder-title{
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+.character-name{
+    float: right;
+    background-color: #05B2FF;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    padding: 4px;
+}
+
+#player-pictures-bar{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#true-false-icon-picture-holder{
+    float:right;
+    width: 40px;
+    height: 100px;
+}
+
+.jplayer-container {
+    float: left;
+    margin: 10px 0px 10px 20px;
+}
+
+.character-picture{
+    float: right;
+    width: 62px;
+    margin: 14px 2px;
+}
+
+.sentence-row{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.sentence-text{
+    float: left;
+    padding: 12px 0px 12px 20px;
+    max-width: 360px;
+    line-height: 24px;
+}
+
+.choice{
+    float: right;
+    margin-left: 30px;
+    margin-right: 24px;
+    margin-top: 12px;
+}
+
+.true-false-icon-holder{
+    float: right;
+    width: 40px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+#loadResult {
+    margin: 0 auto;
+}

@@ -1,0 +1,135 @@
+#list-block-items {
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 24px;
+    width: 900px;
+}
+
+#list-block-items .item:first-child {
+    margin-top: 20px;
+}
+#list-block-items .item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#list-block-items .top {
+    border-bottom: 1px solid #e9e9e9;
+    position: relative;
+}
+#list-block-items .top:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#list-block-items .order {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    background: #f0f0f0;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    left: -1px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#list-block-items .class-name:hover {
+    text-decoration: underline;
+}
+#list-block-items .class-name {
+    margin-left: 50px;
+    font-weight: bold;
+    color: #f36d00;
+    vertical-align: -10px;
+    text-decoration: none;
+}
+
+#list-block-items .teacher-info {
+    width: 200px;
+    position: absolute;
+    left: 450px;
+    bottom: -27px;
+    display: block;
+    text-decoration: none;
+}
+
+#list-block-items .teacher-info img {
+    margin-top: 3px;
+    float: left;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    background: #fff;
+    padding: 4px;
+    width: 44px;
+    height: 44px;
+}
+
+#list-block-items .teacher-info:hover .name {
+    color: #f36d00;
+}
+#list-block-items .teacher-info:hover img {
+    border-color: #dbdbdb;
+}
+
+#list-block-items .teacher-info .name {
+    margin-top: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+#list-block-items .teacher-info div {
+    margin-left: 64px;
+}
+#list-block-items .teacher-info div:last-child {
+    color: #888;
+    font-style: italic;
+}
+
+#list-block-items .bottom {
+    color: #888;
+}
+
+#list-block-items .bottom .class-info {
+    margin-left: 50px;
+}
+
+#list-block-items .bottom .teacher {
+    margin-right: 100px;
+    float: right;
+}
+
+#list-block-items .actions {
+    margin-left: 20px;
+}
+
+#list-block-items .actions .separator {
+    margin: 0 4px;
+}
+
+#list-block-items .actions a {
+    color: #0084c0;
+    text-decoration: none;
+}
+#list-block-items .actions a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#list-block-items .join {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    font-size: 13px;
+    padding: 4px 10px !important;
+}
+
+.empty-students {
+    text-align: left;
+}

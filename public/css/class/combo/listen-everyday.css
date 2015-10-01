@@ -1,0 +1,152 @@
+.ui360,
+.sm2-360ui {
+    width: 100px !important;
+    height: 100px !important;
+}
+.sm2-360ui {
+	z-index: 100;
+	background: #fff !important;
+}
+.ui360 .sm2-timing {
+    line-height: 100px !important;
+}
+
+
+#page-content .listening {
+	margin: 40px auto;
+	padding-left: 60px;
+	position: relative;
+	background: #f9f9f9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.listening .line {
+	width: 4px;
+	height: 100%;
+	background: #f0f0f0;
+	position: absolute;
+	left: 108px;
+	top: 0;
+	z-index: 1;
+}
+#page-content .players {
+	list-style: none;
+	padding: 0;
+}
+.players .item {
+	margin-bottom: 30px;
+	position: relative;
+}
+.item .time {
+	color: #bbb;
+	font-weight: 600;
+	float: left;
+	padding: 10px;
+	border-right: 1px solid #e8e8e8;
+	font-size: 16px;
+}
+.item .content {
+	margin-left: 20px;
+	float: left;
+}
+.item .content .title {
+	margin: 0;
+	color: #b00000;
+}
+.item .content .quote {
+	line-height: 24px;
+	font-style: italic;
+	margin: 0;
+}
+.listening .arrow {
+	position: absolute;
+	left: 150px;
+	top: -7px;
+	border: 1px solid #f0f0f0;
+	min-height: 80px;
+	width: 730px;
+	border-radius: 3px;
+	box-shadow: -2px 0 40px -16px #999;
+	font-size: 14px;
+	color: #666;
+	padding: 20px;
+	box-sizing: border-box;
+	line-height: 24px;
+	background: #fff;
+}
+.listening .arrow:after, .listening .arrow:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.listening .arrow:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 20px;
+	margin-top: -20px;
+}
+.listening .arrow:before {
+	border-color: rgba(240, 240, 240, 0);
+	border-right-color: #f0f0f0;
+	border-width: 21px;
+	margin-top: -21px;
+}
+.players .player {
+	display: inline-block;
+}
+
+#page-content .today {
+	min-height: 366px;
+	position: relative;
+}
+
+.today img {
+	max-width: 100%;
+	transform: scaleX(-1);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.today .listen-panel {
+	position: absolute;
+	background: rgba(243,156,18,0.9);
+	border-radius: 6px;
+	top: 40px;
+	left: 40px;
+	width: 380px;
+	height: 290px;
+}
+
+.listen-panel .title {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.listen-panel .text {
+	box-sizing: border-box;
+	padding: 20px;
+	color: #fff;
+}
+.listen-panel .listen-time {
+	margin-top: 20px;
+}
+.listen-panel .player {
+	float: left;
+}
+.listen-panel .time {
+	font-size: 40px;
+	float: left;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+.listen-panel .time .dm {
+}
+.listen-panel .time .y {
+	font-size: 46px;
+}

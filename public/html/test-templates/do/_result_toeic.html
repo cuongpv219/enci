@@ -1,0 +1,17 @@
+<div class="result toeic">
+	<i class="fa fa-check icon"></i>
+	<h3 class="total-score">Điểm số: {{score}}/990</h3>
+	<ul class="part-result review-table">
+		<li class="row" ng-repeat="part in parts">
+			<b class="cell title">{{part.title}}:</b>
+			<span class="cell score">{{part.score}}</span>
+			<span class="cell correct">(đúng {{part.correct}}/100 câu)</span>
+			<div class="cell actions">
+				<a href ng-click="setCurrentPart(part)"><i class="fa fa-arrow-right"></i> xem bài làm</a>
+			</div>
+		</li>
+	</ul>
+	<div class="show-explanation">
+		<label><input type="checkbox" ng-model="showExplanation">Hiển thị giải thích (nếu có)</label>
+	</div>
+</div>

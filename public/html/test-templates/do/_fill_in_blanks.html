@@ -1,0 +1,27 @@
+<div class="fill-in-blanks" ng-controller="fillInBlanksCtrl">
+    <div ng-if="part.ready">
+        <ul class="question-list unstyled-list">
+            <li class="question" 
+                ng-repeat="box in activity.questions track by $index"
+                ng-class="{unorder: !question.isMultipleGroups}">
+
+                <div class="divider" 
+                    ng-if="box.isDivider" 
+                    ng-bind-html="bindHtml(box.dividerContent)"></div>
+
+                <div ng-if="!box.isDivider">
+                    <div class="content">
+                        <div fill-in-blanks-content 
+                            data-box="{{$index}}" 
+                            ng-bind-html="box.paragraph"></div>
+                    </div>
+                </div>
+                
+                <p ng-show="showExplanation" class="explanation-note">
+                    <i class="fa fa-lightbulb-o icon"></i>
+                    Di chuột lên ô trống để hiện giải thích
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>

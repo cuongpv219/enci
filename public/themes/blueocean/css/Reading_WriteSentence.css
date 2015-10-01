@@ -1,0 +1,102 @@
+#activity-practice-container .global-blue-bar {
+    width: 542px;
+    float: left;
+}
+#activity-practice-container .global-orange-bar {
+    width: 452px;
+    float: right;
+}
+
+#activity-container {
+    margin-bottom: 20px;
+}
+
+#reading-container {
+    overflow-y: auto;
+    padding: 20px; 
+    width: 500px;
+    outline: none;
+}
+
+#white {
+    width: 533px;
+    position: absolute;
+    height: 20px;
+    top: 0px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+#reading-board{
+    width:540px;
+    float:left;
+/*    padding-bottom: 20px;*/
+    line-height:22px;
+    text-align: justify;
+    position: relative;
+}
+
+#activity-board{
+    width:450px;
+    float:right;	
+    text-align: justify;
+}
+
+#sentence-list{
+    float:left;
+    width:400px;
+    margin:10px;
+}
+
+#sentences{
+    list-style:none;
+    padding: 10px;
+}
+#sentences li{
+    margin-bottom:10px;
+}
+.blank-container{
+    cursor:pointer;
+}
+
+.order-char{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.text{
+    font-family: "Segoe UI";
+    width:380px;
+    border: 1px solid #e0e0e0;
+    -moz-box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    -webkit-box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    resize: none;
+    overflow: auto;
+}
+
+.showdiff{
+    background:#F5770F;
+    padding:3px 7px 3px 7px;
+    font-weight: bold;
+    color:#FFF;
+    cursor:pointer;
+}
+
+.result {
+    line-height: 28px;
+    color:#a6a6a6;
+}
+#prev-link {
+    float: left;
+    margin-left: 100px;
+}
+#next-link {
+    float: left;
+    margin-left: 10px;
+}
+#loadResult {
+    cursor:pointer;
+    line-height: 2.1;
+    float: right;
+}

@@ -1,0 +1,229 @@
+.activity-guide {
+    width: 990px;
+    padding:5px 0 0 10px;    
+}
+
+.activity-guide-question-link{
+    margin-top: 10px;
+}
+
+.activity-guide, .activity-guide-question-link {
+    float: left;
+    margin-left: 12px;
+    color: #888888;
+}
+
+.map-word-container{
+    display: table;
+}
+
+.map-container{
+    margin: 20px;
+    width: 350px;
+    float: left;
+    position: relative;
+}
+
+.word-container{
+    display: table;
+    width: 380px;
+    float: right;    
+}
+
+.map{
+    width: 350px;
+    z-index: 1;
+}
+
+
+#next-link {
+    float: left;
+    margin-left: 10px;
+}
+
+#pre-next {
+    margin-left: 380px;
+    float: left;
+}
+
+#prev-link {
+    float: left;
+    margin-left: 20px;
+}
+
+.loadresult-right {
+    float: right;
+}
+
+.loadresult-center {
+    margin: auto;
+}
+
+.mark{
+    border: 2px solid white;
+    background-color: #d80000;
+    padding-top: 2px;
+    color:white;
+    font-weight: bold;
+    text-align: center;    
+    z-index: 2;
+    position: absolute;
+}
+
+.highlight-mark{
+    background-color: #fff;   
+}
+
+.selected-mark, .mark-click-selected, .mark-click:hover{
+    background-color: #6BAE22;   
+}
+
+.mark-drag{
+    cursor: move;
+}
+
+.mark-click{
+    cursor: pointer;    
+}
+
+.mark:hover{    
+    z-index: 4;
+    border: 2px solid #ffe07d;
+}
+
+#word-definition-quick{
+    width: 150px;
+    border: 1px solid #8c8c8c;    
+    background-color: white;
+    margin-top: -19px;
+    margin-left: 30px;
+    padding: 6px 10px 8px 10px;
+    text-align: left;
+    z-index: 3;
+}
+
+#triangle-pointer{
+    top: -5px;
+    position: absolute;
+    width: 15px;
+    left: 16px;
+    padding: 10px 0px 10px 0px;
+    z-index: 3;
+}
+
+.quick-word-term, .quick-word-ipa, .quick-word-meaning{
+    padding-right: 10px;    
+    font-size: 13px;
+}
+
+.quick-word-term{
+    color: #3b5998;
+    font-weight: bold;
+}
+
+.quick-word-ipa{
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+} 
+
+.quick-word-meaning{
+    color: black;
+    font-weight: normal;
+}
+
+.order{
+    padding: 5px 0 5px 5px;
+}
+
+.order-drag{
+    display: inline-block;    
+    margin-left: 5px;
+}
+
+.unmatch-word, .match-word, .match-word-drag{
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.unmatch-word{
+    background-color: #f2f2f2;    
+    border: 1px dashed #d9d9d9;
+}
+
+.match-word, .match-word-drag{
+    background-color: #6BAE22;
+    border: 1px solid #77933C;
+}
+
+.match-word-drag{
+    cursor: move;
+}
+
+.match-word-drag:hover{
+    border: 1px solid #ff3430;
+}
+
+.word-hover{
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    background-color:#ffe07d;
+    border:1px solid #ff3430;
+    z-index: 2;    
+}
+
+.word-group-title{    
+    width: 380px;
+    color:#6bae22;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.word-group-list{
+    display: table;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.word-wrap-click{
+    display: table-row;   
+    cursor: pointer;
+}
+
+.word-wrap-click:hover{
+    background-color: #b9e4f7;
+}
+
+.word-wrap-drag{
+    width: 190px;    
+    display: inline-block;
+}
+
+.highlight-word-wrap{
+    background-color: #b9e4f7;
+}
+
+.order, .word-term, .word-ipa, .word-meaning{
+    display: table-cell;    
+    vertical-align: top;
+}
+
+.word-term, .word-ipa{
+    padding: 5px 0 5px 10px;
+    width: 120px;    
+}
+
+.word-meaning{
+    padding: 5px 0 5px 10px;
+    width: 240px;    
+}

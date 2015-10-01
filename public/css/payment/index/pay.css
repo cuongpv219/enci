@@ -1,0 +1,460 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+#payment-box-wrapper {
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    min-height: 400px;
+}
+
+#payment-forms-box, #payment-method-selection-box, #column-separator {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.ucan-card-form .error {
+    background: #F2DEDE;
+    color: #B00000;
+    border: 1px solid #EED3D7;
+    padding: 10px;
+}
+
+.mobile-card-form .error {
+    background: #F2DEDE;
+    color: #B00000;
+    border: 1px solid #EED3D7;
+    padding: 10px;
+}
+
+#payment-forms-box, #payment-method-selection-box {
+    border: 1px solid #E8E8E8;
+    padding: 10px 20px 30px 20px;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border-radius: 6px;
+}
+
+#column-separator {
+    width: 20px;
+}
+
+#payment-method-selection-box {
+    width: 340px;
+}
+
+.payment-method-title {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+
+.payment-method-description {
+    color: #666;
+    line-height: 20px;
+    margin: -6px 0px 0px 20px;
+}
+
+.payment-method-option {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+
+.payment-method-option:hover {
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    background: #FAFAFA;
+    cursor: pointer;
+}
+
+.payment_clicked {
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    background: #F8F8F8;
+    border: 1px solid #E8E8E8;
+}
+
+/* Ucan code form */
+.ucan-code-form-element, .telecom-provider-form-element {
+    margin-top: 20px;
+}
+
+.ucan-code-form-element-label {
+    width: 110px;
+    display: inline-block;
+}
+
+#quantity, 
+#ucan_code, 
+#ucan_seri, 
+#card_pin, 
+#card_seri, 
+#fullname {
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+    height: 24px;
+    width: 306px;
+    outline: none;
+}
+
+#recaptcha_widget_div {
+    margin-left: 110px;
+    margin-top: -12px;
+}
+
+#payment-box-wrapper h2 {
+    color: #B00000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#submit_ucan_card, #submit_moblie_card, #submit_atm_card, #submit_visa_card {
+    display: block;
+    margin-left: 112px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+#submit_mobile_card, #submit_ucan_home {    
+    margin-left: 200px !important;
+}
+
+.telecom-provider-form-element > label:not(:first-child) {
+    float: left;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #f8f8f8;
+    padding: 2px;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.telecom-provider-form-element span, .atm-form-element span, .visa-form-element span {
+    float: left;
+}
+
+#telecom_provider-viettel {
+    margin-left: 110px;
+}
+
+#telecom-provider-selection-viettel, #telecom-provider-selection-mobifone, #telecom-provider-selection-vinaphone {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: url(../../../img/global/selected.png);
+}
+
+.telecom-provider-form-element-label, .atm-form-element label {
+    display: block;
+    width: 110px;
+}
+
+.telecom-provider-form-element > label:not(:first-child):hover {
+    cursor: pointer;
+    border-color: #AAAAAA #AAAAAA #888888;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 0 3px #FFFFFF inset;
+}
+
+.atm-form-element > label {
+    float: left;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #f8f8f8;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    padding: 4px 4px;
+    width: 80px;
+    height: 30px;
+}
+
+.atm-form-element > label:hover {
+    cursor: pointer;
+    border-color: #AAAAAA #AAAAAA #888888;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 0 3px #FFFFFF inset;
+}
+
+.bank-logo {
+    width: 84px;
+    height: 30px;
+    background: url(../../../img/global/bank_logo.png) no-repeat;
+    display: block;
+    margin-top: -19px;
+}
+
+#atm_radio-label {
+    height: 100px;
+    display: block;
+}
+
+#vietcombank-img {
+    background-position: 0px -124px;
+}
+
+#vietinbank-img {
+    background-position: 0px -248px;
+}
+
+#vib-img {
+    background-position: 0px -217px;
+}
+
+#acb-img {
+    background-position: 0px -310px;
+}
+
+#dongabank-img {
+    background-position: 0px -434px;
+}
+
+#eximbank-img {
+    background-position: 0px -279px;
+}
+
+#mb-img {
+    background-position: 0px -372px;
+}
+
+#navibank-img {
+    background-position: 0px -403px;
+}
+
+#sacombank-img {
+    background-position: 0px -682px;
+}
+
+#hdbank-img {
+    background-position: 0px -341px;
+}
+
+#techcombank-img {
+    background-position: 0px -155px;
+}
+
+#vpbank-img {
+    background-position: 0px -713px;
+}
+
+.atm-form-element > label > input[type=radio] {
+    visibility: hidden;
+}
+
+.atm-form-element > label:last-child {
+    margin-bottom: 20px;
+}
+
+.telecom-provider-form-element:nth-child(4) {
+    margin-top: 30px;
+    /*background: red;*/
+}
+
+input[type=submit] {
+    font-family: "Segoe UI" !important;
+    font-size: 13px;
+    outline: none;
+    margin-left: 113px;
+    margin-top: 20px;
+}
+
+.visa-form-element > label:not(:first-child) {
+    float: left;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #f8f8f8;
+    padding: 4px 4px 0px 4px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#card_radio-master_card, #card_radio-visa {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.visa-form-element-label {
+    display: block;
+    width: 110px;
+}
+
+.visa-form-element > label:last-child {
+    margin-right: 200px;
+}
+
+#fullname {
+    margin-right: 50px;
+}
+
+.visa-form-element:nth-child(3) {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.visa-form-element > label:hover {
+    cursor: pointer;
+    border-color: #AAAAAA #AAAAAA #888888;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 0 3px #FFFFFF inset;
+}
+
+.mobile_selected {
+    background: url(../../../img/global/selected.png);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -10px;
+    z-index: 10;
+}
+
+.atm_selected {
+    background: url(../../../img/global/selected.png);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin-top: -48px;
+    margin-left: 70px;
+    z-index: 10;
+}
+
+.atm-form-element:nth-child(2) {
+    margin-top: 50px;
+}
+
+.credit_selected {
+    background: url(../../../img/global/selected.png);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -10px;
+    z-index: 10;
+}
+
+#package-confirmation {
+    display: table;
+    border: 1px solid #E8E8E8;
+    background: white;
+    -webkit-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#confirmation-info, #package-price, #back-to-package-selection {
+    display: table-cell;
+}
+
+#confirmation-info {
+    vertical-align: top;
+    padding: 10px;
+}
+
+#package-price {
+    vertical-align: middle;
+    width: 180px;
+    border-left: 1px solid #E8E8E8;
+    text-align: center;
+}
+
+#back-to-package-selection {
+    vertical-align: middle;
+    width: 120px;
+    border-left: 1px solid #E8E8E8;
+    text-align: center;
+}
+
+#payment-message-img {
+    float: left;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+#payment-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#step-1 {
+    color: #F36D00;
+}
+
+#step-2 {
+    color: #F36D00;
+}
+
+#package-price {
+    font-size: 32px;
+    color: #008CD2;
+    font-weight: bold;
+}
+
+#package-price sup {
+    font-size: 20px !important;
+}
+
+#confirmation-info p {
+    color: #666;
+    line-height: 24px;
+}
+
+#package-message {
+    margin-left: 160px;
+}
+
+#reselect-package, #learn-for-free {
+    font-weight: bold;
+    color: #F36D00;
+    text-decoration: none;
+}
+
+#reselect-package:hover, #learn-for-free:hover {
+    color: #B00000;
+}
+
+#quantity-label {
+    font-weight: bold;
+}
+
+#quantity {
+    width: 50px;
+    text-align: center;
+}
+
+#submit_ucan_home {
+    float: left;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+
+#home-pay-notification {
+    background-size: 48px;
+    border: #FFEAB3 1px solid;
+    padding: 10px 20px 10px 10px;
+    background: #FFF9E8;
+}
+
+.ucan-home-form, .mobile-card-form, .home-call-form {
+    line-height: 24px;
+}
+
+#processing-wait {
+    color: #b00000;
+    font-size: 16px;
+    margin-left: 50px;
+    display: none;
+}

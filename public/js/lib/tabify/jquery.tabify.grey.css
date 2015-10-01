@@ -1,0 +1,69 @@
+.tabify-menu { 
+    padding: 0px 20px 0px 20px; clear: both; 
+    margin: 0px;
+}
+
+.tabify-menu li { 
+    display: inline;
+    position: relative;
+}
+
+.tabify-menu li a { 
+    padding: 8px 18px 8px 18px;
+    text-decoration: none;
+    margin-right: 6px;
+    margin-left: 0px;
+    margin-bottom: -1px;
+    border-left: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    background: #ECECEC;
+    -moz-box-shadow: inset 0px 1px 0px 0px #FBFBFB;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #FBFBFB;
+    -ms-box-shadow: inset 0px 1px 0px 0px #FBFBFB;
+    -o-box-shadow: inset 0px 1px 0px 0px #FBFBFB;
+    box-shadow: inset 0px 1px 0px 0px #FBFBFB;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FBFBFB), color-stop(1, #ECECEC) );
+    background: -moz-linear-gradient( center top, #FBFBFB 5%, #ECECEC 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#ECECEC');
+    color: #303030;
+    text-shadow: 1px 1px 0px white;
+    font-weight: bold;
+}
+
+.tabify-menu li.active a { 
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid white;
+    background: white;
+    color: #F36D00 !important;
+
+}
+
+.tabify-menu li.active a:hover { 
+    border-left: 1px solid #E8E8E8 !important;
+    border-right: 1px solid #E8E8E8 !important;
+    border-top: 1px solid #E8E8E8 !important;
+    border-bottom: 1px solid white !important;
+    background: white !important;
+    color: #F36D00 !important;
+
+}
+
+.tabify-menu li a:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ECECEC), color-stop(1, #F9F9F9));
+    background: -moz-linear-gradient( center top, #ECECEC 5%, #F9F9F9 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ECECEC', endColorstr='#F9F9F9');
+    background-color: #E9E9E9;
+    cursor: pointer;
+}
+
+.tabify-content { 
+    margin-top: 4px;
+    clear: both; 
+    background-color: white;
+    border-top: 1px solid #E8E8E8;
+    padding: 0px;
+}

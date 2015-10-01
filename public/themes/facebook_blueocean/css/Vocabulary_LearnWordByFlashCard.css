@@ -1,0 +1,636 @@
+#tab1-content .global-activity-guide .icon {
+    margin-left: -6px !important;
+}
+#tab3-content .global-activity-guide .icon {
+    margin-left: 192px !important;
+}
+
+#learning-dashboard-content {
+    min-height: 500px;
+}
+
+.global-orange-bar {
+    width: auto;
+}
+.global-activity-guide {
+    margin-top: 4px !important;
+    position: static !important;
+}
+
+.global-activity-guide {
+    width: 100%;
+}
+.global-activity-guide .icon {
+    margin-left: 268px;
+}
+#activity-wrapper {
+    min-height: 600px;
+}
+
+#learning-dashboard {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+#flashcard-area {
+    width: 430px;
+    float: left;
+}
+
+#tab-step-container .global-blue-bar,
+#tab-step-container .global-green-bar {
+    width: auto;
+}
+
+#tab-step-container {
+    line-height: 36px;
+    display: table;
+    table-layout: fixed;
+    margin-left: -1px;
+}
+
+#tab-step-container .stage-tab {
+    display: table-cell;
+    width: auto;
+    cursor: pointer;
+}
+
+#tab-step-container .stage-tab * {
+    float: left;
+}
+
+#tab-step-container .tab-number {
+    height: 24px;
+    width: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+    border-radius: 18px;
+    background: white;
+    line-height: 20px;
+    margin: 7px 10px;
+    text-align: center;
+}
+
+#tab-step-container .tab-text {
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+
+#audio-recorder-holder {
+    position: fixed;
+}
+
+#close-flash-notice-wrapper:hover {
+    opacity: 1;
+}
+#close-flash-notice-wrapper {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    width: 189px;
+    height: 200px;
+    background: url("../../blueocean/img/btn-flash-prompt.png") 14px -140px no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#btn-close-flash-notice {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.dashboard-navigator #loadResult {
+    margin-left: 210px;
+}
+.dashboard-navigator #next-tab {
+    margin-left: 10px;
+}
+
+/* Tab 1 */
+#tab1-guide {
+    clear: both;
+    margin-bottom: 20px;
+    padding-left: 6px;
+    color: #888;
+}
+#tab1-content {
+    margin-left: 16px;
+    display: block;
+}
+#tab1-content .hotkeys {
+    padding: 14px 0px 14px 0;
+    position: relative;
+    text-align: right;
+    margin-left: 12px;
+    float: left;
+}
+#tab1-content .hotkeys * {
+    text-transform: lowercase;
+}
+#tab1-content .hotkeys .subject{
+    color: #c0504d;
+}
+#tab1-content .hotkeys .content{
+    color: #7f7f7f;
+}
+
+#tab1-content .thumb-outer {
+    width: 314px;
+    min-height: 100px;
+    float: left;
+}
+#tab1-content .navigator{
+    height: 45px;
+    margin-top: 3px;
+    margin-left: 60px;
+    font: normal 14px 'Segoe UI';
+    color: #7F7F7F;
+}
+#tab1-content .navigator .splitNextPrev {
+    width: 50px;
+    height: 5px;
+    float: left;
+}
+#tab1-content .navigator .arrow-next {
+    margin-right: 36px;
+    margin-left: 10px;
+}
+#tab1-content .navigator .arrow-prev {
+    margin-right: 10px;
+    margin-left: 22px;
+}
+
+#tab1-content .next-group:hover,
+#tab1-content .prev-group:hover {
+    cursor: pointer;
+    color: #494949;
+}
+
+#tab1-content .thumb {
+    width: 60px;
+    border: 1px solid #e6e6e6;
+    padding: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#tab1-content .selected-thumb {
+    border : 2px solid #646464;
+    padding : 2px;
+}
+
+#tab1-content .flashcard-outer {
+    margin-top: 5px;
+    margin-left: 14px;
+    text-align: center;
+    padding: 6px;
+    box-shadow: 0 0 7px -1px #B7B7B7;
+}
+
+#tab1-content .img-main {
+    max-width: 400px;
+    min-width: 350px;
+    cursor: pointer;
+    display: none;
+}
+
+#tab1-content .button-list{
+    margin: 10px 0;
+}
+
+#tab1-content .speaker,
+#tab1-content .stop,
+#tab1-content .play,
+#tab1-content .record,
+#tab1-content .btn-prev, 
+#tab1-content .flip-card,
+#tab1-content .split,
+#tab1-content .btn-next {
+    height: 30px;
+    margin-left: 2px;
+    cursor: pointer;
+    float: right;
+}
+#tab1-content .speaker:hover,
+#tab1-content .stop:hover,
+#tab1-content .play:hover,
+#tab1-content .record:hover,
+#tab1-content .btn-prev:hover,
+#tab1-content .flip-card:hover,
+#tab1-content .split:hover,
+#tab1-content .btn-next:hover{
+    /*    opacity: 0.8;*/
+}
+
+#tab1-content .img-caption {
+    line-height: 35px;
+    font-family: "Segoe UI";
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    background-color: black;
+    margin-top: -4px;
+}
+#tab1-content .speaker {
+    background: url("../../blueocean/img/button-list.png") -100px no-repeat;
+    width: 34px;
+}
+#tab1-content .record {
+    background: url("../../blueocean/img/flashcard-recording-buttonlist.png") -121px 5px no-repeat;
+    width: 25px;
+}
+#tab1-content .play {
+    background: url("../../blueocean/img/flashcard-recording-buttonlist.png") -46px 5px no-repeat;
+    width: 25px;
+}
+#tab1-content .stop {
+    background: url("../../blueocean/img/flashcard-recording-buttonlist.png") 7px 5px no-repeat;
+    width: 25px;
+}
+#tab1-content .btn-prev {
+    background: url("../../blueocean/img/button-list.png") 4px 0px no-repeat;
+    width: 32px;
+}
+#tab1-content .btn-next {
+    background: url("../../blueocean/img/button-list.png") -22px 0px no-repeat;
+    width: 32px;
+}
+#tab1-content .flip-card {
+    width: 32px;
+    background: url("../../blueocean/img/button-list.png") -69px 0 no-repeat;
+}
+#tab1-content .split {
+    width: 12px;
+    background: url("../../blueocean/img/button-list.png") -139px 0 no-repeat;
+}
+
+#tab1-content .word-meaning {
+    color: #404040;
+    display: none;
+    cursor: pointer;
+}
+#tab1-content .word-meaning .english-meaning .subject{
+    color: #548dd4;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+#tab1-content .word-meaning .english-meaning .english-content{
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+}
+#tab1-content .word-meaning .example {
+    margin-top: 20px;
+}
+#tab1-content .word-meaning .example .subject{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+#tab1-content .word-meaning .example .example-content {
+    font: italic 12px 'Arial';
+}
+#tab1-content .title-flip-outer {
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 15px;
+    text-align: center;
+}
+#tab1-content .word-type {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-weight: normal;
+}
+#tab1-content .word-phonetic {
+    padding-top: 7px;
+    font-size: 16px;
+}
+#tab1-content .vietnamese-meaning, .example {
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+#tab1-content .vietnamese-meaning {
+    color: #f5750c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* End Tab 1*/
+
+/*Tab 2 content - Remember*/
+#tab2-content {
+    display: none;
+}
+
+#word-container {
+    width: 200px;
+    min-height: 300px;
+    margin-left: 21px;
+}
+#picture-container {
+    width: 559px;
+    margin-top: 10px;
+}
+
+#picture-container .correct-icon, 
+#picture-container .incorrect-icon{ 
+    width: 70px;
+    position: absolute;
+    margin: 20px 59px;
+}
+
+#picture-container .incorrect-background,
+#picture-container .correct-background {
+    width: 180px;
+    position: absolute;
+    padding-top: 20px;
+    opacity: 0.4;
+    background-color: black;
+}
+
+#tab2-content .word {
+    font-size: 16px;
+    cursor: move;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+#tab2-content .picture {
+    width: 180px;
+    margin-right: 4px;
+}
+
+#tab2-content .caption-background {
+    width: 180px;
+    height: 40px;
+    margin-top: -43px;
+    opacity: 0.82;
+    position: absolute;
+    background-color: #151515;
+    z-index: 10;
+    display: none;
+    text-align: center;
+}
+
+#tab2-content .caption-text {
+    cursor: move;
+    color: white;
+    font: bold 20px 'Segoe UI';
+    z-index: 12;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+}
+
+#tab2-content .navigator {
+    width: 550px;
+    height: 45px;
+    margin: 25px 5px;
+    font: normal 16px 'Segoe UI';
+    color: #7f7f7f;
+    float: right;
+    text-align: center;
+}
+
+#tab2-content .navigator .result {
+    font: normal 20px 'Segoe UI';
+    color: black;
+    margin-top: -5px;
+    display: none;
+}
+
+#tab2-content .btn-check,
+#tab2-content .btn-answer,
+#tab2-content .btn-redo {
+    height: 38px;
+    width: 78px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+#tab2-content .number-correct {
+    font-weight: bold;
+    color: red;
+}
+
+#tab2-content .btn-check {
+    background: url('../../blueocean/img/flashcard-checkanswer-active.png') 11px 5px no-repeat;    
+}
+#tab2-content .btn-check:hover {
+    background: url('../../blueocean/img/flashcard-checkanswer-hover.png') 11px 5px no-repeat;    
+}
+#tab2-content .btn-answer {
+    background: url('../../blueocean/img/flashcard-checkanswer-active.png') -73px 5px no-repeat;    
+}
+#tab2-content .btn-answer:hover {
+    background: url('../../blueocean/img/flashcard-checkanswer-hover.png') -73px 5px no-repeat;    
+}
+#tab2-content .btn-redo {
+    background: url('../../blueocean/img/flashcard-checkanswer-active.png') -157px 5px no-repeat;    
+}
+#tab2-content .btn-redo:hover {
+    background: url('../../blueocean/img/flashcard-checkanswer-hover.png') -157px 5px no-repeat;    
+}
+
+#tab2-content .navigator .splitNextPrev {
+    width: 20px;
+    height: 2px;
+}
+#tab2-content .navigator .arrow-next {
+    margin-right: 36px;
+    margin-left: 10px;
+}
+#tab2-content .navigator .arrow-prev {
+    margin-right: 10px;
+}
+
+#tab2-content .next-group,
+#tab2-content .prev-group {
+    text-transform: lowercase;
+}
+#tab2-content .next-group:hover,
+#tab2-content .prev-group:hover {
+    cursor: pointer;
+    color: #494949;
+}
+/*END Tab 2*/
+
+/* Tab 3 - Lear by heart */
+#tab3-content {
+    display: none;
+    margin-bottom: 20px;
+}
+#tab3-result-container {
+    width: 220px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#tab3-result-container .try-again {
+    background: url('../../blueocean/img/flashcard-tab3-redo.png') no-repeat;
+    width: 263px;
+    height: 33px;
+    opacity: 0;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+    line-height: 34px;
+    color: white;
+}
+#tab3-result-container .try-again:hover {
+    cursor: pointer;
+    background: url('../../blueocean/img/flashcard-tab3-redo-hover.png') no-repeat;
+}
+
+#tab3-content .result-title-bar {
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+#tab3-content .result-content-outer {
+    box-shadow: 0px 2px 4px #e3e3e3; 
+    -moz-box-shadow: 0px 2px 4px #e3e3e3; 
+    -webkit-box-shadow: 0px 2px 4px #e3e3e3; 
+}
+#tab3-content .remain,
+#tab3-content .correct,
+#tab3-content .incorrect {
+    border-bottom: 1px solid #eaeaea;
+    color: black;
+    height: 28px;
+    padding: 20px;
+}
+
+#tab3-content .remain .text,
+#tab3-content .correct .text,
+#tab3-content .incorrect .text {
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+}
+#tab3-content .remain .number,
+#tab3-content .correct .number,
+#tab3-content .incorrect .number {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+#tab3-content .remain .number {
+    color: #0070c0;
+}
+#tab3-content .correct .number {
+    color: #00b050;
+}
+#tab3-content .incorrect .number {
+    color: #c00000;
+}
+
+#tab3-main-board {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#tab3-main-board .img-wrapper .img-main {
+    min-width: 250px;
+    max-width: 420px;
+    display: none;
+    border: 7px solid white;
+    box-shadow: 0px 0px 7px 2px #bfbfbf;
+    -moz-box-shadow: 0px 0px 7px 2px #bfbfbf;
+    -webkit-box-shadow: 0px 0px 7px 2px #bfbfbf;
+}
+#tab3-main-board .img-wrapper .true-false-icon,
+#tab3-main-board .img-wrapper .false-icon {
+    position: absolute;
+    opacity: 0.5;
+    width: 108px;
+    height: 108px;
+    opacity: 0;
+}
+
+#tab3-main-board .img-outer {
+    padding: 5px;
+}
+
+#tab3-main-board .user-input {
+    height: 38px;
+    background-color: #e8e8e8;
+    padding: 14px;
+    margin-top: 25px;
+    position: relative;
+}
+#tab3-main-board .listen-again {
+    cursor: pointer;
+    height: 37px;
+    width: 36px;
+    position: relative;
+    margin-left: 7px;
+    margin-top: 1px;
+    background: url('../../blueocean/img/flashcard-tab3-listenagain.png') no-repeat center;
+}
+#tab3-main-board .show-answer {
+    position: absolute;
+    cursor: pointer;
+    right: -39px;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    top: 14px;
+    background: url("../../blueocean/img/flashcard-help-tab3.png") center no-repeat;
+}
+#tab3-main-board .listen-again:hover {
+    opacity: 0.8
+}
+
+#tab3-main-board .user-input .textbox {
+    box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    -moz-box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    -webkit-box-shadow: inset 0 16px 30px -21px #d9d9d9;
+    border: 1px solid #E0E0E0;
+    height: 35px;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    position: relative;
+    text-align: center;
+}
+
+#tab3-main-board .answer-board {
+    display: none;
+    position: absolute;
+    background-color: #f5770f;
+    height: 56px;
+    color: white;
+    margin-top: -66px;
+    margin-left: 7px;
+    text-align: center;
+}
+#tab3-main-board .answer-board .answer-text{
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+#tab3-main-board .answer-board .orange-arrow {
+    height: 16px;
+    width: 19px;
+    margin: 2px auto 0 auto;
+    background: url('../../blueocean/img/flashcard-tab3-orange-fullarrow.png') no-repeat;
+}
+/*END Tab 3*/

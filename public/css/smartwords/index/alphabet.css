@@ -1,0 +1,61 @@
+#alphabet-nav {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#word-list {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#word-list h3 {
+    color: #5bc0de;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.has-image a {
+    color: #F36D00 !important;
+}
+
+#nav-title {
+    color: black;
+    font-weight: bold;
+    border-right: 1px solid #e7e7e7;
+}
+
+#input-set-dropdown {
+    border-right: 1px solid #e7e7e7;
+}
+
+#belongs-to {
+    color: #B00000;
+}
+
+#word-pagination {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #F6F6F6;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#word-pagination a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#word-list-table td {
+    border-top: 1px solid #F0F0F0;
+}
+
+.word-link {
+    color: #777;
+}
+
+#alphabet-filter > li > a {
+    padding-left: 12px;
+    padding-right: 12px;
+}

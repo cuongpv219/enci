@@ -1,0 +1,88 @@
+#sentences-title {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    clear: both;
+}
+
+.sentences-tite {
+    width: 1000px;
+    border-top: 30px solid #7FFFD4;
+    font-weight: 700;
+}
+
+.true-false {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.true-false-icon {
+    margin-right: 20px;
+}
+
+.sentences-row td {
+    padding-top: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px #F1F1F1 solid;
+}
+
+.sentences-row:last-child td {
+    border-bottom: none;
+}
+
+.sentence {
+    text-align: center;
+    float: left;
+    height: 100%;
+    line-height: 36px;
+}
+
+.choice {
+    background: #92D050;
+    text-align: center;
+    float: left;
+    line-height: 36px;
+}
+
+.answers {
+    text-align: right;
+    width: 90px;
+}
+
+.answer {
+    width: 65px;
+    float: right;
+    text-align: right;
+}
+
+.name {
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.jplayer-container {
+    float: left;
+    margin: 20px;
+}
+
+#sentence-row {
+    padding-top: 10px;
+    width: 850px;
+    float: right;
+    border-left: 1px solid #e0e0e0;
+}
+
+#sentence-row table {
+    width: 100%;
+}
+
+.ui-button-text {
+    float: left;
+    margin-left: 36px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#loadResult {
+    margin: auto;
+}

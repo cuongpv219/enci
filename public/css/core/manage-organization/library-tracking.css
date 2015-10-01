@@ -1,0 +1,161 @@
+#library-tracking-form input[type=text] {
+    height: 24px;
+    padding: 0px 0px !important;
+    font-family: Segoe UI;
+}
+
+#library-tracking-placeholder {
+    display: table;
+    padding: 30px;
+    width: 100%;
+}
+
+#library-tracking-detail, #library-tracking-input {
+    display: table-cell;
+}
+
+#library-tracking-detail {
+    width: 70%;
+    padding-right: 30px;
+}
+
+#library-tracking-input {
+    width: 30%;
+    padding-left: 30px;
+    border-left: 1px solid #F0F0F0;
+}
+
+#library-tracking-submit {
+    /*    font-size: 14px;*/
+}
+
+#library-tracking-placeholder h3 {
+    font-size: 18px;
+}
+
+#library-tracking-summary {
+    width: 100%;
+}
+
+#library-tracking-summary-table {
+    display: table;
+    width: 100%;
+}
+
+.library-tracking-summary-by-person {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #F0F0F0;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+
+    /*    background: #F0F0F0;*/
+}
+
+.library-tracking-summary-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.personal-avatar {
+    width: 32px;
+    height: 32px;
+    background: white;
+    padding: 2px;
+    /*    border: 1px solid #F0F0F0;*/
+}
+
+.personal-fullname {
+    min-width: 600px;
+    padding-left: 20px;
+}
+
+.personal-num-of-workings {
+    min-width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    color: #B00000;
+    font-weight: bold;
+}
+
+#fullname-header, #num-of-workings-header {
+    font-weight: bold;
+    color: black;
+}
+
+#fullname-header {
+    padding-left: 24px;
+}
+
+#library-tracking-summary-header {
+    margin-top: 30px;
+    border-top: 1px solid #F0F0F0;
+    background-color: #F6F6F6;
+}
+
+#image-header {
+    background: #F6F6F6;
+}
+
+#library-tracking-detail-by-person {
+    margin-top: 50px;
+}
+
+.library-tracking-label {
+    width: 60px;
+    display: inline-block;
+}
+
+.library-tracking-input-placeholder {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#library-tracking-submit {
+    margin-left: 66px;
+}
+
+.library-tracking-id {
+    width: 6%;
+}
+
+.library-tracking-fullname {
+    width: 20%;
+}
+
+.library-tracking-title {
+    width: 40%;
+    min-width: 300px;
+}
+
+.library-tracking-course-title {
+    width: 17%;
+}
+
+.library-tracking-created-time {
+    width: 17%;
+}
+
+.library-tracking-detail-by-person {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #F0F0F0;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+    padding: 6px 0px 6px 10px;
+}
+
+.library-tracking-detail-header {
+    font-weight: bold;
+    background: #F0F0F0;
+    border-top: 1px solid #F0F0F0;
+}
+
+#library-tracking-form {
+    margin-top: 30px;
+}
+
+.library-tracking-detail-by-person:hover {
+    background: #F6F6F6;
+    cursor: pointer;
+}

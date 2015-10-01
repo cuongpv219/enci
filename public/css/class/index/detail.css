@@ -1,0 +1,175 @@
+#front-content {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#class-detail-box, #teacher-profile {
+    display: table;
+}
+
+#class-detail-left, #class-detail-right, #teacher-avatar, #teacher-info {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#class-detail-left {
+    border-right: 1px solid #F0F0F0;
+    padding: 20px 20px 20px 0px;
+    width: 600px;
+
+}
+
+#class-detail-right {
+    box-shadow: inset 5px 0px 10px 0px #F6F6F6;
+    -webkit-box-shadow: inset 5px 0px 10px 0px #F6F6F6;
+    -moz-box-shadow: inset 5px 0px 10px 0px #F6F6F6;
+    -ms-box-shadow: inset 5px 0px 10px 0px #F6F6F6;
+    -o-box-shadow: inset 5px 0px 10px 0px #F6F6F6;
+    padding: 20px 0px 20px 20px;
+}
+
+#teacher-profile {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 16px;
+}
+
+#class-summary-info {
+    background: white;
+}
+
+#teacher-avatar {
+    width: 48px;
+}
+
+#teacher-name {
+    margin-top: -2px;
+}
+
+#class-info {
+    height: 220px;
+    /*    border-bottom: 1px solid #E8E8E8;
+        margin-bottom: 20px;*/
+}
+
+#class-media {
+    width: 600px;
+    position: relative;
+}
+
+#class-image {
+    width: 600px;
+}
+
+#class-learning-info {
+    position: absolute;
+    display: table;
+    width: 260px;
+    min-height: 120px;
+    height: 100px;
+    opacity: 0.95;
+    color: white;
+    background: #B4263E;
+    top: 100px;
+    right: 0px;
+    line-height: 30px;
+    min-height: 80px !important;
+    max-height: 120px !important;
+    min-width: 160px !important;
+    max-width: 260px !important;
+}
+
+#class-name {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+#teacher-description {
+    font-style: italic;
+    color: #888;
+}
+
+#organization-name {
+    font-style: italic;
+    color: #F36D00;
+    font-weight: bold;
+}
+
+#class-summary {
+    line-height: 24px;
+}
+
+#class-start-time {
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    background: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #B00000;
+}
+
+#class-start-time h3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#class-register-box {
+    margin: 20px -20px 20px -20px;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    border: 1px solid #E8E8E8;
+    background: white;
+    padding: 10px 20px 0px 20px;
+    height: 64px;
+}
+
+#class-register-button, #class-preview-button {
+    text-decoration: none;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    /*    font-size: 14px !important;*/
+}
+
+#class-register-button {
+    width: 144px;
+}
+
+#class-preview-button {
+    width: 70px;
+}
+
+#class-description {
+    margin-top: 20px;
+}
+
+#class-buttons {
+    /*    border-bottom: 1px solid #E8E8E8;*/
+    border: 1px solid #E8E8E8;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background: #F8F8F8;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+}
+
+#class-is-for-content {
+    line-height: 24px;
+}
+
+#class-is-for {
+    margin-top: 20px;
+    padding: 2px 20px 20px 20px;
+    background: #F8F8F8;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    border: 1px solid #E8E8E8;
+}
+
+#class-is-for li {
+    list-style: square;
+}

@@ -1,0 +1,40 @@
+#stats-header {
+    padding: 10px 20px 10px 20px;
+}
+
+#stats-header .pull-left {
+    margin-top: 4px;
+}
+
+#stats-all {
+    /*width: 30%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stats-all > .pull-left {
+    font-size: 60px;
+    text-align: right;
+    color: #B00000;
+    font-weight: 600;
+}
+
+#stats-all > .pull-right {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 18px;
+    color: #888;
+}
+
+#info-board {
+    border-right: 1px solid #E0E0E0;
+}
+
+#info-explain {
+    line-height: 24px;
+    /*color: #888;*/
+}
+
+.datepicker {
+    width: 140px;
+}

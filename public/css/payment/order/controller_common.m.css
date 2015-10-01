@@ -1,0 +1,235 @@
+#billing-addresses {
+    margin-bottom: 20px;
+}
+
+#billing-steps .step {
+    display: inline-block;
+    vertical-align: top;
+    width: 179px;
+    text-align: center;
+}
+
+#billing-steps .step.active strong {
+    background: #6FCC1A;
+    color: white;
+}
+#billing-steps .step.active p {
+    font-weight: bold;
+}
+
+#billing-steps .step strong {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    color: #555;
+    line-height: 48px;
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+}
+
+#billing-steps .step p {
+    white-space: nowrap;
+    margin: 4px 0;
+    color: #999;
+}
+
+#billing-steps .space {
+    display: inline-block;
+    width: 200px;
+    border-bottom: 1px solid #f2f2f2;
+    height: 26px;
+    vertical-align: top;
+}
+
+#billing-address-title {
+    margin: 0;
+    font-size: 16px;
+    color: #B00000;
+}
+
+#billing-addresses .item:nth-child(odd) {
+    margin-right: 0 !important;
+}
+
+#billing-addresses .item {
+    padding: 0px 20px 10px 20px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    border: 1px solid #E8E8E8;
+    background: white;
+    box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 424px;
+    min-height: 161px;
+}
+
+#billing-addresses .fullname {
+    font-weight: bold;
+    color: #555;
+}
+
+#billing-addresses .address,
+#billing-addresses .mobile {
+    color: #888;
+}
+
+#billing-addresses .actions {
+    border-top: 1px solid #f2f2f2;
+    padding-top: 16px;
+    text-align: right;
+}
+
+#billing-addresses .edit,
+#billing-addresses .delete {
+    color: #0083C4;
+    text-decoration: none;
+    line-height: 40px;
+}
+#billing-addresses .edit:hover,
+#billing-addresses .delete:hover {
+    text-decoration: underline;
+}
+
+#billing-addresses .send {
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#billing-addresses .delete {
+    border-left: 1px solid #f2f2f2;
+    padding-left: 20px;
+}
+
+#billing-addresses .edit {
+    margin-right: 20px;
+}
+
+.add-new-address:hover {
+    background-color: #e8e8e8;
+}
+
+.add-new-address {
+    display: block;
+    background-color: #f2f2f2;
+    line-height: 66px;
+    height: 60px;
+    width: 240px;
+    margin: 46px auto 0 auto;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.add-new-address .plus {
+    font-size: 26px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 21px;
+    border: 1px solid #dbdbdb;
+    line-height: 32px;
+    box-shadow: inset 0px -5px 20px 0px #f6f6f6;
+    background-color: white;
+}
+
+#new-address-box {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    background: #f8f8f8;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#new-address-box.hide {
+    display: none;
+}
+
+#new-address-box h3 {
+    color: #f36d00;
+    font-size: 18px;
+    margin: 0;
+}
+
+.ucan-code-form-element {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#email:focus {
+    background: #fff !important;
+}
+
+.ucan-code-form-element input[type='text']:focus {
+    /*background: #FFF7CC;*/
+    box-shadow: none;
+    color: #000;
+}
+.ucan-code-form-element input[type='text'] {
+    width: 100%;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #0083c4;
+    height: 24px;
+    outline: none;
+    margin-top: 4px;
+    height: 35px;
+    background: #fff;
+    padding-left: 10px;
+}
+
+.ucan-code-form-element-label {
+    display: block;
+}
+
+#submit {
+    width: 300px;
+    margin: 30px auto;
+    display: block;
+    outline: none;
+    font-size: 20px;
+    background: #B00000;
+    padding: 15px 40px;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
+
+#address,
+#new-fullname {
+    /*width: 448px;*/
+    /*margin-right: 20px;*/
+}
+
+#city_or_province, #district {
+    width: 257px;
+    margin-right: 30px;
+    margin-top: 4px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1px solid #0083c4;
+    background: rgba(0,0,0,0);
+}
+
+#mobile {
+    /*width: 444px;*/
+}
+
+.ucan-code-form-element .errors {
+    color: #B00000;
+    padding-left: 16px;
+}
+
+#new-district {
+    width: 153px;
+}

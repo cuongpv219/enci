@@ -1,0 +1,351 @@
+.combo-intro-box {
+	position: relative;
+}
+
+.combo-intro-img {
+	width: 100%;
+	height: 360px;
+}
+.combo-intro-box .intro .text {
+	background: rgba(46,204,113,0.9);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	width: 300px;
+	box-sizing: border-box;
+	height: 190px;
+	padding: 20px;
+	color: #fff;
+}
+
+.combo-box .combo-content .title {
+	margin-bottom: 10px;
+	color: #B00000;
+	line-height: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.combo-intro-box .intro .title {
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-top: 20px;
+	text-align: center;
+}
+.combo-intro-box .intro .time {
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.combo-intro-box .intro .description {
+	line-height: 20px;
+}
+
+.combo-intro-box .intro .button {
+	height: 80px;
+	padding: 17px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,0.95);
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	/* border-top: 4px solid #FC9204; */
+}
+
+
+.combo-intro-box .content {
+	position: absolute;
+	top:20px;
+	left: 20px;
+	width: 200px;
+	color: #fff;
+	font-size: 30px;
+}
+
+.combo-intro-box .intro{
+	position: absolute;
+	top: 45px;
+	right: 25px;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+}
+
+.combo-tab{
+	display: table;
+	margin-top: 20px;
+	width: 100%;
+	box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+	border: 1px solid #E0E0E0;
+	height: 60px;
+	background: white;
+}
+
+.combo-tab:first-child .tab-link{
+	border-left: 0px;
+}
+
+.combo-tab .tab-link{
+	display: table-cell;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;	
+	border-left: 1px solid #E8E8E8;
+	color: #000;
+}
+
+.combo-tab .tab-link:hover {
+	background: #b00000;
+	color: #fff;
+}
+
+.bottom-title{
+    height: 8px;
+    background: url('../../../img/global/bottom_box/box-bottom.png') repeat !important; 
+}
+
+.combo-box{
+	border: 1px solid #e8e8e8;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.combo-box .combo-title {
+	padding: 20px;
+	text-align: center;
+}
+
+.combo-box .combo-content {
+	background: #F8F9F7;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.combo-content .content-item{
+	width: 191px;
+	padding: 15px;
+	text-decoration: none;
+	float: left;
+	height: 280px;
+	background: white;
+	/*position: relative;*/
+	margin-left: 15px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	text-rendering: optimizeLegibility;
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.combo-content .content-item .description{
+	font-size: 13px;
+	color: #888;
+	line-height: 24px;
+	min-height: 90px;
+}
+
+.combo-content .book-title {
+	margin-bottom: 10px;
+	color: #B00000;
+	line-height: 24px;
+	font-weight: bold;
+	min-height: 50px;
+}
+
+.combo-content .combo-book-index {
+	height: 350px !important;
+}	
+.combo-content .book-description {
+	min-height: 90px;
+	color: #000;
+}
+
+.combo-content .content-item img{
+	width: 190px;
+	height: 95px;
+	clip: rect(0px, 190px, 95px, 0px);
+}
+
+.combo-title {
+	padding: 20px 0px 24px;
+	clear: both;
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #000;
+	background: #fff !important;
+}
+
+.combo-content a {
+	text-decoration: none;
+}
+.combo-content .view-all {
+	clear: both;
+	width: 240px;
+	margin: 20px auto;
+}
+.combo-content .book-button, .combo-content .button  {
+	height: 45px;
+	font-weight: normal;
+}
+
+.content-item:hover .book-title {
+	color: #F36D00;
+	text-decoration: underline;
+}
+
+.content-item ul{
+	padding-left: 20px;
+}
+
+.content-item .item li{
+	list-style: none;
+}
+
+.content-item .item li a{
+	text-decoration: none;
+	color: #000;
+}	
+
+.content-item .item i{
+	margin-top: 5px;
+	margin-right: 18px;
+	font-size: 17px;
+}
+
+.great-book-box {
+	background: #F8F9F7;
+	padding: 20px 0px 0px 20px;
+}
+
+.great-book-box .book-item {
+	width: 447px;
+	height: 120px;
+	box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+	background: #fff;
+	position: relative;
+	display: table;
+	border: 1px solid #E8E8E8;
+	float: left;
+	margin-right: 20px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+} 
+
+.great-book-box a {
+	text-decoration: none;
+}
+
+.great-book-box .book-img {
+	float: left;
+	height: 100px;
+	margin: 14px;
+	width: 67px;
+}
+
+.great-book-box .book-title {
+	padding-top: 3px;
+	margin: 5px;
+	color: #B00000;
+	padding-right: 14px;
+}
+
+.book-item:hover .book-title {
+	color: #F36D00;
+	text-decoration: underline;
+}
+
+.great-book-box .book-description {
+	color: #888;
+	line-height: 20px;
+	padding-right: 14px;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.listen-today {
+	position: relative;
+	min-height: 200px;
+}
+
+.listen-today .ui360 {
+	margin: 30px 20px 30px 30px;
+	float: left;
+}
+
+.listen-today .arrow {
+	background: #fff;
+	min-height: 120px;
+	width: 730px;
+	border-radius: 4px;
+	box-shadow: -2px 0 40px -16px #999;
+	font-size: 14px;
+	color: #888;
+	padding: 20px;
+	box-sizing: border-box;
+	line-height: 24px;
+	background: #fff;
+	float: left;
+	position: relative;
+	top: 40px;
+}
+.listen-today .arrow .time {
+	color: #bbb;
+	font-weight: normal;
+	float: left;
+	padding: 10px 20px 10px 10px;
+	border-right: 1px solid #e8e8e8;
+	font-size: 40px;
+}
+.listen-today .arrow .time .dm {
+
+}
+.listen-today .arrow .time .y {
+	margin-top: 30px;
+}
+.listen-today .arrow .content {
+	margin-left: 20px;
+	float: left;
+}
+.listen-today .arrow .content .title {
+	margin: 0;
+	color: #b00000;
+}
+.listen-today .arrow .content .quote {
+	line-height: 24px;
+	font-style: italic;
+	margin-top: 12px;
+}
+.arrow:after, .arrow:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 10px;
+	margin-top: -14px;
+}
+
+.ui360,
+.sm2-360ui {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.ui360 .sm2-timing {
+    line-height: 150px !important;
+}

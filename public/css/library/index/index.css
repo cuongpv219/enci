@@ -1,0 +1,147 @@
+#front-content {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    min-height: inherit !important;
+}
+
+#banner-box {
+    margin: 0px -20px !important;
+    padding: 20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#series-box {
+    display: table;
+    min-height: 500px;
+}
+
+#series-list, #category-box {
+    display: table-cell;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+
+#series-list {
+    width: 680px;
+    border-right: 1px solid #F0F0F0;
+}
+
+.series-list-page-clear-both {
+    clear:both;
+}
+
+
+.slides_container {
+    width: 650px;
+    height: 325px;
+}
+
+#slides-container {
+    position: relative;
+/*    margin-bottom: 30px;*/
+    margin-bottom: 30px;
+}
+
+.slides_container div {
+    width: 650px;
+    height: 325px;
+    display:block;
+}
+
+.slide-caption {
+    min-height: 80px !important;
+    max-height: 100px !important;
+    min-width: 160px !important;
+    max-width: 200px !important;
+    padding: 0px 0px 0px 20px;
+    position: absolute;
+    top: 114px;
+    right: 0px;
+    vertical-align: middle;
+    opacity: 0.95;
+    color: white;
+    background: #B4263E;
+}
+
+.series-caption-title-normal {
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.series-caption-title-small {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.small-video {
+    width: 72px;
+    margin-left: -2px;
+}
+
+.slide-image {
+    width: 650px;
+    height: 325px;
+}
+
+.pagination {
+    padding-right: 30px !important;
+}
+
+#series-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#series-list-header a {
+    color: #F36D00;
+    text-decoration: none;
+}
+
+#series-list-header a:hover {
+    text-decoration: underline;
+}
+
+#series-filter-menu li a {
+    padding-bottom: 11px;
+    line-height: 24px;
+}
+
+#series-filter-menu {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.series-list-box {
+    margin-top: 20px;
+}
+
+#series-filter-box {
+    background: #F8F8F8;
+}
+
+#form-series-filter-by-level .level-item {
+    height: 24px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#form-series-filter-by-level .level-item > * {
+    cursor: pointer;
+}
+#form-series-filter-by-level .level-item:hover > * {
+    color: #F36D00;
+}
+
+#form-series-filter-by-level-submit-button {
+    margin: 20px auto 0 auto;
+    width: 100px;
+    display: block;
+}
+
+.fb-like {
+    margin-left: 0px !important;
+}

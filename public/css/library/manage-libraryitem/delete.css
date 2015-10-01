@@ -1,0 +1,17 @@
+#delete-libraryitem-confirmation-wrapper {
+    padding: 10px 40px 0px 40px;
+    min-height: 400px;
+}
+
+#delete-libraryitem-alert-message {
+    background:#F6F6F6;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #B00000;
+/*    font-weight: bold;*/
+}
+
+#accept-delete-button, #refuse-delete-button {
+    padding: 8px 10px 8px 10px;
+}

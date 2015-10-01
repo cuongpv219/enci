@@ -1,0 +1,16 @@
+#tag-title-header {
+    margin-bottom: 30px;
+    background: white;
+    -webkit-box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    -moz-box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    -o-box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    -ms-box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    color: black;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    color: #F5570F;
+    padding: 10px 10px 14px 10px;
+    margin-left: 0;
+    font-weight: bold;
+}

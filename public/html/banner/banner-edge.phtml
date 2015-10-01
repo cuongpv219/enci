@@ -1,0 +1,96 @@
+<div id="banner-edge-box">
+	<a href="<?php echo $this->BaseUrl();?>/payment/order/sales/source/direct/campaign/side-banner" target="_blank" >
+		<img class="img-banner" src="<?php echo $this->BaseUrl();?>/img/global/banner/banner-2.png">
+	</a>
+	<div class="clear-both"></div>
+	<div id="button-cancel-banner-edge">
+		<img src="<?php echo $this->BaseUrl();?>/img/global/banner/cancel.png">
+	</div>
+</div>
+
+<style>
+	#banner-btn {
+		display: block;
+		height: 50px;
+		width: 250px;
+		text-transform: uppercase;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 12px;
+		box-sizing: border-box;
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: bold;
+		/* border-radius: 6px; */
+		margin: 0px 20px;
+		 border: 2px solid #fff; 
+		display: block;
+		/*margin: 30px auto;*/
+		/*background: #b00000;*/
+		position: absolute;
+		right: -4px;
+		bottom: 86px;
+	}
+
+	#banner-box {
+		position: relative;
+		margin-bottom: 17px;
+	}
+
+	@-webkit-keyframes glowing {   
+		0% { background-color: #004A7F; -webkit-box-shadow: 0 0 3px #004A7F; }   
+		50% { background-color: #0094FF; -webkit-box-shadow: 0 0 10px #0094FF; }   
+		100% { background-color: #004A7F; -webkit-box-shadow: 0 0 3px #004A7F; } 
+		}   
+	@-moz-keyframes glowing {   
+		0% { background-color: #004A7F; -moz-box-shadow: 0 0 3px #004A7F; }   
+		50% { background-color: #0094FF; -moz-box-shadow: 0 0 10px #0094FF; }   
+		100% { background-color: #004A7F; -moz-box-shadow: 0 0 3px #004A7F; } 
+	}   
+	@-o-keyframes glowing {   
+		0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }   
+		50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }   
+		100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; } 
+	}  
+	@keyframes glowing {   
+		0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }   
+		50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }   
+		100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; } 
+	}   
+	#banner-btn {   
+		-webkit-animation: glowing 1500ms infinite;   
+		-moz-animation: glowing 1500ms infinite;   
+		-o-animation: glowing 1500ms infinite;   
+		animation: glowing 1500ms infinite; 
+	}
+
+	.clear-both {
+		clear: both;
+	}
+
+	#banner-edge-box .img-banner {
+		width: 100%;
+	}
+
+	#banner-edge-box {
+		position: fixed;
+	    bottom: 0;
+	    left: 0;
+	    border: 1px solid #e8e8e8;
+	    z-index: 9999;
+	    width: 170px;
+	}
+
+	#button-cancel-banner-edge {
+		position: absolute;
+		top: -20px;
+		right: 5px;
+		cursor: pointer;
+	}
+
+	#button-cancel-banner-edge:hover {
+		border: 1px solid #222;
+	}
+
+</style>

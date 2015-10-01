@@ -1,0 +1,338 @@
+#front-content {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    min-height: inherit !important;
+}
+
+#banner-box {
+    margin: 0px -20px !important;
+    padding: 20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#course-box {
+    display: table;
+    min-height: 500px;
+}
+
+#course-list, #category-box {
+    display: table-cell;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+
+#course-list {
+    width: 680px;
+    border-right: 1px solid #E8E8E8;
+}
+
+
+.slides_container {
+    width: 650px;
+    height: 325px;
+}
+
+#slides-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.slides_container div {
+    width: 650px;
+    height: 325px;
+/*    height:403px;*/
+    display:block;
+}
+
+.slide-caption {
+    /*        z-index: 1000;*/
+    min-height: 80px !important;
+    max-height: 100px !important;
+    min-width: 160px !important;
+    max-width: 200px !important;
+    padding: 0px 0px 0px 20px;
+    position: absolute;
+    top: 114px;
+    right: 0px;
+    /*        text-align: right;*/
+    vertical-align: middle;
+    opacity: 0.95;
+    color: white;
+    background: #B4263E;
+}
+
+.course-caption-title-normal {
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /*        padding: 0px;*/
+}
+
+.course-caption-title-small {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.small-video {
+    width: 72px;
+    margin-left: -2px;
+}
+
+.slide-image {
+    width: 650px;
+    height: 325px;
+}
+
+.pagination {
+    padding-right: 20px !important;
+}
+
+#all-course-list {
+    margin-top: 10px;
+}
+
+.fb-like {
+    margin-left: 0px !important;
+}
+
+#course-pagination {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.course-list-page-clear-both {
+    clear: both;
+}
+
+#course-list-by-category-title {
+    font-weight: normal;
+}
+
+#course-list-by-category-description {
+    margin-top: -8px;
+    line-height: 24px;
+}
+
+#course-list-by-category-info-wrapper {
+    position: absolute;
+    margin-top: -236px;
+}
+
+#course-list-by-category-info-wrapper-background {
+    width: 300px;
+    height: 140px;
+}
+
+#course-list-by-category-content-box {
+    position: absolute;
+    z-index: 10;
+    margin-top: -140px;
+    width: 260px;
+    height: 140px;
+    padding: 0px 20px 20px 20px;
+    color: white;
+}
+
+/*******************/
+
+.tieng-anh-giao-tiep > #course-list-by-category-info-wrapper-background {
+    background: #3D6855;
+    opacity: 0.9;
+}
+
+/*******************/
+
+.tieng-anh-pho-thong {
+    margin-left: 350px;
+}
+
+.tieng-anh-pho-thong > #course-list-by-category-info-wrapper-background {
+    background: #B4263E;
+    opacity: 0.9;
+}
+
+/*******************/
+
+.tieng-anh-thuong-mai > #course-list-by-category-info-wrapper-background {
+    background: #0183B7;
+    opacity: 0.9;
+}
+
+/*******************/
+
+.tu-vung-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #DD4309;
+    opacity: 0.9;
+}
+
+/*******************/
+
+.luyen-nghe-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #000;
+    opacity: 0.2;
+}
+
+/*******************/
+
+.ngu-phap-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #695B40;
+    opacity: 0.3;
+}
+
+/*******************/
+
+.luyen-noi-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #B00000;
+    opacity: 0.9;
+}
+
+.luyen-noi-tieng-anh > #course-list-by-category-content-box {
+    width: 240px !important;
+}
+
+.luyen-noi-tieng-anh > #course-list-by-category-info-wrapper-background {
+    width: 280px !important;
+}
+
+/*******************/
+
+.luyen-doc-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #270400;
+    opacity: 0.6;
+}
+
+/*******************/
+
+.luyen-viet-tieng-anh > #course-list-by-category-info-wrapper-background {
+    background: #fff;
+    opacity: 0.1;
+}
+
+/*******************/
+
+.luyen-thi-toeic > #course-list-by-category-info-wrapper-background {
+    background: #640E6B;
+    opacity: 0.8;
+}
+
+.luyen-thi-toeic > #course-list-by-category-content-box {
+    width: 240px !important;
+}
+
+.luyen-thi-toeic > #course-list-by-category-info-wrapper-background {
+    width: 280px !important;
+}
+
+/*******************/
+
+#course-list-by-category {
+    background: #F6F6F6;
+    padding: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.course-list-by-category-item-image {
+    width: 180px;
+    height: 90px;
+    margin-bottom: 14px;
+}
+
+.course-list-by-category-item {
+    display: table;
+    background: white;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.course-list-by-category-item-image-box, .course-list-by-category-item-info-box {
+    display: table-cell;
+    vertical-align: top;
+    padding: 14px;
+}
+
+.course-list-by-category-item-image-box {
+    border-right: 1px solid #E8E8E8;
+    width: 180px;
+}
+
+.course-list-by-category-item-info-title {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.course-list-by-category-item-info-title a {
+    font-size: 16px;
+    color: #B00000;
+    text-decoration: none;
+}
+
+.course-list-by-category-item-info-title a:hover {
+    text-decoration: underline;
+    color: #F36D00;
+}
+
+.course-list-by-category-item-info-summary {
+    line-height: 24px;
+    color: #666666;
+    height: 80px;
+}
+
+.course-list-by-category-item-statistics {
+    margin-left: -14px;
+    margin-right: -14px;
+    margin-bottom: -14px;
+    border-top: 1px solid #E8E8E8;
+    color: #666;
+    display: table;
+    width: 208px;
+}
+
+.course-list-by-category-item-learners, .course-list-by-category-item-views {
+    display: table-cell;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+
+.course-list-by-category-item-learners-number, .course-list-by-category-item-views-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    width: 103px;
+}
+
+.course-list-by-category-item-learners {
+    border-right: 1px solid #F0F0F0;
+}
+
+#course-list-by-category-list-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+/*.course-list-by-category-item-info-box .ucan-rating {
+    float: right;
+    margin-top: -32px;
+}*/
+
+.course-view-detail {
+    font-size: 14px !important;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    text-align: center;
+    /*float: right;*/
+/*    margin-left: auto;
+    margin-right: auto;*/
+}

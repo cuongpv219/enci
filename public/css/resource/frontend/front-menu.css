@@ -1,0 +1,34 @@
+#front-menu-login-register {
+    float: right;
+    text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+#front-menu-login, #front-menu-register {
+    list-style: none;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 10px;
+    border-left: 1px solid #E8E8E8;
+    text-align: center;
+    min-width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#front-menu-login a, #front-menu-register a {
+    color: #222;
+    text-decoration: none;
+}
+
+#front-menu-login a:hover, #front-menu-register a:hover {
+    color: #0073AC;
+}
+
+.front-menu-active > a {
+    color: #F36D00 !important;
+}

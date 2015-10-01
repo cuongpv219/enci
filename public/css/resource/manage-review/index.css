@@ -1,0 +1,96 @@
+#organization-admin-reviews-list-bar {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#reviews-list {
+    padding: 20px 40px 20px 40px;
+    background: #F8F8F8;
+}
+
+.review-item {
+    display: table;
+/*    border-bottom: 1px solid #F0F0F0;*/
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 10px;
+    
+}
+
+.review-type, .review-creator-info, .review-content, .review-link {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.review-type {
+    width: 80px;
+    font-weight: bold;
+}
+
+.review-creator-img {
+    width: 40px;
+}
+
+.review-creator-info {
+    width: 60px;
+}
+
+.review-title-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #EE7512;
+    font-style: normal;
+    padding-right: 20px;
+}
+
+.review-title {
+    color: #888;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.ucan-rating {
+/*    margin-bottom: 10px;*/
+    float: right;
+}
+
+.resource-review-user-fullname {
+    text-decoration: underline;
+/*    font-weight: bold;*/
+}
+
+.review-messages {
+    margin-bottom: 10px;
+}
+
+.review-item-grey {
+/*    background: #F8F8F8;*/
+}
+
+.review-manage-links a {
+    color: #0F97FF;
+/*    text-decoration: none;*/
+}
+
+#review-pagination {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.review-manage-links a:hover {
+/*    text-decoration: underline;*/
+}
+
+.review-hidden {
+    background: #F2F2F2;
+    color: #888;
+    box-shadow: none !important;
+}

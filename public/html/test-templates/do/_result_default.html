@@ -1,0 +1,26 @@
+<div class="result default">
+	<i class="fa fa-check icon"></i>
+	<h3 class="total-score">Điểm số: {{score | number:0}}/{{getTotalMark()}}</h3>
+	<ul class="part-result review-table" ng-if="parts.length > 1">
+		<li class="row" ng-repeat="part in parts">
+			<b class="cell title">{{part.title}}:</b>
+			<span class="cell score">{{part.score | number:0}} điểm</span>
+			<span class="cell correct">(đúng {{part.correct}}/{{getTotalQuestion(part)}} câu)</span>
+			<div class="cell actions">
+				<a href ng-click="setCurrentPart(part)"><i class="fa fa-arrow-right"></i> xem bài làm</a>
+			</div>
+		</li>
+	</ul>
+	<div class="part-result alone" ng-if="parts.length === 1">
+		<b>Bạn làm đúng {{currentPart.correct}}/{{getTotalQuestion(currentPart)}} câu</b>
+	</div>
+	<div class="show-explanation">
+		<label><input type="checkbox" ng-model="showExplanation">Hiển thị giải thích (nếu có)</label>
+	</div>
+	<div class="show-instruction">
+		<p>(Đối với dạng bài điền vào ô trống: Di chuột vào ô trống để xem đáp án đúng)</p>
+	</div>
+	<div class="assess-level" ng-if="test.id == 78">
+		<a href="/test/index/assess-level" class="frontend-blue-button"> Đánh giá trình độ</a>
+	</div>
+</div>

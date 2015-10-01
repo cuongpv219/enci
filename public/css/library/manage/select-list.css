@@ -1,0 +1,31 @@
+#organization-admin-select-class-working-title {
+    padding-left: 40px;
+}
+
+#select-lesson-content {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.lesson-item a {
+    color: #0070C0;
+    text-decoration: none;
+}
+
+.lesson-item a:hover {
+    text-decoration: underline;
+    color: #F36D00;
+}
+
+.lesson-item {
+    list-style: square;
+    line-height: 24px;
+}
+
+#lesson-pagination {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #E8E8E8;
+    padding-top: 20px;
+    text-align: center;
+}

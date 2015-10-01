@@ -1,0 +1,219 @@
+.slides_container {
+    width: 960px;
+    height: 366px;
+}
+#slides-container {
+    position: relative;
+}
+.slides-container {
+    width: 100%;
+    height: 445px;
+    overflow: hidden;
+    position: relative;
+}
+.slides-container .slide {
+    position: absolute;
+    width: 100%;
+}
+.slides-container .img {
+    float: left;
+    width: 100%;
+    height: 445px;
+    background-size: 100%;
+}
+.slides-container .slide .img {
+    background-image: url('../../../img/global/home/2.jpg');
+}
+.slides-container .slide .text {
+    background: rgba(153, 240, 0, 0.7);
+}
+.slides-container .slide:first-child {
+    z-index: 1;
+}
+.slides-container h1 {
+    background: none repeat scroll 0 0 rgba(180, 38, 62, 0.9);
+    color: #fff;
+    left: 0;
+    margin: 0;
+    padding: 15px 0 15px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    font-weight: normal;
+}
+.slides-container .content {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    width: 440px;
+    box-sizing: border-box;
+    height: 300px;
+}
+.slides-container .circle {
+    border-radius: 150px;
+    box-sizing: border-box;
+    color: #FFF;
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+.slides-container .circle h2 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0 0;
+    margin: 0;
+}
+.slides-container .circle span {
+    clear: both;
+    display: inline-block;
+    font-size: 56px;
+    text-align: center;
+    width: 100%;
+}
+.slides-container .circle-left {
+    background: rgba(0, 115, 173, 0.9);
+    float: left;
+}
+.slides-container .circle-right {
+    background: rgba(112, 168, 0, 0.9);
+    float: right;
+}
+.schools-box {
+    margin: 20px 0;
+    border: 1px solid #e8e8e8;
+    position: relative;
+}
+.schools-title {
+    padding: 20px 0px 24px;
+    clear: both;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #000;
+    background: #fff !important;
+}
+.schools-title.green {
+    background: #2ecc71;
+}
+.bottom-title {
+    height: 8px;
+    background: url('../../../img/global/bottom_box/box-bottom.png') repeat !important;
+}
+.schools-list {
+    background: #F8F9F7;
+    padding: 30px 20px 30px 20px;
+}
+.school-item-img {
+    width: 260px;
+    position: absolute;
+    clip: rect(0px, 260px, 130px, 0px);
+}
+.school-item:first-child, .school-item-first {
+    margin-left: 0 !important;
+}
+.school-item-total {
+    font-size: 20px;
+    color: #00679F;
+    border-top: 1px solid #f0f0f0;
+}
+.school-item-total span {
+    font-size: 40px;
+}
+.school-item {
+    width: 416px;
+    padding: 15px;
+    text-decoration: none;
+    float: left;
+    height: 140px;
+    background: white;
+    position: relative;
+    margin-left: 24px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.school-item h3 {
+    color: #B00000;
+    line-height: 24px;
+    margin: 5px 0 10px 0;
+}
+.school-item h3:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+.school-item h4 {
+    color: #999;
+    line-height: 24px;
+    margin: 0;
+}
+.school-item h4:hover {
+    color: #111;
+    text-decoration: underline;
+}
+.school-item .school-teacher-avatar {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    box-shadow: 0 -5px 20px 0 #fafafa inset;
+    height: 120px;
+    padding: 6px;
+    width: 120px;
+    float: left;
+}
+#class-info {
+    padding-left: 30px;
+    width: 250px;
+    display: table-cell;
+    vertical-align: top;
+    float: left;
+}
+
+
+#list-block-items .item {
+    width: 275px;
+    height: 50px;
+    float: left;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+    line-height: 24px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+#list-block-items .item:nth-child(3n) {
+    margin-right: 0 !important;
+}
+
+#list-block-items .item img {
+    width: 48px;
+    height: 48px;
+    float: left;
+    border-radius: 50%;
+
+}
+
+#list-block-items .item h4 {
+    margin: 0 0 0 58px;
+}
+
+#list-block-items .item h5 {
+    margin: 0 0 0 58px;
+    color: #777; /* 0D779F */
+    font-weight: normal;
+    font-size: 12px;
+}

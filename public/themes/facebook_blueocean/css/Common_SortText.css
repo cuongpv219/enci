@@ -1,0 +1,133 @@
+#activity-container{
+    overflow: hidden;
+}
+#activity-guide{
+    margin-top: 25px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#activity-guide-wrap{
+    margin:auto;
+    width: 300px;
+    margin-top: -15px;    
+}
+#activity-guide-wrap img{
+    width: 20px;
+    display: inline-block;
+    padding: 0 5px 0 10px;
+    background-color: white;
+}
+
+#activity-guide-wrap div{
+    display: inline-block;
+    padding: 0 10px 0 5px;
+    color: #8c8c8c;
+    position: absolute;
+    background-color: white;
+}
+#activity-board {
+    width: 426px;
+    overflow: hidden;
+    float: left;
+    padding: 9px 10px 40px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#activity-board .short1 {
+    width: 426px;
+}
+#activity-board .long1 {
+    width: 576px;
+}
+#content-container {
+    min-height: 200px;
+}
+#loadResult {
+    float: right;
+}
+.true{
+    display: none;
+    width: 20px;
+    position: absolute;
+}
+.sentence-container .short {
+    width: 350px;
+}
+.sentence-container .long {
+    width: 500px;
+}
+.sentence .short2 {
+    width: 426px;
+}
+.sentence .long2 {
+    width: 576px;
+}
+.sentence-number {
+    moz-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    -webkit-box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+    box-shadow: inset 0 32px 60px -42px #E0E0E0;
+    width: 40px;
+    margin: 6px 0;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+.sentence-container {
+    cursor: move;
+    display: inline-block;
+    moz-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    -webkit-box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+    box-shadow: inset 0 32px 60px -42px #E0E0E0;
+    margin: 6px 0 6px 10px;
+    padding: 7px 10px;
+    width: 350px;
+    vertical-align: top;
+}
+.sentence-container:hover {
+    color: #dc3538;
+}
+.sentence {
+    float: left;
+    width: 426px;
+    padding: 6px 0px;
+}
+.false {
+    position: absolute;
+    display: none;
+    width: 20px;
+}
+#questionlink {
+    position: relative;
+}
+#prev-link {
+    float: left;
+    margin-left: 280px;
+}
+#next-link {
+    float: left;
+    margin-left: 10px;
+}
+#audios-dialogs-container {
+    float: left;
+    padding: 20px;
+    overflow: hidden;
+}
+.picture {
+    width: 143px;
+}
+#picture-board {
+    padding: 20px;
+    float: right;
+}
+.picture-container {
+    display: none;
+}
+.dialog-audio-container {
+    display: none;
+}

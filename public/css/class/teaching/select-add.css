@@ -1,0 +1,62 @@
+.option-box {
+    width: 340px;
+    height: 220px;
+    float: left;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    
+    line-height: 24px;
+    /*margin-bottom: 20px;*/
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.option-box:hover {
+    background: #F8F8F8;
+    cursor: pointer;
+}
+
+#new-working {
+    margin-right: 30px;
+}
+
+.content-box {
+    width: 100%;
+    display: table;
+}
+
+.option-icon, .option-content {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.option-icon {
+    width: 48px;
+    font-size: 48px;
+    padding-top: 28px;
+    padding-left: 20px;
+    color: #999;
+}
+
+.option-content {
+    width: 272px;
+}
+
+.option-box .link {
+    border-top: 1px solid #E8E8E8;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.option-box .link a {
+    font-size: 14px;
+}
+
+.option-content p {
+    color: #888;
+}

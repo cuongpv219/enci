@@ -1,0 +1,53 @@
+<div class="multiple-choice input-question">
+	<divider></divider>
+
+	<div ng-if="!temp.isDivider">
+		<h4>Tiêu đề câu hỏi</h4>
+		<textarea class="ck-editor" ng-model="temp.content"></textarea>
+
+		<div class="tutorial">
+            <h4>Nhập các đáp án. Cho các kí tự vào trong ngoặc vuông nếu muốn bôi đậm + gạch chân.</h4>
+            <div class="example">Ví dụ: t[ea]ching => t<b><u>ea</u></b>ching</div>
+        </div>
+		<label class="make-inline">
+			<input type="checkbox" ng-model="temp.inlineAnswers">
+			Đặt các đáp án cùng dòng
+		</label>
+		<ul class="answers" class="input-group">
+			<li class="input-group">
+				<input type="text" class="form-control" placeholder="Nhập nội dung đáp án A"
+					ng-model="temp.answers[0]">
+				<span class="input-group-addon" title="Chọn làm đáp án">
+			        <input type="radio" ng-model="temp.key" ng-value="0">
+		     	</span>
+			</li>
+			<li class="input-group">
+				<input type="text" class="form-control" placeholder="Nhập nội dung đáp án B"
+					ng-model="temp.answers[1]">
+				<span class="input-group-addon" title="Chọn làm đáp án">
+			        <input type="radio" ng-model="temp.key" ng-value="1">
+		     	</span>
+			</li>
+			<li class="input-group">
+				<input type="text" class="form-control" placeholder="Nhập nội dung đáp án C"
+					ng-model="temp.answers[2]">
+				<span class="input-group-addon" title="Chọn làm đáp án">
+			        <input type="radio" ng-model="temp.key" ng-value="2">
+		     	</span>
+			</li>
+			<li class="input-group">
+				<input type="text" class="form-control" placeholder="Nhập nội dung đáp án D"
+					ng-model="temp.answers[3]">
+				<span class="input-group-addon" title="Chọn làm đáp án">
+			        <input type="radio" ng-model="temp.key" ng-value="3">
+		     	</span>
+			</li>
+		</ul>
+		<div class="explanation">
+			<h4>Giải thích</h4>
+			<textarea class="ck-editor" ng-model="temp.explanation"></textarea>
+		</div>
+	</div>
+
+	<modal-footer-actions></modal-footer-actions>
+</div>

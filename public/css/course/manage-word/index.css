@@ -1,0 +1,190 @@
+.wordset-item-cell {
+    display: table-cell;
+}
+
+.wordset-item-title {
+    width: 26%;
+    font-weight: bold;
+}
+
+.wordset-item-description {
+    width: 46%;
+}
+
+.wordset-item-id {
+    width: 4%;
+}
+
+.wordset-item-delete, .wordset-item-edit, .wordset-item-edit_words {
+    width: 8%;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.wordset-item-edit_words {color: #F37D1D;}
+.wordset-item-delete {color: #4E7E18;}
+.wordset-item-edit {color: #0F97FF;}
+
+.wordset-item {
+    width: 100%;
+    right: 0px;
+    display: table;
+    border-bottom: 1px solid #F0F0F0;
+    /*    margin-bottom: 10px;*/
+    padding: 5px 0px 5px 0px;
+}
+
+.wordset-item:hover {
+    cursor: pointer;
+    background-color: #F6F6F6;
+}
+#wordset-list-wrapper {
+    padding: 20px 40px 20px 40px;
+    min-height: 400px;
+}
+
+#search-box {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#search-options {
+    outline: none;
+}
+
+#word-search-input {
+    width: 240px;
+}
+
+#search-button {
+    padding: 5px 14px;
+}
+
+#add-new-wordset {
+    padding: 4px 14px;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+}
+
+#search-result-message {
+    border-bottom: 1px dashed #E8E8E8;
+    padding: 20px 40px;
+}
+#search-result-message span {
+    font-weight: bold;
+    color: #F37D1D;
+}
+
+.wordset-item-description {
+    color: #777;
+}
+
+#wordset-edit {
+    width: 540px;
+    margin-left: -270px;
+    height: 500px !important;
+    margin-top: -250px !important;
+    -moz-box-shadow: 0 3px 6px 2px #666 !important;
+    -webkit-box-shadow: 0 3px 6px 2px #666 !important;
+    box-shadow: 0 3px 6px 2px #666 !important;
+    border: none;
+    background: #F0F0F0;
+}
+
+#wordset-delete {
+    height: 300px !important;
+    width: 600px !important;
+    margin-left: -300px !important;
+    margin-top: -150px !important;
+    -moz-box-shadow: 0 3px 6px 2px #666 !important;
+    -webkit-box-shadow: 0 3px 6px 2px #666 !important;
+    box-shadow: 0 3px 6px 2px #666 !important;
+    border: none;
+}
+
+#wordset-delete-detail-title {
+    padding: 20px;
+}
+
+.wordset-delete-confirm {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #E0E0E0;
+    background: #F2F2F2;
+    margin: 0px 20px 20px 20px;
+}
+
+#delete-wordset-button {
+    padding-left: 20px;
+}
+
+.wordset-close-button {
+    float: right;
+    margin-top: -28px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.wordset-close-button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#transparent-background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: 2;
+    display: none;
+    background: black;
+}
+
+#edit_wordset_submit_button {
+    margin-left: 96px;
+}
+
+#wordset-edit-detail-title {
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #E0E0E0;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#edit_wordset_form {
+    border: 1px solid #E0E0E0;
+    background: white;
+    padding-bottom: 20px;
+}
+
+#wordset-list-wrapper {
+    margin-top: 10px;
+}
+
+#organization-admin-course-wordset-list-bar {
+    color: #B00000;
+}
+
+#wordset-pagination {
+    margin-top: 40px;
+    text-align: right;
+}
+
+#edit_wordset_form {
+    border: 1px solid #E0E0E0;
+    background: white;
+    padding-bottom: 20px;
+}
+
+#wordset-edit-form-wrapper {
+    padding: 20px;
+}
+
+#edit_wordset_button {
+    margin-left: 96px;
+}

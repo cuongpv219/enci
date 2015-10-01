@@ -1,0 +1,209 @@
+#page-content .fixed-actions {
+    position: fixed;
+    right: 20px;
+    top: 60px;
+    z-index: 10;
+}
+.divider-notes {
+    padding: 20px;
+    border: 1px solid #ffdf7c;
+    background: #fefada;
+    color: #666;
+}
+.activity-names {
+    width: 222px !important;
+    display: inline-block !important;
+    vertical-align: bottom;
+}
+.modal-footer {
+    margin-top: 20px;
+}
+.separate-window {
+    position: fixed !important;
+    z-index: 2000;
+    top: 100px;
+    left: 40px;
+    min-width: 200px;
+    max-width: 800px;
+}
+.separate-window .close {
+    color: #fff;
+    text-decoration: none;
+    line-height: 14px;
+}
+.separate-window .paragraph {
+    height: 200px;
+    overflow: auto;
+}
+.input-question h4 {
+    margin-top: 20px;
+}
+.input-question .make-inline {
+    margin-top: 20px;
+}
+.input-question .answers {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+.input-question .content {
+    color: #428bca;
+    resize: vertical;
+}
+.input-question .answers li {
+    margin-bottom: 20px;
+}
+.input-question .answers .form-control {
+    color: #d9534f;
+}
+.input-question .keys label {
+    margin-right: 20px;
+}
+.input-question .tutorial {
+    margin-top: 40px;
+}
+.input-question .tutorial .example {
+    color: #888;
+    font-size: 14px;
+}
+h4.panel-title.actions {
+    margin-top: 0;
+    line-height: 30px;
+}
+
+/****************** Data List **********************/
+.data-list .question {
+    padding: 10px 20px 20px 20px;
+    position: relative;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    line-height: 24px;
+    min-height: 40px;
+}
+.data-list .question .inline {
+    float: left;
+    margin-right: 20px;
+}
+.data-list .question.ui-sortable-helper {
+    background: #e8e8e8;
+}
+.data-list .question .actions {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    display: none;
+}
+.data-list .question .delete {
+    display: inline-block;
+    font-size: 17px;
+}
+.activity-data .move, .data-list .question .move {
+    cursor: move;
+}
+.data-list .question:hover .actions {
+    display: block;
+}
+.data-list .question .actions * {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.question .content {
+    padding-left: 30px;
+}
+.question .order {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: #888;
+    font-size: 16px;
+    background: #f9f9f9;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    border: 1px solid #e8e8e8;
+}
+.question .explanation {
+    border: 1px solid #ffdf7c;
+    background: #fefada;
+    padding: 10px;
+    margin-top: 20px;
+}
+.question .key {
+    color: #b00000;
+    font-weight: bold;
+}
+.data-list .answer-list {
+    padding-left: 20px;
+}
+.answer-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.ui-state-highlight {
+    height: 150px;
+    background: #fff;
+    border: 1px dashed #888;
+}
+/************** End data list **********************/
+/**************  Multiple Choice Inline ********************/
+
+.multiple-choice-inline.data-list .answer {
+    padding-right: 20px;
+}
+/************** End Multiple Choice Inline ***************/
+/************** Choose Correct Answer ********************/
+
+.choose-correct-answer .group {
+    margin-top: 20px;
+    background: #f6f6f6;
+    padding: 20px;
+}
+.choose-correct-answer .group li {
+    margin-top: 10px;
+}
+.choose-correct-answer .activity-data {
+    margin-top: 20px !important;
+}
+.choose-correct-answer .input-group {
+    margin-top: 10px;
+}
+.choose-correct-answer .tutorial {
+    margin-top: 0 !important;
+}
+.choose-correct-answer .answer-input {
+    color: #0070c0;
+}
+.choose-correct-answer .box {
+    padding: 20px;
+    background: #f9f9f9;
+    margin-bottom: 30px;
+}
+.choose-correct-answer .answer {
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 10px;
+    color: #0070c0;
+}
+.choose-correct-answer .answer.key {
+    color: #f36d00;
+}
+.choose-correct-answer .order.composite {
+    position: static;
+    font-weight: bold;
+}
+.choose-correct-answer .answer-list {
+    padding-left: 0;
+}
+.choose-correct-answer .content {
+    padding-left: 0;
+}
+.choose-correct-answer .question-item {
+    margin-bottom: 30px;
+}
+/************* End Choose Correct Answer ***************/

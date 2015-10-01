@@ -1,0 +1,112 @@
+#portion-header {
+    min-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 30px;
+}
+
+#portion-header h1 {
+    float: left;
+    margin: 0 30px;
+}
+
+#portion-header button {
+    float: right;
+    margin-left: 10px;
+}
+
+#comment-menu {
+    padding-left: 40px;
+    list-style: none;
+}
+#comment-menu li {
+    padding: 0;
+    list-style: none;
+    margin-right: 10px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 30px;
+}
+#comment-menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#portion-header .cmd:hover {
+    text-decoration: underline;
+}
+#portion-header .cmd {
+    text-decoration: none;
+    color: #008CD2;
+    float: right;
+    margin-right: 20px;
+}
+
+#discussion-list {
+    padding: 0 20px;
+}
+#discussion-list .item:nth-child(odd) {
+    background: #FBFBFB;
+}
+#discussion-list .item {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+}
+#discussion-list .title {
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #555555;
+}
+#discussion-list .creator-name {
+    font-weight: bold;
+    font-style: italic;
+    color: #F36D00;
+    text-decoration: none;
+}
+#discussion-list .creator-name:hover,
+#discussion-list .title:hover {
+    text-decoration: underline;
+}
+
+#discussion-list .number-info .order {
+    color: #B50000;
+    font-weight: bold;
+    font-size: 18px;
+}
+#discussion-list .number-info .number-like {
+}
+#discussion-list .item .number-info {
+    width: 100px;
+    border-right: 1px solid #dbdbdb;
+}
+
+#discussion-list .item .number-info,
+#discussion-list .item .avatar,
+#discussion-list .item .content {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+}
+#discussion-list .item .avatar {
+    width: 100px;
+    border-left: 1px solid #dbdbdb;
+}
+
+#discussion-list .created-time {
+    color: #888;
+    line-height: 28px;
+}
+
+#discussion-pagination {
+    margin: 20px 0;
+    text-align: center;
+}

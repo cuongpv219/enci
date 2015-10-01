@@ -1,0 +1,23 @@
+#page-title-header {
+    color: #B50000;
+    border-bottom: 1px solid #dbdbdb;
+    margin-left: 40px;
+}
+
+#discussion-detail {
+    list-style: none;
+    padding-left: 40px;
+}
+
+#discussion-detail label {
+    font-weight: bold;
+}
+
+#discussion-detail li {
+    margin: 20px 0;
+}
+
+#navigator-bottom {
+    padding: 20px 10px 10px 40px;
+    border-top: 1px solid #dbdbdb;
+}

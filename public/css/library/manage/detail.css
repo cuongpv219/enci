@@ -1,0 +1,76 @@
+#organization-admin-content h4 {
+    font-size: 16px;
+    color: #B00000;
+    border-bottom: 1px dashed #E9E9E9;
+    padding-bottom: 6px;
+}
+
+#organization-admin-detail-series-bar {
+    font-size: 16px;
+    font-weight: bold;
+    padding:16px 40px 16px 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#series-detail-info {
+    padding: 10px 40px 0px 40px;
+    width: 70%;
+    display: table-cell;
+    border-right: 1px solid #E0E0E0;
+}
+
+#series-detail-sidebar {
+    padding: 10px 40px 0px 40px;
+    width: 30%;
+    display: table-cell;
+}
+
+#series-children-list {
+    margin: 10px 0px 30px 0px;
+}
+
+#series-children-list li {
+    display:inline;
+    margin-right: 20px;
+}
+
+.series-detail-summary-image {
+    height: 100px;
+}
+
+.series-detail-summary {
+    margin:-4px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    text-align: justify;
+    color: #444444;
+}
+
+#series-detail-table td {
+    vertical-align: top;
+}
+
+.series-detail-screenshots-image {
+    height: 100px;
+    margin-right: 10px;
+}
+
+#series-detail-table {
+    margin-bottom: 30px;
+}
+
+#series-detail-screenshots-list {
+    margin-bottom: 30px;
+}
+
+#series-detail-description {
+    margin-bottom: 30px;
+}
+
+#organization-admin-edit-series {
+    text-decoration: none;
+}
+
+#series-add-element, #series-copy-element {
+    padding: 0px 20px 20px 20px;
+    margin: 20px 0px 40px 0px;
+}

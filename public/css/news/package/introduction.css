@@ -1,0 +1,18 @@
+#package-detail-box {
+    position: relative;
+}
+
+#package-detail-box a {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+#package-detail-box .vip {
+    height: 63px;
+}
+
+#package-detail-box .vip-star {
+    height: 140px;
+}

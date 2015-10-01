@@ -1,0 +1,67 @@
+.cp-container {
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+#table-content .true-icon,
+#table-content .false-icon {
+    width: 18px;
+}
+
+#table-content {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+#table-content .row {
+    display: table-row;
+}
+
+#activity-practice-container .global-blue-bar {
+    display: table;
+    table-layout: fixed;
+    margin-left: -1px;
+}
+
+#character-list .cell,
+#table-content .cell {
+    display: table-cell;
+}
+
+#table-content .cell:first-child {
+    padding-left: 20px;
+    text-align: left !important;
+}
+#table-content .cell {
+    height: 40px;
+    border-bottom: 1px solid #eaeaea;
+    vertical-align: middle;
+    text-align: center;
+}
+#character-list .cell {
+    line-height: 36px;
+}
+#table-content .cell.character > img {
+    max-width: 90%;
+    margin: 8px 0;
+}
+
+#character-list .cell.character,
+#table-content .cell.character {
+    width: 130px;
+    text-align: center;
+}
+#character-list .cell.true-false-icon,
+#table-content .cell.true-false-icon {
+    width: 50px;
+}
+
+#character-list .cell.character {
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid #00AEED;
+}
+
+#loadResult {
+    margin: 0 auto;
+}

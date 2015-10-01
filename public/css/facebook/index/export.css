@@ -1,0 +1,35 @@
+#activity-type-list {
+    padding: 20px;
+}
+
+.no-data {
+    color: #B00000;
+    font-weight: bold;
+}
+
+.activity-list-row {
+    display: table;
+    width: 100%;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    margin-top: -1px;
+}
+
+.even-row {
+    background: #F8F8F8;
+}
+
+.activity-list-row-cell {
+    display: table-cell;
+    padding: 8px;
+}
+
+.activity-order {
+    width: 60px;
+    border-right: 1px solid #E8E8E8;
+}
+
+.activity-type {
+    width: 460px;
+    border-right: 1px solid #E8E8E8;
+}

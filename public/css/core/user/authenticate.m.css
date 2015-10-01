@@ -1,0 +1,38 @@
+#social-login-box h2, #social-login-box p {
+    display: none;
+}
+
+#user-login {
+    padding: 40px 20px;
+}
+
+#ucan-login-box h2 {
+    color: #F36D00;
+}
+
+#ucan-login-box p, #ucan-login-box label {
+    display: none;
+}
+
+#ucan-login-box form p {
+    display: block;
+    margin-bottom: -10px;
+    color: #B00000;
+}
+
+#ucan-login-box form {
+    margin: 40px 0px 0px;
+}
+
+.login-form-element {
+    margin-top: 16px;
+}
+
+#login {
+    margin-top: 40px;
+}
+
+
+#facebook-login-button {
+    margin-top: 20px;
+}

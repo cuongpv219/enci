@@ -1,0 +1,310 @@
+.related-title {
+    margin-left: 10px;
+    line-height: 24px;
+    color: #000;
+}
+#sibling-articles h3, #related-articles h3 {
+    margin-bottom: 20px;
+}
+#sibling-articles li, #related-articles li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#sibling-articles li:last-child, #related-articles li:last-child {
+    border-bottom: none;
+}
+/******** START 5 diem vuot troi (copy & edit from core/index)*********/
+
+.list-group {
+    margin-top: 20px;
+}
+.list-group-item {
+    padding: 0px !important;
+    margin-bottom: 10px;
+}
+#superiority h3 {
+    margin-top: 0px;
+    line-height: 30px;
+}
+#superiority h3.features {
+    margin-left: 68px;
+}
+#superiority .list-group {
+    padding-left: 10px;
+}
+#superiority h4 {
+    color: #000;
+}
+#superiority .label {
+    float: left;
+    padding: 5px !important;
+    font-weight: normal;
+    font-size: 44px;
+}
+#hot-series-box .label, #hot-courses-box .label, #hot-ugcs-box .label {
+    margin-left: 10px;
+}
+#home-introduction h4 {
+    color: #fff;
+}
+#superiority .list-group p {
+    color: #888;
+}
+#home-introduction .list-group p {
+    color: #fff;
+}
+#superiority .order {
+    background-color: #0f9d58;
+    font-size: 20px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 4px;
+}
+#home-introduction .row-action-primary i {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 45px;
+}
+.list-group .list-group-item .row-content {
+    width: calc(100% - 70px);
+}
+.list-group .list-group-item .row-content h4, .list-group .list-group-item .row-content p {
+    margin-right: 0px;
+}
+.list-group .list-group-item .row-content .action-secondary~* {
+    max-width: none;
+}
+#btn-register {
+    text-align: center;
+    margin-top: -10px;
+}
+#btn-register .btn-default {
+    background: #fff;
+    width: 100%;
+    padding: 12px 30px !important;
+}
+.alert {
+    margin-bottom: 0px !important;
+}
+#superiority ul {
+    /*list-style: none;*/
+    
+    padding-left: 20px;
+}
+#superiority .list-group-item-text li {
+    color: #888;
+}
+/******** END 5 diem vuot troi *********/
+
+#superiority {
+    margin: 20px -15px 0 -15px;
+    padding: 40px 10px 20px;
+}
+.login-now {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#register-box label {
+    display: none;
+    margin-right: 0px !important;
+}
+.register-form-element {
+    margin-top: 16px;
+}
+#register_button {
+    margin-top: 40px;
+}
+#facebook-login-button {
+    margin-top: -10px;
+}
+.video-intro {
+    margin-top: 15px;
+}
+/********** ACTIVITY ***********/
+
+.embed-activity {
+  position: relative;
+  min-height: 220px;
+  margin: 20px 0;
+}
+
+.embed-activity .request {
+  background: #f6f6f6;
+}
+
+.embed-activity .actions {
+  margin-top: 40px;
+}
+
+.embed-activity .summary {
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0;
+  color: #888;
+}
+.embed-activity .summary .icon {
+  font-size: 60px;
+  text-align: center;
+}
+.embed-activity .summary .msg {
+  margin-top: 15px;
+  color: #f36d00;
+  font-weight: 600;
+}
+
+.embed-activity .result {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  font-size: 60px;
+  text-transform: uppercase;
+  top: 50px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px;
+}
+.embed-activity .panel-title * {
+  margin: 0;
+}
+.result.correct {
+  background: #5cb85c;
+}
+.result.incorrect {
+  background: #d9534f;
+}
+.embed-activity .redo {
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #2895f1;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.embed-activity .redo:hover {
+  background: #f6f6f6;
+}
+.embed-activity .redo i {
+  margin-left: 6px;
+}
+
+#order-card-box {
+  margin: 0px -10px;
+}
+
+.ucan-code-form-element {
+  padding: 0px !important;
+}
+
+/*Common_CompleteSentenceWithMultipleChoice*/
+.ccswmc .question {
+  font-weight: 600 !important;
+}
+.ccswmc .choice {
+  max-width: none !important;
+  font-weight: normal;
+  display: block;
+  padding: 5px 15px;
+  transition: .25s;
+  margin: 0 -15px;
+}
+.ccswmc .choice:not(.type2):hover {
+  background: #e8e8e8;
+}
+.choice:not(.type2).correct {
+  background: rgba(15, 157, 88, .25) !important;
+}
+.choice:not(.type2).incorrect {
+  background: rgba(244, 67, 34, .25) !important;
+}
+.choice.type2 {
+  display: inline-block;
+  width: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  background: #f6f6f6 !important;
+  margin: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  color: rgba(0,0,0,.84);
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);
+  transition: .28s;
+}
+.choice.type2 input {
+  display: none;
+}
+.choice.type2.true.active,
+.choice.type2.true:hover {
+  background: rgba(15, 157, 88, .8) !important; 
+  color: #fff;
+}
+.choice.type2.false.active,
+.choice.type2.false:hover {
+  background: rgba(244, 67, 34, .8) !important; 
+  color: #fff;
+}
+/********** END ACTIVITY ***********/
+
+
+.youtube-video-box {
+    position: relative;
+    padding-top: 10px;
+}
+
+.youtube-video-box iframe {
+  width: 100%
+}
+
+.subscribe-wrap {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 335px;
+}
+
+.subscribe-box {
+    margin: auto;
+    border: 1px dashed #E00000;
+    background: #fff;
+    padding: 60px 10px;
+    margin-top: 65px;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+}
+
+.subscribe-label {
+    padding-bottom: 20px;
+}
+
+.cancel-subscribe-box {
+    position: absolute;
+    top: 1px;
+    right: 7px;
+    cursor: pointer;
+}
+
+.cancel-subscribe-box i {
+  font-size: 25px;
+    color: #B00000;
+}
+
+.subscribe-wrap {
+    display: none;
+}

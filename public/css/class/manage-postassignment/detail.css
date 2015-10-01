@@ -1,0 +1,48 @@
+#postassignment-detail-content-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#postassignment-detail-menu {
+    padding: 20px 20px 20px 40px;
+}
+
+#postassignment-detail-menu li, #featured-postassignment-activity-list li {
+    list-style: square;
+    line-height: 24px;
+}
+
+#postassignment-detail-menu li a, #featured-postassignment-activity-list li a {
+    color: #0070C0;
+    text-decoration: none;
+}
+
+#postassignment-detail-menu li a:hover, #featured-postassignment-activity-list li a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#detail-postassignment-subtitle {
+    padding-top: 0px;
+    margin-top: -10px;
+    color: #888;
+}
+
+#featured-postassignment-content {
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+#postassignment-title {
+    color: black;
+}
+
+#class-postassignment-detail-title {
+    color: #B00000;
+    text-decoration: none;
+}
+
+#class-postassignment-detail-title:hover {
+    color: #F36D00;
+}

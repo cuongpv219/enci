@@ -1,0 +1,341 @@
+#intro-scene img:first-child {
+    margin-top: 20px;
+}
+
+#main-scene {
+    width: 100%;
+    height: 670px;
+    display: none;
+}
+
+#main-scene > p {
+    font-size: 14px;
+    margin-left: 22px;
+    margin-top: 14px;
+    position: absolute;
+    z-index: 2;
+    max-width: 624px;
+    color: #888;
+    width: 620px;
+    text-align: center;
+    font-style: italic;
+}
+
+#game-board {
+    border: 1px solid #FFF;
+    box-shadow: 0 0 8px 6px #f0f0f0;
+    -webkit-box-shadow: 0 0 8px 6px #f0f0f0;
+    -moz-box-shadow: 0 0 8px 6px #f0f0f0;
+    width: 630px;
+    height: 620px;
+    background: url('../img/Game-CrossWord-Background-Green.jpg') center no-repeat;
+    position: relative;
+    float: left;
+    margin: 48px 22px 0;
+}
+
+#game-board #words-wrapper {
+    position: absolute;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+}
+
+#game-board .time {
+    color: #FFF;
+    font-weight: 700;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    font-size: 20px;
+}
+
+#game-board .word-number,#info-board .clue-review .number {
+    color: #FFF;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    cursor: default;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border: 3px solid #c00000;
+    background-color: #f30;
+    z-index: 3;
+}
+
+#game-board .word-number-active {
+    background-color: #558ed5;
+    z-index: 3;
+    border-color: #416fa7;
+}
+
+#game-board .word-number:hover {
+    background-color: #558ed5;
+    cursor: pointer;
+    border-color: #416fa7;
+}
+
+#game-board .word-number-small {
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#game-board .character {
+    border: 1px solid #dbdbdb;
+    box-shadow: inset 0 15px 32px -22px #dbdbdb;
+    -moz-shadow: inset 0 15px 32px -22px #dbdbdb;
+    -webkit-shadow: inset 0 15px 32px -22px #dbdbdb;
+    position: absolute;
+    visibility: hidden;
+    background: #FFF;
+    outline: none;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    height: 28px;
+    width: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#game-board .is-key {
+    box-shadow: inset 0 15px 52px -12px #FF0;
+    -moz-shadow: inset 0 15px 52px -12px #FF0;
+    -webkit-shadow: inset 0 15px 52px -12px #FF0;
+}
+
+#game-board .character-active {
+    border: 1px solid #00b0f0;
+    box-shadow: inset 0 15px 52px -22px #00b0f0;
+    -moz-shadow: inset 0 15px 52px -22px #00b0f0;
+    -webkit-shadow: inset 0 15px 52px -22px #00b0f0;
+    z-index: 2;
+}
+
+#info-board {
+    width: 318px;
+    height: 696px;
+    border-left: 1px solid #f2f2f2;
+    float: right;
+}
+
+#score-clue-wrapper {
+    width: 100%;
+    height: 328px;
+    position: relative;
+    overflow: auto;
+}
+
+#score-clue-wrapper .game-score {
+    border: 2px solid #F68D36;
+    position: relative;
+    width: 274px;
+    height: 38px;
+    margin: 48px auto 0;
+}
+
+#score-clue-wrapper .game-score .text {
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-left: 15px;
+    width: 110px;
+}
+
+#score-clue-wrapper .game-score .plus-mark {
+    float: left;
+    width: 17px;
+    color: #F68D36;
+    font-family: 'Segoe UI';
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    display: none;
+}
+
+#score-clue-wrapper .game-score .value {
+    float: right;
+    width: 70px;
+    background: #f68d36;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+    line-height: 34px;
+}
+
+#score-clue-wrapper .hint {
+    height: 27px;
+    width: 276px;
+    position: absolute;
+    bottom: 28px;
+    margin: 22px;
+}
+
+#score-clue-wrapper .btn-hint {
+    margin-right: 20px;
+}
+
+#score-clue-wrapper > p {
+    color: red;
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    margin: 0;
+}
+
+#score-clue-wrapper .hint-circle-active,#score-clue-wrapper .hint-circle-inactive {
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px;
+}
+
+#score-clue-wrapper .hint-circle-active {
+    background-color: #f68426;
+    border-color: #f57a14;
+}
+
+#score-clue-wrapper .hint-circle-inactive {
+    background-color: #e1e1e1;
+    border-color: #d9d9d9;
+}
+
+#info-board .clue {
+    box-shadow: inset 0 16px 76px -26px #dbdbdb;
+    -moz-shadow: inset 0 16px 76px -26px #dbdbdb;
+    -webkit-shadow: inset 0 16px 76px -26px #dbdbdb;
+    border: 1px solid #E0E0E0;
+    font-weight: 700;
+    line-height: 24px;
+    min-height: 100px;
+    width: 256px;
+    resize: none;
+    font-family: 'Segoe UI';
+    outline: none;
+    margin: 22px;
+    padding: 8px;
+}
+
+#info-board .clue-review {
+    width: 282px;
+    min-height: 30px;
+    margin: 20px 10px 10px;
+}
+
+#info-board .clue-review .number {
+    position: static;
+    float: left;
+}
+
+#info-board .clue-review .content {
+    margin-left: 10px;
+    width: 240px;
+    float: left;
+    text-align: justify;
+}
+
+#game-topic {
+    height: 290px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+#game-topic .text {
+    margin-top: 10px;
+}
+
+#game-topic .text .highlight {
+    font-weight: 700;
+    color: #f68d36;
+}
+
+#game-topic img {
+    max-width: 323px;
+    max-height: 200px;
+    margin: 10px 0;
+}
+
+#btn-start {
+    position: relative;
+    margin: -79px 470px;
+}
+
+#btn-endgame {
+    margin: 20px;
+}
+
+.btn-next-activity {
+    float: right;
+}
+
+#intro-scene .submit-div,#game-over-wrapper .submit-div {
+    position: relative;
+    margin-top: 105px;
+}
+
+#game-over-wrapper {
+    display: none;
+}
+
+#game-over {
+    box-shadow: inset 0 15px 32px -22px #dbdbdb;
+    -moz-shadow: inset 0 15px 32px -22px #dbdbdb;
+    -webkit-shadow: inset 0 15px 32px -22px #dbdbdb;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    margin: 40px auto;
+    padding: 10px 18px;
+}
+
+#game-over .board-title {
+    color: #6BAE22;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 10px auto;
+}
+
+#game-over .text,#game-over .number {
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#game-over .text {
+    margin-left: 87px;
+    width: 150px;
+}
+
+#game-over .number {
+    width: 100px;
+    color: #fca302;
+    margin-left: 44px;
+}
+
+#game-over .review {
+    text-align: center;
+    clear: both;
+    margin: 34px auto;
+}

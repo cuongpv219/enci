@@ -1,0 +1,121 @@
+body {
+    font-family: "Segoe UI", "Arial";
+    font-size: 13px;
+}
+#page-intro {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page-intro .title {
+    color: #B00000;
+}
+
+#btn-create-new {
+    height: 22px;
+    float: right;
+}
+
+#article-list {
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+    margin: 10px 10px 40px 10px;
+    display: table;
+    width: 100%;
+}
+
+.article-published .title, .article-published .block-id {
+    font-weight: bold;
+    color: #B00000;
+}
+
+#article-list .block-item-wrapper {
+    display: table-row;
+    height: 30px;
+}
+#article-list .block-item-wrapper:hover {
+    background: #F0F0F0;
+}
+
+#article-list .cell {
+    display: table-cell;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 8px 10px 10px 10px;
+}
+
+#article-list .link-details:hover,
+#article-list .link-edit:hover,
+#article-list .show-hide:hover,
+#article-list .preview-details:hover,
+#article-list .liveview-details:hover,
+#article-list .link-original:hover {
+    text-decoration: underline;
+}
+#article-list .show-hide {
+    color: #0F97FF;
+}
+
+#article-list .show-hide,
+#article-list .link-edit,
+#article-list .link-details,
+#article-list .preview-details,
+#article-list .liveview-details,
+#article-list .link-original {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#article-list .link-details {
+    color: #F37D1D;
+}
+#article-list .preview-details {
+    color: #ffcc00;
+}
+#article-list .liveview-details {
+    color: #3399ff;
+}
+#article-list .link-edit {
+    color: #4E7E18;
+}
+
+#article-list .link-original {
+    color: #B00000;
+}
+
+#article-list .navigator {
+    padding-right: 6px;
+    width: 480px;
+    text-align: right;
+}
+
+.article-pagination {
+    margin: 20px 20px 0px 20px;
+    text-align: right;
+}
+
+#article-pagination-top {
+    padding-bottom: 20px;
+    border-bottom:1px solid #E0E0E0;
+}
+
+#article-pagination-bottom {
+    margin-bottom: 40px;
+}
+
+#form-filter-article {
+    display: inline-block;
+    padding: 0;
+    margin-left: 40px;
+}
+
+#form-categories {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#category-list {
+    width: 150px;
+}

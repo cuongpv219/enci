@@ -1,0 +1,40 @@
+.global-float-left {
+    float: left;
+}
+
+.global-float-right {
+    float: right;
+}
+
+.global-center-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.global-clear-both {
+    clear: both;
+}
+
+.global-vertical-top {
+    vertical-align: top;
+}
+
+.global-vertical-middle {
+    vertical-align: middle;
+}
+
+.global-vertical-bottom {
+    vertical-align: bottom;
+}
+
+.global-overflow-hidden {
+    overflow: hidden;
+}
+
+.global-text-align-center {
+    text-align: center;
+}
+
+.global-font-weight-bold {
+    font-weight: bold !important;
+}

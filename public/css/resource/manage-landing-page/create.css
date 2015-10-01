@@ -1,0 +1,31 @@
+#add-new-page {
+	float: right;
+	margin-right: 20px;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.add-activity {
+	font-size: 30px;
+}
+
+#list-activity {
+	position: relative;
+}
+
+#add_remove_btns {
+	position: absolute;
+	top: 17px;
+	left: 300px;
+}
+
+.zend_form dd, .zend_form dt {
+	margin-left: 20px;
+}
+
+.zend_form dt {
+	margin-top: 10px;
+}
+

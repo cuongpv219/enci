@@ -1,0 +1,12 @@
+#smartwords-top {
+    margin: 20px 40px -38px 40px;
+}
+
+#smartwords-menu, #smartwords-edit-box {
+    margin: 0px 40px 30px 40px;
+}
+
+#smartwords-header {
+    color: #B00000;
+    font-weight: bold;
+}

@@ -1,0 +1,109 @@
+.account-content {
+    padding: 0px 10px;
+    line-height: 30px;
+}
+
+.account-content h2 {
+    margin-bottom: 20px;
+}
+
+#account-content-basic, .account-content-additional {
+    /*box-shadow: inset 0px -5px 20px 0px #F2F2F2;*/
+    /*border: 1px solid #E8E8E8;*/
+    margin-bottom: 30px;
+}
+.account-content-basic-header {
+}
+.account-content-password-header {
+    border-top: 1px solid #E8E8E8;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.account-content-additional-header {
+    margin-top: 40px;
+}
+
+#account-content-basic-avatar {
+    vertical-align: top;
+    display: table-cell;
+    /*border-right: 1px solid #E8E8E8;*/
+}
+
+#account-content-basic-info {
+    vertical-align: top;
+    display: table-cell;
+    height: 10px;
+    width: 500px;
+    /*padding: 20px;*/
+}
+
+.account-content-additional {
+    /*box-shadow: inset 0px -5px 10px 0px #F6F6F6;*/
+}
+
+#account-content-basic-avatar {
+    width: 260px;
+    padding-right: 10px;
+}
+
+#account-content-basic-avatar img {
+    width: 100%;
+}
+
+.fullname {
+    font-weight: bold;
+    font-size: 16px;
+    color: #B00000;
+}
+
+.email, .additional-info-content {
+    color: #888;
+    font-style: italic;
+}
+
+#change-basic-info-buttons a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#change-basic-info-buttons {
+    border-top: 1px solid #E8E8E8;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.user-uc {
+    font-size: 28px;
+    color: #F36D00;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.account-content-additional {
+    /*padding: 10px 20px 10px 20px;*/
+    /*background: #FAFAFA;*/
+}
+
+.additional-info {
+    display: table;
+    border-bottom: 1px solid #F2F2F2;
+    width: 100%;
+}
+
+.additional-info-title, additional-info-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.additional-info-title {
+    width: 150px;
+    height: 40px;
+}
+
+.sex, .country, .career {
+    /*border-bottom: 1px solid #F2F2F2;*/
+    width: 100%;
+}

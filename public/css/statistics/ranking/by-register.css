@@ -1,0 +1,126 @@
+#front-content {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    width: 1000px !important;
+    line-height: 24px;
+}
+
+#user-ranking-wrapper {
+    border: 30px solid #F6F6F6;
+    padding: 10px;
+}
+
+.user-ranking{
+    display: table-row;
+}
+
+.user-ranking-title,.user-ranking-number{
+    display: table-cell;
+    font-weight: bold;
+    padding: 7px 20px;
+    font-size: 16px;
+}
+
+.user-ranking-number{
+    font-size: 20px;
+    color: #B00000;
+}
+
+.ranking-table-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#ranking-table-box {
+    padding: 20px 30px 40px 30px;
+}
+
+.ranking-table-row {
+    display: table;
+    width: 100%;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    margin-top: -1px;
+}
+
+.ranking-table-position {
+    width: 40px;
+    border-right: 1px solid #E8E8E8;
+    text-align: center;
+}
+
+.ranking-table-id {
+    width: 70px;
+    border-left: 1px solid #E8E8E8;
+    text-align: center;
+}
+
+.ranking-table-uc {
+    width: 70px;
+    border-left: 1px solid #E8E8E8;
+    text-align: center;
+}
+
+.ranking-table-email {
+    width: 250px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.ranking-table-register-time {
+    width: 130px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.ranking-table-cell {
+    padding: 6px 10px 6px 10px;
+}
+
+.ranking-table-value {
+    font-weight: bold;
+}
+
+.even-row {
+    background: #F8F8F8;
+}
+
+#ranking-table-header {
+    font-weight: bold;
+    background-color: #009BE6;
+    background-image: -webkit-gradient(linear,0% 0,0% 100%,from(#009BE6),to(#0082BF));
+    background-image: -webkit-linear-gradient(top,#009BE6,#0082BF);
+    background-image: -moz-linear-gradient(top,#009BE6,#0082BF);
+    background-image: -ms-linear-gradient(top,#009BE6,#0082BF);
+    background-image: -o-linear-gradient(top,#009BE6,#0082BF);
+    box-shadow: none !important;
+    color: white;
+    border: 1px solid #009BE6 !important;
+}
+
+#ranking-table-header div {
+    border: none !important;
+    font-size: 13px !important;
+    color: white !important;
+}
+
+.ranking-table-uc {
+    font-weight: bold;
+    color: #F36D00;
+}
+
+.current-user .ranking-table-fullname {
+    font-weight: bold;
+    color: #B00000;
+}
+
+#ranking-table {
+    margin-top: 30px;
+}
+
+#ranking-pagination {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.register-today{
+    color: #B00000;
+}

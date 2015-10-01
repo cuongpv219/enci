@@ -1,0 +1,9 @@
+.tbl-footer-categories td{
+    padding-left: 10px;
+}
+
+.user-avatar {
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px; 
+}

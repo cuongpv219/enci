@@ -1,0 +1,229 @@
+#default-gifts {
+    border: #FFEAB3 1px solid;
+    color: #555;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    background: #FFF9E8;
+}
+
+#competition-rules {
+    padding: 0;
+    margin-top: 30px;
+}
+
+#competition-rules strong {
+    color: #b00000;
+}
+
+#competition-rules > li {
+    list-style: none;
+    line-height: 24px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    text-align: justify;
+}
+
+#competition-rules > li:last-child {
+    border-bottom: none;
+}
+
+#competition-rules .col {
+    display: inline-block;
+    vertical-align: top;
+    width: 440px;
+    padding-left: 30px;
+}
+
+.col h3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.col.team {
+    position: relative;
+}
+
+.col.team .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, .0);
+    width: 364px;
+    height: 274px;
+    font-size: 70px;
+    line-height: 274px;
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.col.team img:nth-child(4n) {
+    margin-right: 0;
+}
+
+.col.team img {
+    width: 90px;
+    margin: 1px 1px 0 0;
+    float: left;
+    transition: opacity .5s ease-out;
+}
+
+.col.objects {
+    padding-top: 50px;
+}
+
+.col.objects i {
+    color: #555;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.col.howto ul {
+    padding: 0;
+    margin: 0;
+}
+
+.col.howto li {
+    float: left;
+    list-style: none;
+}
+
+.col.howto i {
+    color: #666;
+    font-size: 50px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    border: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.lnk-create-ugc:hover {
+    text-decoration: underline;
+}
+
+.lnk-create-ugc {
+    text-decoration: none;
+    color: #0084c0;
+}
+
+.col.howto li p {
+    text-align: center;
+    margin-left: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #888;
+}
+
+#continue {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 500px;
+    margin: 80px auto;
+    padding: 20px 0;
+    word-spacing: 2px;
+}
+
+.reward {
+    clear: both;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.reward:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.reward .detail {
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.reward .empty,
+.reward img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #e8e8e8;
+    padding: 1px;
+    float: left;
+}
+
+.reward .empty {
+    line-height: 130px;
+    font-size: 80px;
+    text-align: center;
+    color: #888;
+}
+
+.reward h4 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 18px;
+    color: #b00000;
+}
+
+.col.methods {
+    padding-top: 40px;
+}
+
+.col.methods .demo {
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+    background: #f9f9f9;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.ucan-cards {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.ucan-cards li {
+    list-style: none;
+    color: #888;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.detail.cards {
+    margin-top: -170px !important;
+    float: left;
+}
+
+#rewards .percent {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+#rewards .percent i {
+    margin-right: 10px;
+}
+
+#final-message {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #F36D00;
+    margin: 80px 0;
+}

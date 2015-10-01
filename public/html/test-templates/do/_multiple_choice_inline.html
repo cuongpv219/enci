@@ -1,0 +1,27 @@
+<div class="multiple-choice-inline" ng-controller="multipleChoiceInlineCtrl">
+	<div ng-if="part.ready">
+        <ul class="question-list unstyled-list">
+            <li class="question" ng-repeat="question in activity.questions track by $index">
+                <div class="divider" ng-if="question.isDivider" ng-bind-html="bindHtml(question.dividerContent)"></div>
+                <div ng-if="!question.isDivider">
+                    <div class="content">
+                        <span class="order">{{orderer.computeOrder(question, activity, part.questions)}}</span>
+                        <div class="title" ng-bind-html="question.content"></div>
+                    </div>
+                    <label class="answer" 
+                        ng-repeat="answer in question.answers track by $index"
+                        ng-if="answer"
+                        ng-class="getAnswerClasses(question, $index)">
+                        <input type="radio"
+                            class="target" 
+                            ng-disabled="finishedTest"
+                            ng-model="question.userChoice" ng-value="$index">
+                            <b>{{orderer.translateABCD($index)}}</b><span class="splitter">.</span>
+                            <span highlight>{{answer}}</span>
+                    </label>
+                    <div ng-include="testTemplate.getExplanationTemplate()"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,134 @@
+#notify-content {
+    line-height: 24px;
+    text-align: justify;
+    padding: 10px 20px 60px 20px;
+}
+
+#letter-head-title {
+    color: #B00000;
+    text-align: center;
+}
+
+#letter-subtitle {
+    font-style: italic;
+    color: #888;
+    text-align: center;
+}
+
+#first-line {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+#notify-content ol {
+    font-style: italic;
+    padding-left: 60px;
+}
+
+#notify-content ol li {
+    padding-bottom: 10px;
+}
+
+#finally {
+    color: #B00000;
+    margin-top: 20px;
+    /*font-size: px;*/
+}
+
+.tsc_divider5 {
+    height: 35px;
+    width: 600px;
+    margin: 0px auto;
+    background: url(../../../img/global/tsc_divider5.png) no-repeat scroll center transparent;
+    padding: 6px;
+}
+
+#content-box {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAWklEQVQYV3VPQQrAMAhTT+LJ/7/SU/FkVwXL2FpBMMTEiO4+mRlhlZnlDI3HGLOIXFoNqrpxRICI4FVJROWEaXtStjO+M+TNVnam381vplo4KfsbTDLT3r55ACcUYYfQJSflAAAAAElFTkSuQmCC) repeat;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#ucan-announcement {
+    float: left;
+    font-size: 48px;
+    margin-right: 20px;
+    color: #0080C0;
+}
+
+#package-prices {
+    background: white;
+    border: 1px solid #E0E0E0;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+#package-prices strong {
+    color: #F36D00;
+}
+
+#return-to-learning-page {
+    text-align: center;
+    border-top: 1px solid #E0E0E0;
+    background: white;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    padding: 30px 0px 30px 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#return-to-learning-page a {
+    text-decoration: none;
+}
+
+.benefit {
+    width: 175px;
+    height: 155px;
+    padding: 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    border-radius: 50%;
+}
+
+#benefits {
+    padding-left: 2px;
+    display: table;
+}
+
+.clearboth {
+    clear: both;
+}
+
+#benefit-1 {
+    background: #B3224A
+}
+
+#benefit-2 {
+    background: #60A0C1;
+}
+
+#benefit-3 {
+    background: #FF7000;
+}
+
+#benefit-4 {
+    background: #87B300;
+}
+
+#benefit-5 {
+     background: #0080C0;
+}
+
+#fb-like-box {
+    text-align: center;
+}

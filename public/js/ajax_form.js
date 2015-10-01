@@ -1,0 +1,1 @@
+$(".ajax_form").live("keypress",function(a){return 13==a.which&&"text"==(a.target||a.srcElement).type?!1:!0});

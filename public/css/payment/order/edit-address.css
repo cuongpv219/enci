@@ -1,0 +1,33 @@
+#page-title {
+    color: #B00000;
+    font-size: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+#submit,
+#cancel {
+    font-size: 14px !important;
+    width: 100px !important;
+    font-family: inherit;
+    outline: none;
+}
+
+#cancel-element {
+    float: right;
+    margin-right: 44px;
+    margin-left: 4px;
+}
+
+#submit {
+    float: right;
+    margin: 2px 0 0 0;
+}
+
+.ucan-code-form-element-label {
+    font-weight: bold;
+}
+
+#cancel-label {
+    margin-bottom: 20px;
+}

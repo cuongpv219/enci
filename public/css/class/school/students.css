@@ -1,0 +1,109 @@
+#list-block-items {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+#list-block-items:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+#list-block-items .item {
+    width: 210px;
+    height: 68px;
+    float: left;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+    line-height: 24px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+#list-block-items .item:hover {
+    background: #F6F6F6;
+    color: #F36D00;
+    box-shadow: none;
+}
+
+#list-block-items .item:nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+#list-block-items .item img {
+    width: 48px;
+    height: 48px;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+#list-block-items .item h4 {
+    margin: 0 0 0 58px;
+}
+
+#list-block-items .item h5 {
+    margin: 0 0 0 58px;
+    color: #888;
+    font-weight: normal;
+    /*font-size: 13px;*/
+}
+
+#list-block-items .item .actions {
+    /*text-align: right;*/
+    position: absolute;
+    line-height: 36px;
+    /*padding-top: 4px;*/
+    /*right: 10px;*/
+    bottom: 0px;
+    border-top: 1px solid #E8E8E8;
+    left: 0px;
+    width: 220px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+#list-block-items .item .actions .edit {
+    color: #0081c0;
+    display: inline-block;
+    width: 70px;
+    border-right: 1px solid #E8E8E8;
+    color: #0081c0;
+    text-align: center;
+}
+#list-block-items .item .actions .delete {
+    color: #b00000;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
+#list-block-items .item .actions .info {
+    display: inline-block;
+    width: 70px;
+    border-right: 1px solid #E8E8E8;
+    color: #0081c0;
+    text-align: center;
+}
+
+#list-block-items .item .actions a {
+    text-decoration: none;
+    color: inherit;
+}
+#list-block-items .item .actions a:hover {
+    text-decoration: underline;
+}
+
+#list-block-items .item .actions i {
+    font-size: 13px;
+    margin-left: 14px;
+    margin-right: 3px;
+}

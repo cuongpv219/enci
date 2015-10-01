@@ -1,0 +1,208 @@
+#front-content {
+    padding: 0px 0px 20px 0px !important;
+    margin-top: 0px !important;
+    /*    height: 500px !important;*/
+    width: 1000px !important;
+    line-height: 24px;
+}
+
+#course-info {
+    background: #FAFAFA;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 20px 20px 10px 20px;
+    /*    -webkit-box-shadow: inset 0px -0px 20px 0px #F4F4F4;
+        -moz-box-shadow: inset 0px -0px 20px 0px #F4F4F4;
+        -o-box-shadow: inset 0px -0px 20px 0px #F4F4F4;
+        -ms-box-shadow: inset 0px -0px 20px 0px #F4F4F4;
+        box-shadow: inset 0px -0px 20px 0px #F4F4F4;*/
+    -webkit-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+}
+
+#course-info h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#course-info a {
+    color: #F37D1D;
+}
+
+#course-lectures {
+    margin: 20px;
+    padding: 20px 10px 20px 10px;
+    width: 940px;
+    background: #F6F6F6;
+}
+
+.lecture {
+    display: table;
+    padding: 0px 0px 0px 10px;
+/*    width: 100%;*/
+    border: 1px solid #E8E8E8;
+    background: white;
+    margin-bottom: 30px;
+    -webkit-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.lecture:hover {
+    background: #FAFAFA;
+    -webkit-box-shadow: inset 0px -5px 20px 0px #EAEAEA;
+    -moz-box-shadow: inset 0px -5px 20px 0px #EAEAEA;
+    -o-box-shadow: inset 0px -5px 20px 0px #EAEAEA;
+    -ms-box-shadow: inset 0px -5px 20px 0px #EAEAEA;
+    box-shadow: inset 0px -5px 20px 0px #EAEAEA;
+    cursor: pointer;
+}
+
+.lecture-item {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px 0px 10px 0px;
+}
+
+.lecture-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #E8E8E8;
+    width: 500px;
+}
+
+.lecture-statistics {
+    width: 120px;
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid #F0F0F0;
+    padding: 0px !important;
+    font-weight: bold;
+}
+
+.lecture-progress {
+    height: 39px;
+    border-bottom: 1px solid #F0F0F0;
+    padding-top: 8px;
+    color: #008CD2;
+}
+
+.lecture-score {
+    height: 40px;
+    padding-top: 8px;
+    color: #B00000;
+}
+
+.go-to-lecture, .start-lecture {
+/*    min-width: 100px;*/
+/*    padding-left: 10px;*/
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.go-to-lecture {min-width: 100px;}
+.start-lecture {min-width: 100px;}
+
+.start-lecture {
+    border-right: 1px solid #E8E8E8;
+}
+
+.lecture-content h4 {
+    margin-top: -6px;
+    margin-bottom: 0px;
+    color: #F0730D;
+}
+
+.lecture-content p {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    color: #666666;
+}
+
+.lecture-img {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #E8E8E8;
+    /*    position: absolute;*/
+    clip: rect(0px, 100px, 75px, 0px);
+}
+
+#all-lectures {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#all-courses {
+    color: #008CD2 !important;
+    text-decoration: none;
+}
+
+#all-courses:hover {
+    text-decoration: underline;
+}
+
+.go-to-lecture a {
+    text-decoration: none;
+}
+
+.lecture-order {
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border-right: 1px solid #E8E8E8;
+    line-height: 30px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.course-lesson-number-label {
+    font-size: 16px;
+/*    color: #008CD2;*/
+}
+
+.course-lesson-number {
+    font-size: 32px;
+    color: #B00000;
+}
+
+.arrow-gt {
+/*    font-size: 140%;*/
+    font-weight: normal;
+/*    color: #0060a6;*/
+/*    font-size: 80%;*/
+    font-size: 120%;
+    line-height: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.frontend-green-button, .frontend-blue-button {
+    padding: 8px 12px !important;
+    font-size: 14px !important;
+}
+
+.start-lecture a {
+    text-decoration: none;
+}
+
+.lecture-title:hover {
+    text-decoration: underline;
+}
+
+.lecture:hover .lecture-title {
+    text-decoration: underline;
+}

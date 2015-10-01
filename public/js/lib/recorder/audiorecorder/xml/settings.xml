@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audiorecorder width="" height="" marginOnSides="20" marginTop = "20" marginBottom = "9">
+
+	<recorderSettings gain="100" startVolume="90" maximumRecordTime="300" />
+	<background fillColor="0xF0F0F0" overlayOpacity=".6" opacity="1" useDropShow="true" />
+	
+	<!-- title, clear button and timer -->
+	<header> 
+		<title textSize="15" textColor="0xDB4105">
+			<record>Thu âm</record>
+			<trim>Edit timeline</trim>
+			<encoding>Converting to mp3 ...</encoding> 
+			<save>Save bài thu âm</save>
+		</title>
+		<clearBt normalColor="0xF79068"  xOffset="" overColor="0xDB4105" textSize="14">TRY AGAIN</clearBt>
+		<timer textSize="14" currentColor="0xF79068" separatorColor = "0xF79068" totalColor="0xDB4105" />
+	</header>
+	
+	 <!-- play or trim slider -->
+	<slider sliderYOffset="0">
+		<recordSlider height="2" totalColor="0xf99b77" currentColor="0xdb4105" toolTipYOffset="4">
+			<toolTip backgroundColor="0xDB4105"textY="7" textSize="11" textColor="0xffffff" textAlign="center"/>
+		</recordSlider>
+		
+		<rangeSlider height="4" patternPath="images/lines-pattern.png" patternAlpha="0.10" backgroundColor="0xf99b77" rangeColor="0xdb4105" indicatorColor="0x5D5E60" toolTipYOffset="6">
+			<currentTimeToolTip backgroundColor="0xDB4105" textY="7" textSize="11" textColor="0xffffff" textAlign="center"/>
+			<leftToolTip backgroundColor="0xDB4105"  textY="7" textSize="11" textColor="0xffffff" textAlign="center"/>
+			<rightToolTip backgroundColor="0xd13e04" textY="7" textSize="11" textColor="0xffffff" textAlign="center"/>
+		</rangeSlider>
+	</slider>
+	
+	<!-- controls area: volume bar, play/pause/stop button, input text and back, trim, save buttons -->
+	<controlsBar height="50" sidesMargin="10">
+		<background strokeColor = "0xBDBDBD" fillColor="0xD6D6D6" patternPath="images/circles.png" />
+		
+		<!-- gain and volume level indicator settings -->
+		<levelsBar noLevelsItems="10" levelItemWidth="7" levelItemHeight="15">
+	 		
+	 		<gain selectedColor = "0x5f8c0c">
+				<color ratio="0">0x5f8c0c</color>
+				<color ratio="25">0xe3dd35</color>
+				<color ratio="75">0xef9f22</color>
+				<color ratio="100">0xdb4f18</color>
+			</gain>
+			<volume selectedColor="0xdb4105" normalColor="0xf79068" />
+		</levelsBar>
+		
+		<!-- play/pause/stop button -->
+		<toggleButton
+			size="70"
+			emptyAreaAroundSize="12" 
+			normalColor="0xdddddd"
+			overColor="0xeaeaea"			
+			>		
+		</toggleButton>
+		
+		<navigationButtons
+			normalColor="0x000000" 
+			overColor="0xb00000" 
+			disabledColor="0x888888" 
+			textSize="14">
+			<backLabe>QUAY LẠI</backLabe> 
+			<trimLabel>TIẾP TỤC</trimLabel> 
+			<saveLabel>SAVE </saveLabel>
+		</navigationButtons>		
+		
+		<input width="180" backColor="0xffffff"
+			   textColor="0x999999" textSize="13">
+			<defaultText>Tên file</defaultText>
+			<recordDefaultName>untitled</recordDefaultName> <!-- if no name in input -->
+		</input>
+	</controlsBar>
+</audiorecorder>

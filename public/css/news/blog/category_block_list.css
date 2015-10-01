@@ -1,0 +1,99 @@
+#block-article-list-placeholder {
+    padding-left: 6px;
+    margin-right: -20px;
+/*    background: #F8F8F8;*/
+}
+.block-article-item {
+    width: 168px;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+    height: 320px;
+    background: white;
+    position: relative;
+    margin-right: 23px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#block-article-clear-both {
+    clear: both;
+}
+
+.block-article-item-image {
+    width: 168px;
+    height: 126px;
+}
+
+.article-item-description {
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 15px 0px 15px;
+    border-top: 1px solid #F0F0F0;
+    width: 158px;
+/*    height: 100px;*/
+    margin-left: -10px;
+    moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px white;
+    box-shadow: inset 0px 1px 0px 0px white;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #F2F2F2) );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F2F2F2');
+    background-color: white;
+    color: #888;
+/*    font-weight: bold;*/
+    text-align: center;
+    display: table;
+}
+
+.title {
+    color: #B00000;
+    margin-top: 10px;
+/*    margin-bottom: 10px;*/
+}
+
+.article-item-summary {
+/*    text-align: justify;*/
+    line-height: 22px;
+    font-size: 12px;
+    color: #888;
+}
+
+.article-item-view-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+/*    min-width: 40px;*/
+/*    min-width: 100px;
+    border-right: 1px solid #E8E8E8;
+    padding: 15px 10px 15px 10px;*/
+    
+}
+
+.article-item-view_count {
+    display: table-cell;
+    width: 85px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-right: 1px solid #E8E8E8;
+}
+
+.article-item-comments {
+    display: table-cell;
+    width: 85px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.article-item-view_count-number, .article-item-comments-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}

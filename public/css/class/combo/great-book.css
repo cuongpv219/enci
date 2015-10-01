@@ -1,0 +1,68 @@
+.great-book{
+	border: 1px solid #e8e8e8;
+}
+
+.great-book h1 {
+	margin: 0px;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.bottom-title{
+    height: 8px;
+    background: url('../../../img/global/bottom_box/box-bottom.png') repeat !important; 
+}
+
+.great-book .great-book-title{
+	text-align: center;
+}
+
+.great-book-box {
+	background: #F8F9F7;
+	padding: 20px 0px 0px 20px;
+}
+
+.great-book-box .book-item {
+	width: 447px;
+	height: 120px;
+	box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+	background: #fff;
+	position: relative;
+	display: table;
+	border: 1px solid #E8E8E8;
+	float: left;
+	margin-right: 20px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+} 
+
+.great-book-box a {
+	text-decoration: none;
+}
+
+.great-book-box .book-img {
+	float: left;
+	height: 100px;
+	margin: 10px;
+	width: 67px;
+}
+
+.great-book-box .book-title {
+	margin: 5px;
+	color: #B00000;
+}
+
+.book-item:hover .book-title {
+	color: #F36D00;
+	text-decoration: underline;
+}
+
+.great-book-box .book-description {
+	color: #000;
+	line-height: 20px;
+}
+
+.clear-both {
+	clear: both;
+}

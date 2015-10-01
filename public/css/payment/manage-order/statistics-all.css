@@ -1,0 +1,25 @@
+#select-date-statistics {
+	display: none;
+}
+
+#filter {
+	width: 800px;
+	padding: 40px;
+	margin: 30px auto;
+	border: 1px solid #888;
+}
+
+.box-left {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.box-right {
+	width: 40%;
+	float: right;
+}
+
+#date-statistics {
+	margin-bottom: 20px;
+}

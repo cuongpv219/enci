@@ -1,0 +1,88 @@
+.form-collection {
+    float: left;
+    margin: 20px 0px 0px;
+    width: 100%;
+}
+.left-form {
+    float: left;
+    font-size: 13px;
+    width: 20%;
+}
+.right-form {
+}
+#survey .title {
+    color: #F36D00;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #E8E8E8;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+#survey p{
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#survey .level {
+    float: left;
+    font-size: 16px;
+    margin-right: 55px;
+}
+#survey .phone {
+    height: 25px;
+    width: 450px;
+    padding-left: 20px;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+}
+
+#survey .phone:focus {
+    outline: none;
+    box-shadow: none;
+    background: #FFF7CC;
+}
+
+#survey .goals {
+    font-size: 15px;
+    height: 31px;
+    padding: 4px 20px;
+    width: 475px;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+}
+#button-ok {
+    float: right;
+    padding: 5px 20px;
+}
+#survey .skip:hover {
+    text-decoration: underline;
+}
+
+#survey .skip {
+    font-size: 16px;
+    text-decoration: none;
+    color: #0073AC;
+}
+
+
+#survey {
+    margin: 10px 150px;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    padding: 10px 20px 20px 20px;
+    background: #fff;
+
+}
+#submit{
+    margin-top: 60px
+}
+
+#front-content{
+    background: #f8f8f8 !important;
+}
+
+

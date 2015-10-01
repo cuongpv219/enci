@@ -1,0 +1,110 @@
+
+#school-teacher-info-placeteacher {
+    clear: both;
+}
+
+#school-avatar-box {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-top: -10px;
+    margin-right: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: inset 0px -5px 20px 0px #FAFAFA;
+    background: white;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+}
+
+#avatar-title {
+    float: left;
+}
+
+#avatar-title a {
+    color: #000;
+    text-decoration: none;
+}
+#avatar-title a:hover {
+    text-decoration: underline;
+}
+
+#ghp-logo {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+#school-title{
+    float: left;
+    width: 50%
+}
+
+#school-teacher-menu{
+    clear: both;
+}
+
+#ghp-box {
+    display: table;
+    margin-left: -20px;
+    width: 1000px;
+    min-height: 1000px;
+    max-height: 1000px;
+}
+
+#ghp-navigation, #ghp-content {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 200px !important;
+}
+
+#ghp-navigation {
+    padding: 0;
+    width: 240px;
+    box-shadow: inset -5px 0px 10px 0px #F6F6F6;
+}
+
+#ghp-content {
+    padding: 10px 20px 20px 20px;
+    line-height: 24px;
+    border-left: 1px solid #E8E8E8;
+    margin-top: -1px;
+}
+
+#ghp-menu {
+    margin: 0;
+    padding: 0;
+}
+
+#ghp-menu li a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+#ghp-menu li a:hover {
+    text-decoration: underline;
+}
+
+#ghp-menu .active a {
+    color: #F36D00 !important;
+    font-weight: bold;
+}
+
+#ghp-menu li {
+    /*width: 100%;*/
+    display: block;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border-bottom: 1px solid #E8E8E8;
+    margin-top: -1px;
+    padding: 14px 0px 14px 20px;
+    list-style: none;
+}
+
+#working-header {
+    padding-top: 14px !important;
+}
+
+#working-header h2 {
+    color: #000;
+    font-size: 16px;
+}

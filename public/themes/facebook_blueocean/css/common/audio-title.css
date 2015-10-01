@@ -1,0 +1,21 @@
+/*
+ * Project: CirclePlayer
+ * http://www.jplayer.org
+ *
+ * Copyright (c) 2011 Happyworm Ltd
+ *
+ * Author: Silvia Benvenuti
+ * Edited by: Mark J Panaghiston
+ * Date: 6th May 2011
+ * Artwork inspired by: http://forrst.com/posts/Untitled-CJz
+*/
+
+.play-audio {
+    background: url("../../img/icon/speaker-louder.png") no-repeat;
+    border: 1px solid red;
+}
+#audio-title{
+    background: url("../../img/icon/speaker-louder.png")  no-repeat;
+      border: red;
+}
+

@@ -1,0 +1,10 @@
+<div class="part-intro" ng-if="!part.ready"  ng-show="currentPart === part">
+    <h2 class="static-title">Hướng dẫn</h2>
+    <div class="content">
+        <div ng-bind-html="part.content"></div>
+    </div>
+    <div class="get-ready">
+        <a href class="ready frontend-green-button" 
+	        ng-click="ready(part)">Làm bài<i class="fa fa-arrow-right"></i></a>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+.pagination li {
+    float:left;
+    list-style:none;
+}
+.pagination {
+    text-align:right;
+}
+.page-link {
+    padding:3px 8px 3px 8px;
+    background: #52841A;
+    color:#FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.page-link:hover {
+    background: #EC700B;
+}
+.current-link {
+    background: #0094DD;
+    color:#FFF;
+    text-decoration: none;
+}
+.pagination-navigation-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.pagination-navigation-link:hover {
+    color: #EC700B;
+}
+
+.pagination-disabled {
+    font-weight: bold;
+    color: #666;
+}

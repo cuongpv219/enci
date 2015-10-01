@@ -1,0 +1,231 @@
+#learning-box {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    box-shadow: inset 0px -1px 20px 0px #F0F0F0;
+    background: #F6F6F6;
+    min-height: 130px;
+}
+
+#school-logo-box {
+    float: left;
+    width: 88px;
+    height: 88px;
+    margin-top: -10px;
+    margin-right: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: inset 0px -5px 20px 0px #FAFAFA;
+    background: white;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+}
+
+#school-logo {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+#school-title a {
+    color: #000;
+    text-decoration: none;
+}
+#school-title a:hover {
+    text-decoration: underline;
+}
+
+.top-panel {
+    box-shadow: 0 -5px 10px 0 #F6F6F6 inset;
+    background: white;
+    border-bottom: 1px solid #E8E8E8;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    height: 64px;
+}
+
+.top-panel #title {
+    margin: -12px 0 0 0;
+    float: left;
+}
+
+.top-panel #title p {
+    color: #888;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+.top-panel h2 {
+    color: #B00000;
+}
+
+.top-panel h2 .teacher-list {
+    color: #B00000;
+    text-decoration: none;
+}
+
+.top-panel h2 .teacher-list:hover {
+    color: #F36D00;
+}
+
+.top-panel h2 .teacher-name {
+    color: #333;
+}
+
+.top-panel #title .link {
+    color: #B00000;
+    text-decoration: none;
+}
+
+.top-panel #title .link:hover {
+    text-decoration: underline;
+}
+
+.top-panel #title span {
+    color: #333;
+}
+
+#class-box {
+    display: table;
+    margin-left: -20px;
+    width: 1000px;
+    min-height: 1000px;
+    max-height: 1000px;
+}
+
+#class-navigation, #class-content {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 200px !important;
+}
+
+#class-navigation {
+    padding: 0;
+    width: 240px;
+    box-shadow: inset -5px 0px 10px 0px #F6F6F6;
+}
+
+#class-content {
+    padding: 20px 20px 20px 20px;
+    line-height: 24px;
+    border-left: 1px solid #E8E8E8;
+    margin-top: -1px;
+}
+
+#class-learning-menu {
+    margin: 0;
+    padding: 0;
+}
+
+#class-learning-menu li a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+#class-learning-menu li a:hover {
+    text-decoration: underline;
+}
+
+#class-learning-menu .active a {
+    color: #F36D00 !important;
+    font-weight: bold;
+}
+
+#class-learning-menu li {
+    /*width: 100%;*/
+    display: block;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border-bottom: 1px solid #E8E8E8;
+    margin-top: -1px;
+    padding: 14px 0px 14px 20px;
+    list-style: none;
+}
+
+#working-header {
+    margin: -20px -20px 30px -20px;
+    box-shadow: 0 -5px 10px 0 #F6F6F6 inset;
+    background: white;
+    padding: 20px;
+    height: 49px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#working-header h2 {
+    font-weight: bold;
+    /*color: #0070C0;;*/
+    color: #B00000;
+    margin-top: 0px;
+}
+
+#working-header p {
+    color: #888;
+    padding-bottom: 14px;
+    margin-top: -10px;
+}
+
+.empty-students {
+    text-align: center;
+    border: #FFEAB3 1px solid;
+    background: #FFF9E8;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.empty-students a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #B00000;
+}
+
+.empty-students a:hover {
+    text-decoration: underline;
+}
+
+.current-teacher {
+    float: right;
+}
+
+.current-teacher img {
+    padding: 2px;
+    border: 1px solid #e8e8e8;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    float: left;
+}
+
+.current-teacher .info {
+    margin-left: 84px;
+    color: #555;
+}
+.current-teacher .info h4 {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.current-teacher .info p {
+    font-style: italic;
+    color: #888;
+    margin-top: 8px;
+}
+
+#class-closed-working-message {
+    border: #E8E8E8 1px solid;
+    background: #F6F6F6;
+    color: #666;
+    padding: 10px 20px 20px 20px;
+    margin: 20px;
+}
+
+#class-closed-working-message p {
+    line-height: 20px;
+}

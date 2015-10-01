@@ -1,0 +1,64 @@
+
+#select-date-statistics {
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+.status {
+	color: #fff;
+	padding: 2px 10px;
+	border-radius: 4px;
+}
+
+.status-shipping {
+	background: #03a9f4
+}
+.status-processing {
+	background: #f89406;
+}
+
+.status-pending {
+	background: #b00000;
+}
+
+.status-completed {
+	background: #468847;
+}
+
+.status-drop {
+	background: #000;
+}
+
+.edit {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#edit-order-box {
+	display: none;
+	padding: 20px;
+	position: fixed;
+	top: 160px;
+	left: 350px;
+	height: 300px;
+	width: 600px;
+	background: #fff;
+	border: 1px solid #000;	
+	z-index: 99999;
+}
+
+.export {
+	color: #fff;
+	background: #b00000;
+	height: 30px;
+}
+
+#article-pagination-top {
+	/*float: right;*/
+	margin: 30px auto;
+	width: 600px;
+}
+
+#total-order {
+	font-size: 28px;
+}

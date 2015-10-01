@@ -1,0 +1,67 @@
+body {
+    font-family: "Segoe UI", "Arial";
+}
+#page-intro {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page-intro .title {
+    color: #B00000;
+}
+
+#btn-create-new {
+    height: 22px;
+    float: right;
+}
+
+#feedback-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 10px;
+    display: table;
+    width: 100%;
+}
+
+#feedback-list .feedback-item-wrapper {
+    display: table-row;
+}
+#feedback-list .feedback-item-wrapper:hover {
+    background: #f8f8f8;
+}
+
+#feedback-list .cell {
+    display: table-cell;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 10px 20px 10px;
+}
+
+#feedback-list .link-details:hover,
+#feedback-list .link-delete:hover {
+    text-decoration: underline;
+}
+#feedback-list .show-hide {
+    color: #0F97FF;
+}
+
+#feedback-list .link-delete,
+#feedback-list .link-details {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#feedback-list .link-details {
+    color: #0070C0;
+}
+#feedback-list .link-delete {
+    color: red;
+}
+
+#feedback-list .navigator {
+    padding-right: 6px;
+    width: 300px;
+    text-align: right;
+}

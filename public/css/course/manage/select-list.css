@@ -1,0 +1,23 @@
+#organization-admin-select-class-working-title {
+    padding-left: 40px;
+}
+
+#select-course-content {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.course-item a {
+    color: #0070C0;
+    text-decoration: none;
+}
+
+.course-item a:hover {
+    text-decoration: underline;
+    color: #F36D00;
+}
+
+.course-item {
+    list-style: square;
+    line-height: 24px;
+}

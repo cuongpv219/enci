@@ -1,0 +1,157 @@
+#org-detail {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+#org-detail .code {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin: 60px auto 30px auto;
+    width: 400px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#org-detail .code strong {
+    color: #b00000;
+}
+
+#org-detail .actions a {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    padding: 10px 20px;
+    color: #0070C0;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#org-detail .actions a:hover {
+    text-decoration: underline;
+}
+
+#org-detail .manage {
+    margin-top: 30px;
+}
+
+#org-detail .manage:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#org-detail .manage .item {
+    width: 340px;
+    float: left;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    line-height: 24px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.manage .item h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px 0;
+    background: #f9f9f9;
+    font-weight: 600;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.manage .item a {
+    display: block;
+    margin-top: 10px;
+    padding: 6px 20px;
+    color: #0070C0;
+    text-decoration: none;
+}
+
+.manage .item a:hover {
+    background: #f6f6f6;
+    color: #F36d00;
+}
+
+#organization-dashboard {
+    margin-top: 40px;
+}
+
+.nav-box {
+    width: 300px;
+    height: 240px;
+    float: left;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    
+    line-height: 24px;
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+#teacher-box {
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.top-box {
+    display: table;
+    width: 300px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.top-icon, .top-header {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.top-icon {
+    width: 48px;
+    font-size: 28px;
+    /*color: #888;*/
+    padding: 20px 0px 20px 20px;
+    /*border-right: 1px solid #E8E8E8;*/
+}
+
+.top-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B00000;
+}
+
+.content-box {
+    padding: 0px 20px 20px 20px;
+}
+
+.content-box p {
+    color: #888;
+}
+
+.content-box a {
+    color: #038ACF;
+    text-decoration: none;
+}
+
+.content-box a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+.content-box li {
+    list-style: square;
+}
+
+#school-code {
+    font-size: 28px;
+    color: #333;
+    /*color: #F36D00;*/
+}

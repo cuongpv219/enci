@@ -1,0 +1,27 @@
+<div class="choose-correct-answer" ng-controller="chooseCorrectAnswerCtrl">
+    <div ng-if="part.ready">
+        <ul class="question-list unstyled-list">
+
+            <!-- Repeat box -->
+            <li class="question" 
+                ng-repeat="box in activity.questions track by $index"
+                ng-class="{unorder: !box.isDivider && box.list.length > 1}">
+
+                <!-- Divider -->
+                <div class="divider" 
+                    ng-if="box.isDivider" 
+                    ng-bind-html="bindHtml(box.dividerContent)"></div>
+
+                <div ng-if="!box.isDivider">
+                    <div class="content">
+                        <!-- Directive cho content -->
+                        <div choose-correct-answer-content 
+                            class="paragraph"
+                            data-box="{{$index}}" 
+                            ng-bind-html="box.paragraph"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

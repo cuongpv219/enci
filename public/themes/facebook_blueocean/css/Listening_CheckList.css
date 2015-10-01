@@ -1,0 +1,150 @@
+.shortpadding {
+    top: 20px;
+}
+#activity-example-content {
+    width: 740px;
+    overflow-x:auto;
+}
+.dialog-audio-container {
+    position: absolute;
+    left: 20px;
+    float: left;
+}
+.longpadding {
+    top: 72px;
+}
+#activity-container{
+    position: relative;
+    overflow: hidden;
+}
+#main-board {
+    clear: both;
+}
+#questions {
+}
+#activity-board{
+    width:632px;
+    float:right;	
+    text-align: justify;
+    border-left: solid 1px #ddd;
+    height: 100%;
+
+}
+#question-board{
+    background-color:#f4f4f4;
+    border-left:10px #FF8900 solid;
+}
+#content-board{
+    -moz-box-shadow: 0 1px 8px #ddd;
+    -webkit-box-shadow: 0 1px 8px #ddd;
+    box-shadow: 0 1px 8px #ddd;
+    border:1px #EBD077 solid;
+}
+#result-button{
+    padding-top:20px;
+    margin-top:20px;
+    clear:both;
+}
+.question:hover{
+    cursor:pointer;
+}
+.true {
+    position: absolute;
+    display: none;
+    width: 20px;
+    top:-10px;
+    left:15px;
+}
+.false {
+    position: absolute;
+    display: none;
+    width: 20px;
+    top:-10px;
+    left:15px;
+}
+#question-list{	
+    text-align: center;
+    height:40px;
+    text-align:center;
+    border-bottom:1px #EBD077 solid;
+    background-color:#F5770F;
+}
+#question-link div {
+    position: relative;
+}
+#pre-next{
+    margin-left: 240px;
+    float: left;
+}
+
+#prev-link{
+    float: left;
+    margin-left: 20px;
+}
+#next-link{
+    float: left;
+    margin-left: 20px;
+}
+#loadResult {
+    float: right; 
+}
+#next{
+    float: left;
+    color: white;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+}
+#prevnext{
+    float: left;
+    color: white;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+}
+.ask-container{
+    color:#000;
+    font-weight:bold;
+    margin-left: 19px;
+    text-align:left;
+    width: 580px;
+}
+.true-icon, .false-icon {
+    float: right;
+    margin-right: 10px;
+    margin-top: -42px;
+}
+.active{
+    color:green;
+}
+.choice-container {
+    margin: 16px 20px 16px 40px;
+    cursor: pointer;
+}
+.choice{
+    float: left;
+}
+.senten-text{
+    margin-left: 5px;
+}
+.senten-text{
+    margin-left: 10px;
+}
+.circle{
+    height:20px;    
+    width:20px;
+    margin-top: -1px;
+    margin-right: 11px;
+}
+.question_container {
+    margin-top:0px;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 20px;
+}
+#request {
+    border-bottom:#7F9E40 2px solid;
+    margin-bottom:20px;	
+}
+#loadResult {
+    float: right;
+}

@@ -1,0 +1,62 @@
+#about-us-message {
+/*    background: #F6F6F6;*/
+    padding: 20px 40px;
+    border-bottom: 1px solid #E8E8E8;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+}
+
+#about-us-menu {
+    list-style: none;
+    padding: 0;
+    width: 220px;
+    box-shadow: inset -5px 0px 10px 0px #F6F6F6;
+}
+
+#about-us-content {
+    display: table;
+    width: 100%;
+}
+
+#about-us-menu,
+#about-ucan-info {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 200px !important;
+}
+#about-ucan-info {
+    padding: 20px 20px 20px 20px;
+    line-height: 24px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.frontend-green-button {
+    float: right;
+    margin-top: 24px;
+/*    width: 140px;*/
+    text-align: center;
+    text-decoration: none;
+}
+
+#about-us-menu > li {
+    padding: 10px 30px 10px 30px;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border-top: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+#about-us-menu a {
+    text-decoration: none;
+    color: #777;
+}
+#about-us-menu a:hover {
+    color: #0070C0;
+}
+
+.about-us-menu-active a {
+    color: #F36C21 !important;
+    font-weight: bold;
+}
+

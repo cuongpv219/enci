@@ -1,0 +1,113 @@
+#working-result-content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#working-result-box {
+    margin-top: 40px;
+    border-top: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    display: table;
+    width: 100%;
+}
+
+#working-result-header {
+    height: 60px;
+    font-weight: bold;
+}
+
+.working-result-row {
+    display: table-row;
+}
+
+.working-result-cell {
+    display: table-cell;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 4px 4px 1px 4px;
+    vertical-align: middle;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.working-result-cell-order {
+    width: 48px;
+    border-right: 1px solid #E0E0E0;
+    text-align: center;
+}
+
+.working-result-cell-avatar {
+    border-right: 1px solid #E0E0E0;
+    width: 32px;
+    text-align: center;
+}
+
+.working-result-cell-activity-result {
+    width: 48px;
+    border-left: 1px solid #E0E0E0;
+    text-align: center;
+    font-weight: bold;
+    color: #B00000;
+}
+
+.working-result-cell-fullname {
+    padding-left: 10px;
+/*    color: #B00000;*/
+/*    font-weight: bold;*/
+}
+
+#working-result-header .working-result-cell-fullname {
+    color: black;
+}
+
+#working-pagination {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.working-result-row-odd {
+    background: #F8F8F8;
+}
+
+.working-result-cell-activity-order a {
+    color: black;
+    text-decoration: none;
+}
+
+.working-result-cell-activity-order a:hover {
+/*    text-decoration: underline;*/
+    color: #888888;
+}
+
+.working-result-cell-activity-result-unfinished:hover, 
+.working-result-cell-activity-result-done:hover, 
+.working-result-cell-activity-result-practical:hover {
+    cursor: pointer;
+/*    background: #B00000;
+    color: white;*/
+    background: white;
+}
+
+.working-result-cell-activity-result-unfinished {
+    background: #F4F4F4;
+}
+
+#working-result-title {
+/*    color: #008CD2;*/
+    color: black;
+}
+
+#class-working-result-title a {
+    color: #B00000;
+    text-decoration: none;
+}
+
+#class-working-result-title a:hover {
+    color: #F36D00;
+}

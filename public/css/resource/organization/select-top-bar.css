@@ -1,0 +1,95 @@
+#organization-admin-topbar {
+    background-color: #013;
+    margin:0;
+    padding: 0px 40px 0px 40px;
+    height:60px;
+}
+
+#user-welcome {
+    float:right;
+}
+
+#organization-title {
+    color:white;
+    float:left;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top:10px;
+}
+
+#organization-main-menu {
+    position:absolute;
+    right:40px;
+    padding: 0;
+    margin: 0;
+    top: 40px;
+}
+
+#organization-main-menu li {
+    display: inline;
+    list-style-type: none;
+    margin-left:8px;
+    padding: 4px 10px 3px 10px;
+    border-radius: 6px 6px 0px 0px; 
+    -moz-border-radius: 6px 6px 0px 0px; 
+    -webkit-border-radius: 6px 6px 0px 0px;
+}
+
+.organization-menu-inactive:hover {
+    background-color: #EC700B;
+    background-image: linear-gradient(bottom, rgb(235,111,10) 0%, rgb(246,131,38) 54%);
+    background-image: -o-linear-gradient(bottom, rgb(235,111,10) 0%, rgb(246,131,38) 54%);
+    background-image: -moz-linear-gradient(bottom, rgb(235,111,10) 0%, rgb(246,131,38) 54%);
+    background-image: -webkit-linear-gradient(bottom, rgb(235,111,10) 0%, rgb(246,131,38) 54%);
+    background-image: -ms-linear-gradient(bottom, rgb(235,111,10) 0%, rgb(246,131,38) 54%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(235,111,10)),
+        color-stop(0.54, rgb(246,131,38))
+    );
+}
+
+.organization-menu-inactive {
+    background-color: #5F981D;
+    background-image: linear-gradient(bottom, rgb(115,183,37) 100%, rgb(95,152,29) 65%);
+    background-image: -o-linear-gradient(bottom, rgb(115,183,37) 100%, rgb(95,152,29) 65%);
+    background-image: -moz-linear-gradient(bottom, rgb(115,183,37) 100%, rgb(95,152,29) 65%);
+    background-image: -webkit-linear-gradient(bottom, rgb(115,183,37) 100%, rgb(95,152,29) 65%);
+    background-image: -ms-linear-gradient(bottom, rgb(115,183,37) 100%, rgb(95,152,29) 65%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, rgb(115,183,37)),
+        color-stop(0.65, rgb(95,152,29))
+    );
+}
+
+.organization-menu-inactive a {
+    color: white;
+}
+
+.organization-menu-active a {
+    color: black;
+}
+
+#organization-main-menu li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.organization-menu-active {
+    color: black;
+    background-color: #F2F2F2;
+}
+
+#user-welcome {
+    color: white;
+}
+
+#user-welcome a {
+    color: #F68426;
+}

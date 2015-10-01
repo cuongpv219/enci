@@ -1,0 +1,21 @@
+<div class="modal fade bs-example-modal-lg" id="questionModal" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="questionModalLabel">
+        	{{editting ? 'Sửa dữ liệu' : 'Nhập dữ liệu cho câu hỏi'}} - {{currentActivity.name}}
+        </h4>	        
+      </div>
+      <div class="modal-body">
+    		<!-- Nhập theo dạng bài đã chọn -->
+    		<div class="create-by-activity">
+    			<div class="activity">
+    				<div ng-include="currentActivity.template.input"></div>
+    			</div>
+    		</div>
+      	<!-- Modal Footer được tách ra để override actions -->
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="multiple-choice-inline input-question" ng-controller="multipleChoiceInline">
+    <divider></divider>
+
+    <div ng-if="!temp.isDivider">
+        <div class="tutorial">
+            <h4>Nhập các đáp án. Cho các kí tự vào trong ngoặc vuông nếu muốn bôi đậm + gạch chân.</h4>
+            <div class="example">Ví dụ: t[ea]ching => t<b><u>ea</u></b>ching</div>
+        </div>
+        <ul class="answers">
+            <li ng-repeat="option in options" class="input-group">
+                <input type="text" class="form-control" placeholder="Nhập nội dung" ng-model="temp.answers[$index]">
+                <span class="input-group-addon" title="Chọn làm đáp án">
+    		        <input type="radio" ng-model="temp.key" name="key{{$index}}" ng-value="$index">
+    	     	</span>
+            </li>
+        </ul>
+        <div class="explanation">
+            <h4>Giải thích đáp án</h4>
+            <textarea class="ck-editor" ng-model="temp.explanation"></textarea>
+        </div>
+    </div>
+
+    <modal-footer-actions></modal-footer-actions>
+</div>

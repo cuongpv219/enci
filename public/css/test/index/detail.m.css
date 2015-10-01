@@ -1,0 +1,43 @@
+#page-content .top-panel {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+	width: 600px;
+	margin: 20px auto;
+}
+
+#page-content .page-title {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #222;
+	margin: 0;
+	font-style: italic;
+}
+
+#page-content .summary {
+	margin: 10px 0;
+	color: #888;
+	text-align: center;
+}
+
+#page-content .description {
+	margin-top: 30px;
+}
+
+#page-content .do-test {
+	margin: 20px -20px;
+	padding: 20px 0;
+	background: #f6f6f6;
+	text-align: center;
+}
+
+.do-test a {
+	display: inline-block;
+	margin: 40px 0px;
+}
+
+#test-detail {
+	padding: 10px;
+	text-align: center;
+}

@@ -1,0 +1,178 @@
+#organization-admin-class-list-bar {
+    font-weight: bold;
+    padding:0px 40px 16px 40px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#class-list {
+    padding: 20px 40px 0px 40px;
+}
+
+.class-item:hover {
+}
+
+.class-image {
+    padding-top: 15px;
+    width: 220px;
+    clip: rect(0px, 220px, 110px, 0px);
+    position: absolute;
+}
+
+.class-teacher-info {
+    display: table;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px 15px 8px 15px;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border-bottom: 1px solid #E8E8E8;
+    background-repeat: no-repeat;
+    background-position: 328px 10px;
+    width: 220px;
+}
+
+.teacher-email {
+    color: #888;
+    font-style: italic;
+}
+
+.class-start-time {
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #E0E0E0;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.class-link a {
+    color: #0070C0;
+}
+
+.class-link {
+    list-style: square;
+    line-height: 26px;
+    margin-left: -10px;
+}
+
+.class-link a:hover {
+    color: #F36D00;
+    text-decoration: underline !important; 
+}
+
+.class-link img {
+    width: 16px;
+}
+
+.class-general-info, .teacher-avatar {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.teacher-avatar {
+    width: 48px;
+}
+
+.teacher-name {
+    margin-top: -4px;
+    font-weight: bold;
+}
+
+#class-list a {
+    text-decoration: none;
+}
+
+.class-item-statistics {
+    font-weight: bold;
+}
+
+.class-item-title {
+    color: #B00000;
+}
+
+#class-list-box {
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+#class-list-wrapper {
+    margin: 0 auto;
+}
+
+.class-item {
+    float: left;
+    width: 220px;
+    height: 460px;
+    background: white;
+    position: relative;
+    margin: 10px;
+    padding: 0px 15px 10px 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.class-item:hover {
+    cursor: pointer;
+}
+
+.class-item:hover .class-item-title {
+    color: #F36D00;
+}
+
+.class-item-summary {
+    color: #888;
+    margin-top: 0px;
+    line-height: 24px;
+}
+
+#clear-both-div {
+    clear: both;
+}
+
+#create-new-class {
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+
+.class-item-actions {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 15px 20px 15px;
+    border-top: 1px solid #E8E8E8;
+    width: 220px;
+    margin-left: -15px;
+    margin-right: -15px;
+    moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px white;
+    box-shadow: inset 0px 1px 0px 0px white;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #F2F2F2) );
+    background: -moz-linear-gradient( center top, white 5%, #F2F2F2 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F2F2F2');
+    background-color: white;
+    text-align: right;
+    color: #666;
+}
+
+.class-item-link {
+    color: #666;
+}
+
+.class-item-link:hover {
+    text-decoration: underline !important;
+    color: #F37D1D !important;
+}
+
+.class-item-title a {
+    color: #F36D00;
+}
+
+.class-item-title a:hover {
+    color: #B00000;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,145 @@
+#hint-outer {
+    background: white;
+    width: 650px;
+    top: 100px;
+    position: absolute;
+    z-index: 15;
+    display: none;
+    box-shadow: 0px 0px 10px 0px #888;
+}
+
+#hint-outer .hint-header span {
+    padding-left: 10px;
+    line-height: 33px;
+}
+#hint-outer .hint-header {
+    width: 650px;
+    height: 36px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#hint-outer .content {
+    padding: 0 20px 0px 20px;
+    text-align: justify;
+    width: 610px;
+    color: black;
+    height: 420px;
+    line-height: 24px;
+    outline: none;
+}
+
+#hint-outer .content blockquote {
+    border: 1px solid #ffafaf;
+    background-color: #ffe1e1;
+    margin: 20px 30px;
+    padding-left: 10px;
+}
+
+/* Help */
+#video-board-outer {
+    width: 640px;
+    height: 360px;
+    padding: 12px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    z-index: 30;
+    top: 100px;
+    display: none;
+    box-shadow: 0px 0px 10px 0px #888;
+    border-radius: 5px;
+}
+
+#video-board-outer:hover {
+    cursor: move;
+}
+
+#video-board-outer .btn-close-help {
+    position: absolute;
+    top: -23px;
+    right: -23px;
+    width: 42px;
+    cursor: pointer;
+    float: right;
+}
+
+#video-board-outer .embed-video {
+    width: 640px;
+    height: 360px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#video-board-outer .bottom-text {
+    margin-top: 15px;
+    height: 30px;
+    color: #7f7f95;
+}
+
+#video-board-outer .bottom-text .text-sample {
+    font-size: 17px;
+}
+
+#video-board-outer .bottom-text .text-close {
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+#video-board-outer .bottom-text img {
+    margin-top: 2px;
+    width: 20px;
+}
+/* END HELP*/
+
+#icon-hint:hover, 
+#icon-help:hover {
+    color: #f5770f;
+    border-color: #f5770f;
+}
+
+#icon-hint, 
+#icon-help {
+    line-height: 23px;
+    font-family: 'Times new romance' !important;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
+    margin-left: 4px;
+    color: #838383;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(244,244,244,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%); /* IE10+ */
+    background: linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(244,244,244,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+} 
+
+#video-help-player {
+    display:block;
+    min-width: 640px;
+    min-height: 360px; 
+    text-align:center;
+    margin:0 15px 15px 0;
+    float:left;
+}
+
+#video-help-player img {
+    margin-top: 160px;
+    border:0px;
+}
+
+#video-help-player object {
+    min-height: 360px;
+}

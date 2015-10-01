@@ -1,0 +1,260 @@
+root {
+    display: block;
+}
+
+#activity-infor {
+    width: 1000px !important;
+}
+
+#activity-container {
+    width: 1000px !important;
+    display: table;
+    margin-bottom: 25px;
+}
+
+.global-blue-bar {
+    display: none !important;
+}
+
+.global-activity-container {
+    border-top: 1px solid #dbdbdb !important;
+}
+
+#video-wrapper {
+    display: table-cell;
+    vertical-align: top;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+
+.question-container {
+    position: relative;
+    padding-top: 20px;
+    background-color: #FFF;
+    padding-left: 30px;
+    min-height: 355px;
+}
+
+.question-container p {
+    float: left;
+    margin-bottom: 8px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.choice-container {
+    cursor: pointer;
+    margin: 16px 20px;
+}
+
+.choice-container .fa {
+    color: rgb(128, 189, 13);
+    font-size: 18px;
+    padding-left: 10px; 
+}
+
+a.my-player {
+    width: 480px;
+    height: 270px;
+    text-align: center;
+    float: left;
+    background-color: #000;
+}
+
+.ask-container {
+    font-weight: 700;
+    padding: 14px 0;
+}
+
+.checked-blank {
+    color: #fd9803;
+    font-size: 13px;
+}
+
+a.my-player img {
+    margin-top: 117px;
+    border: 0;
+}
+
+#content-wrapper {
+    min-height: 314px;
+    display: table-cell;
+    background: #f8f8f8;
+    border-left: 1px solid #dbdbdb;
+    padding-left: 20px;
+}
+
+#next-link {
+    float: left;
+    margin-left: 10px;
+}
+
+#prev-link {
+    float: left;
+    margin-left: 400px;
+}
+
+#loadResult {
+    margin: auto;
+    float: inherit;
+}
+
+.radio-label {
+    margin-left: 8px;
+}
+
+#question-box {
+    display: none;
+    position: relative;
+    min-height: 395px;
+}
+
+.notification .notification-box {
+    margin: 15px 20px 0px;
+    display: none;
+    color: #fff;
+}
+
+.notification i {
+    padding: 5px 10px;
+    font-size: 45px;
+    color: #fff;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.notification .correct{
+    background: #2ecc71;
+}
+
+.notification .incorrect{
+    background: #b00000;
+}
+
+.notification span {
+    font-size: 32px;
+    top: 5px;
+    position: absolute;
+    padding-left: 17px;
+}
+
+.notification .correct span {
+    /*color: #2ecc71;*/
+}
+
+.notification .incorrect span {
+    /*color: #b00000;*/
+}
+
+#question-link .inactive-button {
+    margin: 4px !important;
+    width: 20px !important;
+    height: 20px !important;
+    position: relative;
+}
+
+#question-link .inactive-button.selected {
+    height: 22px !important;
+    width: 22px !important;
+}
+#question-link .inactive-button.selected i,
+#question-link .inactive-button:hover i{
+    color: #fff;
+}
+
+#question-link {
+    text-align: center;
+    border-bottom: 0px !important;
+    background: #f8f8f8;
+    border-top: 1px solid #e8e8e8;
+    margin: 0px -20px -20px;
+}
+
+#question-link i {
+    font-size: 18px;
+    position: absolute;
+    left: 3px;
+    top: 1px;
+}
+
+#question-link .fa-times {
+    color: #b00000;
+}
+
+#question-link .fa-check {
+    color: rgb(128, 189, 13);
+}
+
+#subtitle {
+    margin-top: 20px;
+    height: 440px;
+    overflow: auto;
+    font-family: "Segoe UI", "Arial" !important;
+    background: #f8f8f8;
+}
+#subtitle ul {
+    padding-left: 20px;
+}
+
+#subtitle::-webkit-scrollbar {
+    width: 5px;
+    /* for vertical scrollbars */
+    height: 12px;
+    /* for horizontal scrollbars */
+}
+
+#subtitle::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#subtitle::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.global-shadow-radius-bottom {
+    border-radius: 0px !important;
+}
+
+#question-link .true-icon,
+#question-link .false-icon {
+    margin-bottom: 4px !important;
+}
+
+.play-youtube-video {
+    display: none;
+    float: left;
+    background: #00679f !important; 
+}
+
+#no-sub {
+    font-style: italic;
+    padding-top: 20px;
+}
+
+
+.global-button-green {
+    float: left;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 20px;
+    border: 2px solid #fff;
+    /*display: block;*/
+    background: #0f9d58;
+    cursor: pointer;
+}
+
+.btn-submit-question, .btn-redo-question {
+    background: #f39c12 !important;
+}
+
+.btn-redo-question, .btn-show-answer {
+    display: none;
+}

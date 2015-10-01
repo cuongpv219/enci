@@ -1,0 +1,157 @@
+#facebook-menu {
+    -webkit-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    border-bottom: 1px solid #E0E0E0;
+    height: 50px;
+    background: white;
+    margin-top: 0px;
+    display: table;
+}
+
+.facebook-menu-item {
+    list-style: none;
+    display: inline-block;
+    height: 41px;
+    vertical-align: middle;
+    padding-top: 18px;
+    border-right: 1px solid #E8E8E8;
+    text-align: center;
+    min-width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: -4px;
+}
+
+.facebook-menu-item:hover {
+    cursor: pointer;
+}
+
+.has-sub-menu:hover {
+    background: white !important;
+    border-bottom: none !important;
+    /*    height: 41px;*/
+}
+
+.facebook-menu-item:hover .menu-subitem-list {
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    /*    border-bottom: 1px solid #E8E8E8;*/
+    display: block;
+    position: absolute;
+    width: 160px;
+    margin-top: 12px;
+    margin-left: -1px;
+    padding: 0px !important;
+
+    /*        -webkit-box-shadow:  1px 2px 8px 1px #E0E0E0;
+            
+            box-shadow:  1px 2px 8px 1px #E0E0E0;*/
+
+}
+
+.menu-subitem-list a {
+    color: black !important;
+    font-weight: normal;
+
+}
+
+.menu-subitem-list li {
+    list-style: none;
+    padding: 14px 0px 14px 20px;
+    text-align: left !important;
+    /*    border-bottom: 1px solid #E8E8E8;
+        border-top: 1px solid #E8E8E8;*/
+    /*    margin-bottom: -1px;*/
+    border-bottom: 1px solid #E8E8E8;
+    background: white;
+}
+
+.menu-subitem-list li:hover {
+    background: #F6F6F6;
+
+}
+
+.facebook-menu-item:hover a {
+    color: #0073AC;
+    /*    color: #F36D00 !important;*/
+}
+
+.facebook-menu-item a {
+    color: #222;
+    text-decoration: none;
+}
+
+#facebook-menu-list {
+    margin-top: 0px;
+    height: 50px;
+    padding: 0px;
+    display: table-cell;
+}
+
+#facebook-menu-logout-box {
+    display: table-cell;
+    width: 300px;
+    text-align: right;
+}
+
+.facebook-menu-active {
+    /*    background: white !important;*/
+    border-bottom: none;
+    height: 41px;
+
+}
+
+.facebook-menu-active a {
+    color: #F36D00;
+}
+
+.menu-subitem-list {
+    display: none;
+    font-size: 13px;
+    top: 48px;
+    position: relative;
+    z-index: 100;
+}
+
+#facebook-ucan-logo-img {
+    width: 116px;
+    height: 32px;
+}
+
+#facebook-ucan-logo, #facebook-menu-list, #facebook-user-uc {
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+#facebook-ucan-logo {
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-right: 1px solid #E8E8E8;
+    font-size: 20px;
+    font-weight: bold;
+    /*background: #F6F6F6;*/
+    color: #0073AD;
+    /*color: white;*/
+    /*background: #0073AD;*/
+/*    color: #F36D00;*/
+}
+
+#facebook-menu-list {
+    width: 647px;
+}
+
+#facebook-user-uc {
+    width: 200px;
+    border-left: 1px solid #E8E8E8;
+    font-size: 28px;
+    text-align: center;
+    color: #B00000;
+    font-weight: bold;
+}

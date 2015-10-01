@@ -1,0 +1,313 @@
+#home-introduction {
+    /*background: url('http://www.ucan.vn/shark/public/img/global/combo/home/3.jpg');*/
+    /*background: #00acc2;*/
+    color: #fff;
+}
+
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    padding: 0px !important;
+    margin-bottom: 10px;
+}
+
+#superiority h3 {
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+#superiority .list-group {
+    padding-left: 10px;
+}
+
+#superiority h4 {
+    color: #000;
+}
+
+#superiority .label {
+    float: left;
+    margin-right: 10px;
+    padding: 5px !important;
+    font-weight: normal;
+    font-size: 44px;
+}
+
+#hot-series-box .label, #hot-courses-box .label , #hot-ugcs-box .label{
+    margin-left: 10px;
+}
+
+#home-introduction h4 {
+    color: #fff;
+}
+
+#superiority .list-group p {
+    color: #888;
+}
+
+#home-introduction .list-group p {
+    /*color: #8af0ff;*/
+    color: #fff;
+}
+
+#superiority .order {
+    background-color:  #0f9d58;
+    font-size: 20px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#home-introduction .row-action-primary i {
+    background-color:  rgba(0,0,0,0);
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 45px;
+}
+
+.list-group .list-group-item .row-content {
+    width: calc(100% - 70px);
+}
+
+.list-group .list-group-item .row-content h4,
+.list-group .list-group-item .row-content p {
+    margin-right: 0px; 
+}
+
+.list-group .list-group-item .row-content .action-secondary~* {
+    max-width: none;
+}
+
+#btn-register {
+    text-align: center;
+    margin-top: -10px;
+}
+
+#btn-register .btn-default {
+    background: #fff;
+    width: 100%;
+    padding: 12px 30px !important;
+}
+
+.alert {
+    margin-bottom: 0px !important;
+}
+
+#superiority {
+    padding: 40px 10px 20px;
+}
+
+#superiority ul {
+    /*list-style: none;*/
+    padding-left: 20px;
+}
+
+#superiority .list-group-item-text li {
+    color: #888;
+}
+
+#hot-courses-box h3 {
+    margin-top: 0px;
+}
+
+#hot-series-box, #hot-courses-box, #hot-ugcs-box, #logo-partners {
+    padding: 10px;
+}
+
+#hot-series-box, #superiority, #hot-courses-box, #hot-ugcs-box, #ucan-quote {
+    /*background: #e6e6e6;*/
+    color: #000;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.course-item {
+    padding: 10px;
+}
+
+.course-item img {
+    width: 100%;
+}
+
+.list-box h5 {
+    color: #000;
+    min-height: 40px;
+    line-height: 20px;
+}
+
+.course-index-box-left {
+    padding-right: 2px !important;
+}
+
+.course-index-box-right {
+    padding-left: 5px;
+    padding-right: 12px;
+}
+
+.course-index-box .panel {
+    margin-bottom: 10px;
+}
+
+.course-index-box .panel-body {
+    padding: 5px;
+}
+
+.list-box {
+    margin-top: 20px;
+}
+
+.btn-view-more {
+    padding: 12px 30px;
+}   
+
+.course-detail-item img {
+    width: 100%;
+}
+
+.row {
+    margin-right: -10px !important;
+}
+
+#ucan-quote {
+    padding: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+#ucan-quote h3 {
+    color: #000;
+}
+
+#ucan-quote .quote-content {
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+    /* min-height: 103px; */
+    text-align: justify;
+    /* padding-left: 180px; */
+    width: 100%;
+    clear: both;
+}
+
+#ucan-quote .name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+#ucan-quote .job {
+    color: #888;
+}
+
+#ucan-quote .quote .img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid #d0d0d0;
+    border-radius: 50%;
+    overflow: hidden;
+    /*background: url('../../../img/global/avatar-user/ava.jpg');*/
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#ucan-quote .quote img {
+    width: 60px;
+    height: 60px;
+}
+
+#ucan-quote .content {
+    /* width: 100px; */
+    /* float: left; */
+    /* padding: 20px; */
+    /*padding-left: 120px;*/
+    padding-right: 10px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+
+#ucan-quote .quote{
+    position: absolute;
+    top: 80px;
+    /* width: 760px; */
+    z-index: 0;
+    opacity: 0;
+}
+#ucan-quote .quote:first-child{
+    z-index: 1;
+    opacity: 1;
+}
+
+#ucan-quote .quote-finish{
+    position: absolute;
+    bottom: -35px;
+    right: 0px;
+    height: 65px;
+    width: 70px;
+    /*background: url('../../../img/global/quote/quote_finish.png') no-repeat;*/
+}
+
+#ucan-quote .title{
+     padding: 16px 0px 7px;
+    clear: both;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #0083C4;
+}
+
+#ucan-quote .show-user{
+    z-index: 1 !important;
+    opacity: 1 !important;
+    transition: opacity 0.5s ease-in-out;
+}
+#ucan-quote .hide-user{
+    z-index: 0 !important;
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#logo-partners {
+    padding-bottom: 40px;
+}
+
+#logo-partners .partner img {
+    width: 100%;
+}
+
+
+#logo-partners .logo {
+    position: relative;
+    height: 90px;
+}
+
+#logo-partners .partner {
+    position: absolute;
+    bottom: 0;
+}
+
+#logo-partners h3 {
+    margin-bottom: -15px;
+    color: #000;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.video-intro {
+    padding: 0 10px;
+}

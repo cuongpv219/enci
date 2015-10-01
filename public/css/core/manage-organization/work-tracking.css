@@ -1,0 +1,161 @@
+#work-tracking-form input[type=text] {
+    height: 24px;
+    padding: 0px 0px !important;
+    font-family: Segoe UI;
+}
+
+#work-tracking-placeholder {
+    display: table;
+    padding: 30px;
+    width: 100%;
+}
+
+#work-tracking-detail, #work-tracking-input {
+    display: table-cell;
+}
+
+#work-tracking-detail {
+    width: 70%;
+    padding-right: 30px;
+}
+
+#work-tracking-input {
+    width: 30%;
+    padding-left: 30px;
+    border-left: 1px solid #F0F0F0;
+}
+
+#work-tracking-submit {
+    /*    font-size: 14px;*/
+}
+
+#work-tracking-placeholder h3 {
+    font-size: 18px;
+}
+
+#work-tracking-summary {
+    width: 100%;
+}
+
+#work-tracking-summary-table {
+    display: table;
+    width: 100%;
+}
+
+.work-tracking-summary-by-person {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #F0F0F0;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+
+    /*    background: #F0F0F0;*/
+}
+
+.work-tracking-summary-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.personal-avatar {
+    width: 32px;
+    height: 32px;
+    background: white;
+    padding: 2px;
+    /*    border: 1px solid #F0F0F0;*/
+}
+
+.personal-fullname {
+    min-width: 600px;
+    padding-left: 20px;
+}
+
+.personal-num-of-workings {
+    min-width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    color: #B00000;
+    font-weight: bold;
+}
+
+#fullname-header, #num-of-workings-header {
+    font-weight: bold;
+    color: black;
+}
+
+#fullname-header {
+    padding-left: 24px;
+}
+
+#work-tracking-summary-header {
+    margin-top: 30px;
+    border-top: 1px solid #F0F0F0;
+    background-color: #F6F6F6;
+}
+
+#image-header {
+    background: #F6F6F6;
+}
+
+#work-tracking-detail-by-person {
+    margin-top: 50px;
+}
+
+.work-tracking-label {
+    width: 60px;
+    display: inline-block;
+}
+
+.work-tracking-input-placeholder {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#work-tracking-submit {
+    margin-left: 66px;
+}
+
+.work-tracking-id {
+    width: 6%;
+}
+
+.work-tracking-fullname {
+    width: 20%;
+}
+
+.work-tracking-title {
+    width: 40%;
+    min-width: 300px;
+}
+
+.work-tracking-course-title {
+    width: 17%;
+}
+
+.work-tracking-created-time {
+    width: 17%;
+}
+
+.work-tracking-detail-by-person {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #F0F0F0;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+    padding: 6px 0px 6px 10px;
+}
+
+.work-tracking-detail-header {
+    font-weight: bold;
+    background: #F0F0F0;
+    border-top: 1px solid #F0F0F0;
+}
+
+#work-tracking-form {
+    margin-top: 30px;
+}
+
+.work-tracking-detail-by-person:hover {
+    background: #F6F6F6;
+    cursor: pointer;
+}

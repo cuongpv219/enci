@@ -1,0 +1,27 @@
+{
+  "name": "lib",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dolphin6868/shark",
+  "authors": [
+    "doannd <nguyendinhdoan@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "~1.2.25",
+    "angular-timer": "~1.1.7",
+    "angular-ui-sortable": "https://github.com/angular-ui/ui-sortable.git#~0.12.11",
+    "angular": "~1.2.25",
+    "bootstrap": "~3.2.0",
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#~4.2.0",
+    "jquery-ui": "https://github.com/components/jqueryui.git#~1.11.1",
+    "jquery": "~2.1.1",
+    "SoundManager2": "https://github.com/scottschiller/SoundManager2.git"
+  }
+}

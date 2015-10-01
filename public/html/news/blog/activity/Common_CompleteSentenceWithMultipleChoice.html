@@ -1,0 +1,60 @@
+<div class="embed-activity ccswmc" ng-controller="Common_CompleteSentenceWithMultipleChoice_Ctrl">
+  <div class="panel panel-success">
+      <div class="panel-heading">
+          <h3 class="panel-title" ng-bind-html="bindHtml(activity.request)"></h3>
+      </div>
+      <div class="panel-body">
+          <div common-complete-sentence-with-multiple-choice>
+            <div ng-repeat="ques in activity.question">
+              <div ng-if="$index == quesIndex">
+                <p class="question">{{ques.ask}}</p>
+
+                <!-- Nếu là loại chỉ có 2 đáp án thì hiển thị thành button -->
+                <label class="choice" 
+                  ng-class="{'correct': (ques.result || ques.completed) && $index == ques.key,
+                    'incorrect': ques.result == false && $index == ques.userChoice,
+                    'type2': ques.choice.length == 2,
+                    'true': ques.choice.length == 2 && ($index % 2 == 0),
+                    'false': ques.choice.length == 2 && ($index % 2 == 1),
+                    'active': ques.userChoice != null && $index == ques.userChoice
+                  }"
+                  ng-repeat="choice in ques.choice">
+                  <input type="radio" 
+                    ng-disabled="ques.result != null"
+                    ng-model="ques.userChoice" ng-value="{{$index}}">
+                  {{choice}}
+                </label>
+                <span class="result"
+                    ng-class="{
+                      'fa fa-check': ques.result, 
+                      'fa fa-times': !ques.result,
+                      'correct': ques.result,
+                      'incorrect': !ques.result
+                    }"
+                    ng-if="ques.result != null"></span>
+              </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="summary" ng-if="quesIndex >= activity.question.length">
+              <div class="icon"><i class="fa fa-graduation-cap"></i></div>
+              <div class="msg">Điểm số: {{score/activity.question.length * 100 | number:0}}%</div>
+              <div class="redo" ng-click="redo()">Làm lại <i class="fa fa-refresh"></i></div>
+            </div>
+
+            <!-- Actions -->
+            <div class="actions clearfix" ng-if="quesIndex < activity.question.length">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" 
+                  style="width: {{quesIndex / activity.question.length * 100}}%"></div>
+              </div>
+              <button type="button" 
+                class="btn btn-default btn-raised pull-right next" 
+                ng-click="next()"
+                ng-disabled="activity.question[quesIndex].result != null">Tiếp tục</button>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+

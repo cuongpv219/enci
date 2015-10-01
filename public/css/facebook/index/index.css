@@ -1,0 +1,67 @@
+#facebook-lesson-top-bar {
+    display: table;
+    padding: 40px 20px 20px 0px;
+    border-bottom: 1px solid #E8E8E8;
+    width: 100%;
+    -webkit-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -moz-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -o-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -ms-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    background: white;
+}
+
+#facebook-lesson-logo, #facebook-lesson-ucan-logo, #facebook-lesson-plus, #facebook-lesson-message {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#facebook-lesson-logo {
+    width: 240px;
+}
+
+#facebook-lesson-top-bar img {
+    width: 240px;
+}
+
+#facebook-lesson-message h1 {
+    margin-top: 0px;
+    color: #B00000;
+}
+
+#facebook-lesson-title {
+    padding: 20px 20px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    -webkit-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    box-shadow: inset 0px -5px 10px 0px #F0F0F0;
+    border-bottom: 1px solid #E0E0E0;
+    background: #F8F8F8;
+}
+
+#facebook-lesson-message p {
+    line-height: 24px;
+}
+
+#ucan-facebook-buttons {
+    margin-top: 40px;
+}
+
+#ucan-facebook-buttons a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.front-flat-menu-item-active, .front-flat-menu-item-inactive {
+    min-width: 80px !important;
+    height: 32px;
+    line-height: 32px;
+}
+
+.series-list-box {
+    margin-top: 30px;
+}

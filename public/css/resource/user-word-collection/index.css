@@ -1,0 +1,223 @@
+#collection-navigator-bottom .frontend-green-button {
+    width: 420px;
+    height: 40px;
+}
+
+#user-word-collection-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#collection-wrapper {
+    padding-bottom: 60px;
+}
+
+#collection-header {
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+}
+
+#collection-navigator-choices {
+    display: inline-block;
+    margin: 30px auto 10px auto;
+    position: relative;
+    box-shadow: 0px 8px 12px -9px #dbdbdb;
+    padding: 0;
+}
+#collection-navigator-choices .item:last-child {
+    border-right: 1px solid #e8e8e8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#collection-navigator-choices .item:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#collection-navigator-choices .item.active {
+    background-color: #f9f9f9;
+}
+#collection-navigator-choices .item {
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+#collection-navigator-choices .item a {
+    color: #157ab5;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+#collection-navigator-choices .item a:hover {
+    text-decoration: underline;
+}
+
+#datetime-choice-wrapper .front-grey-button {
+    height: 20px;
+    border-radius: 2px;
+    padding: 0;
+    font-size: 12px;
+    width: 64px;
+    height: 26px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#datetime-choice-wrapper {
+    position: absolute;
+    background: white;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+    top: 42px;
+    right: -119px;
+    padding: 20px;
+    color: #555555;
+    text-align: right;
+    width: 220px;
+    height: 120px;
+    display: none;
+}
+
+#ui-datepicker-div {
+    width: 210px;
+    border-radius: 0;
+}
+.ui-datepicker, .ui-datepicker td {
+    font-size: 10px;
+}
+.ui-datepicker td {
+    width: 30px;
+}
+
+#datetime-choice-wrapper .time {
+    outline: none;
+    margin-left: 10px;
+    width: 140px;
+}
+
+#collection-filter-list {
+    border: 1px solid #dddddd;
+    border-collapse: separate;
+    border-left: 0;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    max-width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
+}
+#collection-filter-list th:first-child {
+    width: 40px;
+}
+#collection-filter-list th {
+    color: #555555;
+    font-size: 14px;
+}
+#collection-filter-list tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+#collection-filter-list td {
+    border-top: 1px solid #dddddd;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+}
+#collection-filter-list th,
+#collection-filter-list td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-left: 1px solid #dddddd;
+}
+
+#collection-filter-list .listen:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+#collection-filter-list .listen {
+    text-align: center;
+    width: 40px;
+    background: url("../../img/sound-speaker-16.png") center no-repeat;
+}
+#collection-filter-list .title {
+    color: #f36d00;
+    font-weight: bold;
+}
+#collection-filter-list .pronunciation {
+    color: #555555;
+    word-spacing: 1px;
+}
+#collection-filter-list .meaning {
+    color: #555555;
+}
+#collection-filter-list .remove {
+    background: url("../../img/dict-remove-word-16.png") center no-repeat;
+}
+#collection-filter-list .practise {
+    cursor: default !important;
+}
+#collection-filter-list .practise,
+#collection-filter-list .remove {
+    text-align: center !important;
+    cursor: pointer;
+}
+#collection-filter-list .thlisten,
+#collection-filter-list .thremove,
+#collection-filter-list .thpractise {
+    width: 30px;
+}
+#collection-filter-list .thpronunciation{
+    width: 280px;
+}
+#collection-filter-list .thtitle {
+    width: 220px;
+}
+#collection-filter-list .show-hide-column {
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: "Segoe UI" !important;
+    background-color: #BC2943;
+    margin: -2px 8px 0 0;
+    font-weight: bold;
+    width: 40px;
+    padding: 0px 0 0px 0;
+    border-radius: 5px;
+    height: 23px;
+    float: left;
+    cursor: pointer;
+}
+
+#collection-navigator-bottom {
+    margin-top: 40px;
+    text-align: center;
+}
+#collection-navigator-bottom button {
+
+}
+.titleblur, .titleblur::selection{
+    color:transparent;
+    text-shadow:0 0 10px #F36D00;
+}
+.meaningblur, .meaningblur::selection {
+    color:transparent;
+    text-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+#word-list-result-msg {
+    margin-bottom: 0;
+    color: #BC2943;
+    font-weight: bold;
+}

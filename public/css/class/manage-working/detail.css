@@ -1,0 +1,48 @@
+#working-detail-content-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#working-detail-menu {
+    padding: 20px 20px 20px 40px;
+}
+
+#working-detail-menu li, #featured-working-activity-list li {
+    list-style: square;
+    line-height: 24px;
+}
+
+#working-detail-menu li a, #featured-working-activity-list li a {
+    color: #0070C0;
+    text-decoration: none;
+}
+
+#working-detail-menu li a:hover, #featured-working-activity-list li a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#detail-working-subtitle {
+    padding-top: 0px;
+    margin-top: -10px;
+    color: #888;
+}
+
+#featured-working-content {
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+#working-title {
+    color: black;
+}
+
+#class-working-detail-title {
+    color: #B00000;
+    text-decoration: none;
+}
+
+#class-working-detail-title:hover {
+    color: #F36D00;
+}

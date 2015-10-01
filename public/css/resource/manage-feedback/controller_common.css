@@ -1,0 +1,27 @@
+.global-button-silver:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #E6E6E6), color-stop(1, white) );
+    background: -moz-linear-gradient( center top, #E6E6E6 5%, white 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e6e6', endColorstr='#ffffff');
+    background-color: #E6E6E6;
+    cursor: pointer;
+}
+.global-button-silver {
+    padding: 4px 10px 4px 10px;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-right: 10px;
+    box-shadow: inset 0px 1px 0px 0px white;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #E6E6E6) );
+    background: -moz-linear-gradient( center top, white 5%, #E6E6E6 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6');
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #C2C2C2;
+    display: inline-block;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px white;
+    text-align: center;
+}

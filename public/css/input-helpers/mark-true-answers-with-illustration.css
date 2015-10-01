@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+#character-list {
+    list-style: none;
+    padding: 0;
+}
+
+#character-list li *:hover {
+    opacity: 0.85;
+}
+
+#character-list img {
+    max-width: 80px;
+    clear:both;
+    display: block;
+}
+
+.character {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+
+.character > input[type="checkbox"] {
+    margin-left: 0;
+}
+
+#clause {
+    color: #4f81bd;
+    font-size: 14px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+#message {
+    color: #999;
+    display: none;
+}
+
+#navigator {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 8px;
+    text-align: right;
+}
+#navigator input {
+    width: 100px;
+    height: 30px;
+}
+
+#title-choose-characters {
+    color: #333;
+}

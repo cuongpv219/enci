@@ -1,0 +1,73 @@
+#teacher-info-box {
+    display: table;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teacher-avatar, #teacher-info {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#teacher-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 0px -5px 20px 0px #FAFAFA;
+    background: white;
+    border: 1px solid #E0E0E0;
+    padding: 6px;
+}
+
+#teacher-info {
+    width: 480px;
+    padding-left: 30px;
+}
+
+#teacher-info h2 {
+    margin-top: 10px;
+    color: #B00000;
+}
+
+#teacher-info h3 {
+    color: #333;
+}
+
+#teacher-info .email {
+    color: #888;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 20px;
+}
+
+#teacher-info .no-teaching {
+    /*color: #888;*/
+}
+
+#teaching-classes li {
+    list-style: square;
+}
+
+#teaching-classes li a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+#teaching-classes li a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#teachers-list-box {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    background: #F6F6F6;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+#page-content {
+	padding: 20px;
+}
+
+.data-list {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 20px;
+}
+
+.data-list th {
+	background: #f6f6f6;
+}
+
+.data-list th,
+.data-list td {
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #e8e8e8;
+}
+
+.data-list .change-status{
+	float: right;
+	color: #b00000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.data-list .actions a {
+	margin: 0 10px;
+}
+.data-list .actions a:hover {
+	text-decoration: underline;
+}
+.data-list .edit{
+	color: #0F97FF;
+}
+
+.data-list .publish{
+	color: #4E7E18;
+}
+
+.data-list .edit{
+	color: #F37D1D;
+}
+
+.data-list .view{
+	color: #3399ff;
+}
+
+.data-list .delete-item{
+	color: #B00000;
+}
+
+.data-list a{
+	text-decoration: none;
+}
+.organization-admin-grey-button {
+	margin-top: 20px;
+}
+
+#pagination {
+	margin-top: 30px;
+    width: 700px;
+    margin: 30px auto;
+}
+
+.delete-ugc {
+	position: absolute;
+    top: 140px;
+    right: 300px;
+}
+
+#organization-admin-content {
+	padding: 20px !important;
+}

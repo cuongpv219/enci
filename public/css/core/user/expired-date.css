@@ -1,0 +1,36 @@
+#user-setting-content .content {
+    padding: 30px 10px;
+    border: 1px solid #e8e8e8;
+    background: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: #555;
+    position: relative;
+    height: 40px
+}
+
+#user-setting-content i {
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #888;
+}
+
+#user-setting-content span {
+    padding-left: 160px;
+    vertical-align: -10px;
+}
+
+#user-setting-content strong {
+    color: #0084c0;
+}
+
+#user-setting-content a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    text-align: center;
+}

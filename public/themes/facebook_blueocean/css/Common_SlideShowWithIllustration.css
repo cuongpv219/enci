@@ -1,0 +1,182 @@
+#paragraph-container {
+    min-height: 300px;
+    display: none;
+}
+#board-container{
+    width:780px;
+    margin: 0px;
+    border:none;
+    position: relative;
+}
+#intro-container {
+    width: 780px;
+    height: auto;
+    padding-bottom: 20px;
+}
+#intro-title {
+    color: #fd9803;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 50px 200px 0px 200px
+}
+#intro-example {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#audio-container{
+    padding-right: 30px;
+    float: left;
+    width:140px;
+    margin-bottom: 10px;
+}
+#picture-board{
+    float:left;
+    padding: 0px 10px 20px 0px;
+    margin: 20px;
+    width: 250px;
+}
+.picture {
+    width: 250px;
+    border: 2px solid #fff;
+    -moz-box-shadow: 0 1px 8px #ddd;
+    -webkit-box-shadow: 0 1px 8px #ddd;
+    box-shadow:0 1px 8px #c2c2c2
+}
+#lession-board {
+    float: left;
+    width: 450px;
+    padding-top: 29px;
+    padding-right: 29px;
+}
+#lession-title {
+    color: #ddd;
+    float: left;
+    width: 300px;
+    padding-left: 30px;
+    font-family: "Segoe UI";
+    font-size: 22px;
+    text-align: left;
+}
+.lession-img {
+    width: 250px;
+    -webkit-box-shadow:0 1px 8px #c2c2c2;
+    -moz-box-shadow:0 1px 8px #c2c2c2;
+    box-shadow: 0 1px 8px #c2c2c2;
+    border: 1px solid white;
+}
+.slideshow-picture {
+    width: 250px;
+    -moz-box-shadow: 0 1px 8px #ddd;
+    -webkit-box-shadow: 0 1px 8px #ddd;
+    border: 2px solid #fff;
+    -moz-box-shadow: 0 1px 8px #ddd;
+    -webkit-box-shadow: 0 1px 8px #ddd;
+}
+.inactive-button {
+    float: right;
+}
+.home-img {
+    margin-left: -3px;
+    margin-top: 2px
+}
+#paragraph-number{	
+    height:30px;
+    text-align:center;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.cp-container{
+    display: none;
+}
+.slideshow-picture-description {
+    width: 210px;
+    padding: 0px 20px 0 20px;
+    height: 40px;
+    color: #000;
+}
+#paragraph-number div{
+
+}
+.exactly {
+    color: #f8883c;
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+.description-video {
+
+}
+.slideshow-pictures-wrapper{
+    display: none;
+}
+.description-slideshow {
+    position: relative;
+}
+#pre-next{
+    margin-left: 270px;
+    float: left;
+}
+.slideshow-navigator-prev{
+    background: url("../img/slideshow_next_prev_triangle.png") no-repeat;
+    background-position: -24px 0;
+    z-index: 5;
+    bottom: 0px;
+    left: -15px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.slideshow-navigator-prev:hover{
+    background-position: 0 0;
+}
+
+.slideshow-navigator-next{
+    background: url("../img/slideshow_next_prev_triangle.png") no-repeat;
+    background-position: -50px 0;
+    z-index: 5;
+    bottom: 0px;
+    left: 242px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.slideshow-navigator-next:hover{
+    background-position: -74px 0;
+}
+#prev-link{
+    float: left;
+    margin-left: 20px;
+}
+#next-link{
+    float: left;
+    margin-left: 10px;
+}
+#loadResult {
+    float: right; 
+}
+#audios-dialogs-container {
+    margin-top: 40px;
+}
+
+a.my-player {
+    width: 350px;
+    height: 230px; 
+    text-align:center;
+    margin:0 15px 15px 0;
+    float:left;
+    background-color: black;
+}
+
+a.my-player img {
+    margin-top: 117px;
+    border:0px;
+}

@@ -1,0 +1,109 @@
+#class-announcement-list {
+    padding: 20px 40px 20px 40px;
+    background: #F6F6F6;
+    border-top: 1px solid #E8E8E8;
+}
+
+#class-announcement-list-title {
+    padding: 10px 40px 10px 40px;
+}
+
+.class-announcement-item {
+    padding-top: 0px;
+    padding-right: 20px;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+.class-announcement-item-order, .class-announcement-item-content {
+    display: table-cell;
+}
+
+.class-announcement-item-order {
+    vertical-align: middle;
+    width: 120px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #B00000;
+    border-right: 1px solid #F0F0F0;
+}
+
+.class-announcement-item-content {
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.class-announcement-item-unpublished .class-announcement-title {
+    color: #999 !important;
+    font-style: italic;
+}
+
+.class-announcement-item-unpublished {
+    color: #999 !important;
+}
+
+.class-announcement-item-unpublished .class-announcement-item-order {
+    color: #999 !important;
+}
+
+.class-announcement-title {
+    font-size: 13px !important;
+    color: #EE7512 !important;
+}
+
+.class-announcement-links {
+    float: right;
+    margin-top: 10px;
+}
+
+.class-announcement-description {
+    margin-top: 0px;
+    line-height: 24px;
+}
+
+#create-new-class-announcement {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    
+}
+
+#create-new-class-announcement a {
+    font-size: 16px !important;
+}
+
+#ranking-pagination {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.class-announcement-links a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+.class-announcement-links a:hover {
+    text-decoration: underline;
+    color: #F36D00;
+}
+
+.class-announcement-title a {
+    color: #F36D00;
+    text-decoration: none;
+}
+
+.class-announcement-title a:hover {
+    color: #B00000;
+    text-decoration: underline;
+}
+
+.class-announcement-subtitle {
+    margin-top: -8px;
+    color: #888888;
+    font-style: italic;
+}

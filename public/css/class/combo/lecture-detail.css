@@ -1,0 +1,122 @@
+.lecture-detail {
+	margin-top: -8px;
+	margin-left: -20px;
+	display: table;
+}
+
+.combo-title-header p {
+	color: #888;
+	line-height: 20px;
+}
+
+.lecture-detail-menu li {
+	padding: 12px 10px 12px 14px;
+	box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+	border-top: 1px solid #E8E8E8;
+	border-left: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	margin-top: -1px;
+	margin-left: -1px;
+	cursor: pointer;
+}
+
+.time {
+	color: #888;
+}
+
+.item-video {
+	text-align: center;
+	background: #000;
+	margin: 0px -20px 20px 0px;
+	padding: 20px ;
+}
+
+.lecture-detail-menu {
+	list-style: none;
+	padding: 0;
+	width: 260px;
+	box-shadow: inset -5px 0px 10px 0px #F6F6F6;
+	display: table-cell;
+	vertical-align: top;
+	border-right: 1px solid #E8E8E8;
+}
+
+.lecture-content {
+	display: table-cell;
+	padding: 20px;
+}
+
+.lecture-item {
+	margin-top: -20px; 	
+}
+
+.lecture-content .lecture-item p{
+	line-height: 20px;
+}
+.lecture-content .lecture-item h2 {
+	color: #b00000;
+	margin-bottom: 3px;
+}
+
+.lecture-content .lecture-item .header {
+	border-bottom: 1px solid #e8e8e8;
+	margin: 20px -40px 20px -20px;
+	padding-bottom: 17px;
+	display: none;
+	padding-left: 20px;
+	box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+}
+
+.header-img{
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	height: 100px;
+	background: url('../../../img/global/combo/lecture-1.png') no-repeat;
+}
+
+.header-img img {
+	width: 100px;
+	height: 100px;
+}
+
+.lecture-detail-menu li .active{
+	color: #F36C21 !important;
+	font-weight: bold;
+}
+
+.lecture-detail-menu li a{
+	text-decoration: none;
+	color: #888;
+}
+
+.lecture-detail-menu li:hover a{
+	text-decoration: underline;
+	color: #0070C0;
+}
+
+.lecture-detail-menu .deactive {
+	color: #888;
+}
+
+.lecture-detail-menu .deactive:hover {
+	color: #555;
+}
+
+.lecture-detail-menu .active{
+	font-weight: bold;
+	color: #f36d00;
+}
+
+.lecture-item {
+	margin-top: -20px; 	
+}
+
+.lecture-item.item-active {
+	display: block;
+}
+
+.lecture-item.item-deactive {
+	display: none;
+}
+

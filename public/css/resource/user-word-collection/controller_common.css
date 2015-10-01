@@ -1,0 +1,75 @@
+body {
+    background-color: #ffffff !important;
+}
+#front-content {
+    padding: 1px 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+}
+#front-content-box {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    width: 100% !important;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+#activity-siblings {
+    font-size: 16px;
+    margin-left: -20px !important;
+}
+
+#activity-infor {
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+    z-index: 20;
+}
+
+#activity-info-box {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: inset 0px -1px 20px 0px #F2F2F2;
+    -moz-box-shadow: inset 0px -1px 20px 0px #F2F2F2;
+    -o-box-shadow: inset 0px -1px 20px 0px #F2F2F2;
+    -ms-box-shadow: inset 0px -1px 20px 0px #F2F2F2;
+    box-shadow: inset 0px -1px 20px 0px #F2F2F2;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#activity-basic-info {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.front-flat-menu-item-active, 
+.front-flat-menu-item-inactive {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    min-width: 30px !important;
+    max-width: 30px !important;
+}
+
+#activity-basic-info > h3 {
+    color: #F36D00;
+}
+
+#practice-request {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 8px;
+    line-height: 24px;
+    text-align: justify
+}
+
+#learning-result {
+    display: none;
+}

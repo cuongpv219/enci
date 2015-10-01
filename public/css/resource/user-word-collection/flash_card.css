@@ -1,0 +1,347 @@
+.frontend-green-button {
+    font-size: 13px !important;
+    padding: 6px 14px  !important;
+}
+
+.global-green-bar {
+    width: auto;
+}
+
+#fc-total-words {
+    color: #888;
+    font-style: italic;
+    padding-left: 4px;
+}
+
+#fc-content .content {
+    height: 300px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 1000px;
+    padding-bottom: 30px;
+}
+
+#fc-content .content ul {
+    padding: 0;
+    list-style: none;
+}
+
+#fc-content .header-functions {
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#fc-auto-mode {
+    display: inline-block;
+    float: right;
+}
+#fc-auto-mode span {
+    vertical-align: top;
+    color: #555555;
+}
+
+#fc-step-title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #b00000;
+    padding-left: 20px;
+}
+
+#fc-content .btn-listen {
+    width: 24px;
+    height: 24px;
+    padding-left: 10px;
+    background: url('../../img/sound-speaker-24.png') center no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#fc-progress {
+    overflow: hidden;
+    height: 4px;
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+    background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+    background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+#fc-progress .bar {
+    height: 100%;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #0e90d2;
+    background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+    background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+    background-image: -o-linear-gradient(top, #149bdf, #0480be);
+    background-image: linear-gradient(to bottom, #149bdf, #0480be);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: width 0.6s ease;
+    -moz-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+}
+
+#fc-footer-navigator {
+    padding: 10px;
+    text-align: center;
+}
+
+#fc-content .btn.disable {
+    opacity: 0.1 !important;
+}
+#fc-content .btn {
+    border: none;
+    cursor: pointer;
+}
+#fc-content .btn:active {
+    opacity: 0.8;
+}
+#activity-container {
+    position: relative;
+}
+#fc-content .btn-apply {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+#fc-content .btn-prev-word,
+#fc-content .btn-next-step,
+#fc-content .btn-apply,
+#fc-content .btn-next-word {
+    width: 72px;
+    height: 72px;
+}
+#fc-content .btn-next-word {
+    background: url("http://cdn1.iconfinder.com/data/icons/iphone_toolbar_icons/iphone_toolbar_icons/arrowright.png") center no-repeat;
+    float: left;
+}
+#fc-content .btn-prev-word {
+    margin-left: 420px;
+    background: url("http://cdn1.iconfinder.com/data/icons/iphone_toolbar_icons/iphone_toolbar_icons/arrowleft.png") center no-repeat;
+    float: left;
+}
+
+#fc-content .btn-apply:active,
+#fc-content .btn-next-step:active {
+    opacity: 1 !important;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+#fc-content .btn-apply {
+    background-color: rgb(151, 96, 179);
+    background-image: -webkit-linear-gradient(top, rgb(162, 113, 187), rgb(151, 96, 179));
+    display: none;
+    margin-right: 0 !important;
+}
+#next-practice {
+    margin-top: -12px;
+}
+#fc-content .btn-next-step {
+    background-color: rgb(236, 92, 0);
+    background-image: -webkit-linear-gradient(top, rgb(247, 96, 0), rgb(221, 86, 0));
+}
+#fc-content .btn-apply,
+#fc-content .btn-next-step {
+    float: right;
+    margin-top: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-repeat: repeat-x;
+    border-collapse: separate;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+    vertical-align: middle;
+    height: 36px;
+    width: 140px;
+}
+
+#fc-content .split {
+    height: 1px;
+    width: 60%;
+    margin: auto;
+    clear: both;
+    background-color: #f2f2f2;
+}
+
+#step1-overview,
+#step2-en-vi,
+#step3-vi-en {
+    display: none;
+}
+
+#fc-content .content h2 {
+    text-align: center;
+    margin: 20px 0px 10px;
+}
+#fc-content .content .pronunciation {
+    text-align: center;
+    color: #c3c3c3;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#fc-content .pronunciation .text {
+    padding-left: 10px;
+}
+
+.word-list-item .vietnamese {
+    color: #F36D00;
+    text-transform: lowercase;
+}
+
+#fc-content .word-list-item .item {
+    display: none;
+}
+
+#fc-content .finished-words {
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    color: #888;
+}
+
+#fc-content .finished-words li:hover {
+    color: #888;
+}
+#fc-content .finished-words li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 4px;
+    padding: 6px 14px;
+    cursor: default;
+    text-transform: lowercase;
+    border-radius: 3px;
+    color: #f0f0f0;
+    text-shadow: none;
+    cursor: pointer;
+}
+#fc-content .finished-words li.focus {
+    border: 1px dashed #dbdbdb;
+    background-color: #f9f9f9;
+    color: #555;
+    box-shadow: 1px 6px 14px -3px #888;
+}
+#fc-content .finished-words li.true {
+    background-color: #73a839;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#fc-content .finished-words li.false {
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background-color: #c71c22;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#fc-content .user-input {
+    color: #555;
+}
+
+.item .random-list {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.item .random-list li {
+    display: table-cell;
+    height: 100px;
+    border: 1px solid #E0E0E0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #555;
+    box-shadow: inset 0 4px 15px -4px #eaeaea;
+}
+.item .random-list li.choice {
+    box-shadow: none !important;
+}
+.item .random-list li:hover {
+    box-shadow: inset 0 4px 30px 0px #eaeaea;
+}
+
+.item .random-list li.true {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.item .random-list li.false {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#step3-vi-en .english span {
+    color: #f36d00 !important;
+}
+
+#step-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#step-list .step {
+    display: table-cell;
+    height: 36px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#step-list .number {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    background: #ffffff;
+    color: black;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 10px;
+    font-size: 18px;
+}

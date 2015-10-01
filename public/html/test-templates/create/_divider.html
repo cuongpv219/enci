@@ -1,0 +1,21 @@
+<div>
+	<div class="divider-notes">
+		<p>
+	    	Bạn có thể sử dụng câu hỏi này làm câu phân cách để chèn nội dung bất kì vào giữa danh sách các câu hỏi,
+	    	ví dụ như 1 bức ảnh, hay 1 lời giới thiệu, giải thích...
+	    </p>
+
+	    <div class="checkbox">
+	    	<label>
+		      <input type="checkbox" ng-model="temp.isDivider">
+		      	Click chọn nếu bạn chỉ sử dụng câu hỏi này để làm phân cách
+		    </label>
+	    </div>
+	</div>
+
+	<!-- Nội dung phân cách -->
+	<div class="content-divider" ng-show="temp.isDivider">
+		<h4>Nhập nội dung để sử dụng làm phân cách</h4>
+		<textarea class="ck-editor" ng-model="temp.dividerContent"></textarea>
+	</div>
+</div>

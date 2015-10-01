@@ -1,0 +1,208 @@
+/**/
+
+.library-details-bc {
+    margin-bottom: 0px;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.library-details-bc li a {
+    color: #000;
+}
+.library-details-title {
+    margin-top: 36px;
+    margin-bottom: 0px;
+    background: #00ACC2;
+    padding-right: 15px;
+}
+.library-detail-btn {
+    margin: -10px 10px 0 10px;
+}
+#library-detail-container {
+    padding: 0 10px 10px 10px;
+}
+.btn-view-more {
+    padding: 12px 30px;
+}
+.library-detail-highlight {
+	margin: 10px 15px 10px;
+}
+.library-detail-highlight .panel-heading {
+	background: #FFF;
+	border-bottom: 1px solid #E8E8E8;
+}
+.library-detail-highlight .panel-heading h4 {
+	margin: 5px 0px;
+	/* font-weight: bold; */
+}
+.library-details-statistic .row-content {
+    float: left;
+}
+.btn-library-reg {
+    margin-top: 20px;
+    background: #FFF !important;
+    color: #000 !important;
+    padding: 10px 30px;
+    /*border: 1px solid #FFF;*/
+}
+.library-detail-showmore {
+	margin-bottom: 0px;
+	padding-bottom: 30px
+}
+.library-detail-showmore .reg{
+    text-align: center;
+    padding: 20px 0px;
+}
+.showmore_content {
+    position: relative;
+    overflow: hidden;
+}
+.showmore_trigger {
+    /* width: 100%; */
+    margin: 10px auto 10px;
+    padding: 0 30px;
+    height: 40px;
+    cursor: pointer;
+    background: #EEEEEE;
+    color: #333;
+    text-align: center;
+}
+.showmore_trigger div {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+.showmore_trigger div span {
+	margin-left: 30%;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    float: left;
+}
+.showmore_trigger div i {
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    float: left;
+}
+ .library-details-statistic{
+	margin: 5px 0px;
+	display: inline-block;
+}
+.library-details-statistic div.ucan-rating {
+	/*display: inline-block;*/
+	float: left;
+}
+.library-details-statistic div.label {
+	/*padding: 4px 6px 2px 6px;*/
+	float: left;
+}
+.library-detail-avatars{
+	margin-top: 0px;
+}
+.library-detail-avatars .list-group-item {
+	padding: 0px;
+}
+.library-detail-avatars .list-group-item .row-picture {
+	padding-bottom: 6px;
+    padding-right: 6px;
+}
+.library-detail-avatars .list-group-item .row-picture .circle{
+	width: 48px;
+	height: 48px;
+}
+.library-detail-lessons {
+    margin: 20px 15px;
+}
+.library-detail-lessons .panel-heading {
+    background: #FFF;
+}
+.library-detail-lessons .panel-body {
+    padding: 0px;
+}
+.library-detail-lessons table {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.library-detail-lessons table td:first-child {
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.library-detail-lessons .tbl-btn-reg {
+    padding: 15px;
+}
+.library-detail-reviews .panel-heading{
+    background: #FFF;
+    border-bottom: 1px solid #ddd;
+}
+.library-detail-reviews .list-group-item{
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.library-detail-reviews .list-group-item i{
+    font-size: 12px;
+    padding: 5px 0 3px;
+}
+.library-detail-reviews h5.reviews-user-name{
+    margin: 0px 0px 8px 0px;
+    font-weight: bold;
+}
+.library-detail-reviews .ucan-rating {
+    margin-bottom: 5px;
+}
+.library-detail-reviews h5.reviews-title{
+    font-weight: bold;
+}
+.rating-00, .rating-05, .rating-10, .rating-15, .rating-20, .rating-25, .rating-30, .rating-35, .rating-40, .rating-45, .rating-50 {
+    background-image: url('../../../img/global/ratings.png');
+    width: 100px;
+    background-repeat: no-repeat;
+    height: 16px;
+}
+.rating-00 {
+    background-position: -100px 0px;
+}
+.rating-05 {
+    background-position: -80px -20px;
+}
+.rating-10 {
+    background-position: -80px 0px;
+}
+.rating-15 {
+    background-position: -60px -20px;
+}
+.rating-20 {
+    background-position: -60px 0px;
+}
+.rating-25 {
+    background-position: -40px -20px;
+}
+.rating-30 {
+    background-position: -40px 0px;
+}
+.rating-35 {
+    background-position: -20px -20px;
+}
+.rating-40 {
+    background-position: -20px 0px;
+}
+.rating-45 {
+    background-position: -0px -20px;
+}
+.rating-50 {
+    background-position: 0px 0px;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}

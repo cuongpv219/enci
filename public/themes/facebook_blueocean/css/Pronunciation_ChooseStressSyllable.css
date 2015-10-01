@@ -1,0 +1,71 @@
+.jplayer-container {
+    float: left;
+    margin: 20px;
+}
+
+#illustration-picture-wrapper {
+    float: right;
+    width: 140px;
+    margin: 20px;
+}
+
+#illustration-picture-wrapper img {
+    width: 100%;
+}
+
+#word-list {
+    margin-top: 10px;
+    margin-left: -10px;
+    float: left;
+    display: table;
+    border-spacing: 15px;
+    table-layout: fixed;
+    width: 460px;
+}
+
+.word-list-very-short {
+    width: 490px;
+}
+
+.word-list-short {
+    width: 640px;
+}
+
+.word-list-long {
+    width: 980px;
+}
+
+.word-container {
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: table-cell;
+}
+
+.word-container-row {
+    display: table-row;
+}
+
+.syllable {
+    cursor: pointer;
+    color: #4375b1;
+    border: 1px solid #F0F0F0;
+    line-height: 24px;
+    padding: 1px 5px;
+}
+
+.syllable:hover {
+    background-color: #f0f0f0;
+}
+
+.show-result-button {
+    margin: 0;
+}
+
+#loadResult {
+    margin: 0 auto;
+}
+
+.true-icon,.false-icon {
+    margin-left: 5px;
+    height: 20px;
+}

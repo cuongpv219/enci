@@ -1,0 +1,134 @@
+#activity-guide {
+    margin-top: 25px;
+    border-top: 1px solid #f0f0f0;
+}
+
+#activity-guide-wrap {
+    width: 300px;
+    margin: -15px auto auto;
+}
+
+#activity-guide-wrap img {
+    width: 20px;
+    display: inline-block;
+    background-color: #FFF;
+    padding: 0 5px 0 10px;
+}
+
+#activity-guide-wrap div {
+    display: inline-block;
+    color: #8c8c8c;
+    position: absolute;
+    background-color: #FFF;
+    padding: 0 10px 0 5px;
+}
+
+#pictures-container {
+    padding-bottom: 15px;
+    width: 690px;
+    min-height: 120px;
+    margin: 0 auto;
+    border-top: none;
+}
+
+#pictures-container .character-picture:hover {
+    border: 1px solid #ff3430;
+}
+
+.character-picture-holder {
+    float: left;
+    width: 120px;
+    cursor: move;
+    margin: 15px 8px 0 9px;
+}
+
+.character-picture {
+    width: 120px;
+    z-index: 3;
+    border: 1px solid transparent;
+}
+
+.represent-picture .character-picture {
+    position: absolute;
+}
+
+#sentences-container {
+    width: 710px;
+    line-height: 22px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px 20px;
+    overflow: hidden;
+}
+
+.sentence-picture-wrap {
+    float: left;
+}
+
+.sentence-holder {
+    width: 113px;
+    float: left;
+    cursor: move;
+    border: 1px solid #d9d9d9;
+    -moz-box-shadow: 0 0 4px #ddd;
+    -webkit-box-shadow: 0 0 4px #ddd;
+    box-shadow: 0 0 4px #ddd;
+    margin: 20px 13px 0;
+}
+
+.represent-picture {
+    width: 102px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 5px 5px 0;
+}
+
+.represent-picture-normal {
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+}
+
+.represent-picture-over {
+    background-color: #ffe07d;
+    border: 1px solid #ff3430;
+    z-index: 0;
+}
+
+.ui-draggable-dragging {
+    z-index: 4;
+    border: 1px solid #ff3430;
+}
+
+.sentence {
+    float: left;
+    width: 111px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.represent-picture-mask {
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    background-color: #000;
+    z-index: 3;
+    opacity: 0.3;
+}
+
+.true-false-icon {
+    width: 60px;
+    left: 20px;
+    top: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#loadResult {
+    margin: 0 auto;
+}
+
+.clear-both,#result-button {
+    clear: both;
+}

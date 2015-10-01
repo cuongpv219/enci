@@ -1,0 +1,266 @@
+#activity-wrapper {
+    min-height: 600px;
+}
+
+#activity-container .tab-container {
+    height: 36px;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 8px;
+}
+
+#activity-container .tab-container .selected,#activity-container .tab-container .unselected {
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+#finish {
+    float: right;
+}
+
+#activity-container .stage-look-picture {
+    width: 100%;
+    min-height: 300px;
+}
+
+#activity-container .pictures-block {
+    padding-top: 32px;
+    position: relative;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+#activity-container .pictures-block .picture-wrapper {
+    cursor: pointer;
+    width: 220px;
+    height: 222px;
+    border: 1px solid #E0E0E0;
+    float: left;
+    position: absolute;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    box-shadow: inset 0 6px 26px -4px #eaeaea;
+    -moz-box-shadow: inset 0 6px 26px -4px #eaeaea;
+    -webkit-box-shadow: inset 0 6px 26px -4px #eaeaea;
+}
+
+#activity-container .pictures-block .picture-wrapper img {
+    width: 190px;
+    max-height: 144px;
+    margin: 15px;
+}
+
+#activity-container .stage-choose-picture[data-order='1'] .pictures-block .picture-wrapper {
+    cursor: pointer;
+}
+
+#activity-container .stage-choose-picture[data-order='1'] .pictures-block .picture-wrapper:hover {
+    border-color: #acacac;
+}
+
+#activity-container .pictures-block .picture-wrapper .caption {
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    min-height: 20px;
+}
+
+#activity-container .stage-choose-picture[data-order='1'] 
+.caption,#activity-container .stage-type-word[data-order='2'] .caption {
+    border-bottom: 1px solid #d2d2d2;
+    width: 160px;
+    margin: 0 auto;
+}
+
+#activity-container .stage-look-picture .navigator-button {
+    opacity: 0;
+    margin: 40px auto;
+}
+
+#activity-container .stage-choose-picture .word-term {
+    width: 100%;
+    height: 40px;
+    clear: both;
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#activity-container #tab-contents .blank-img {
+    border: 1px solid #FDE4BF;
+    background-color: #FFFFD1;
+    width: 176px;
+    max-height: 144px;
+    height: 140px;
+    line-height: 24px;
+    overflow-y: auto;
+    text-align: justify;
+    margin: 15px;
+    padding: 6px;
+}
+
+#activity-container .stage-type-word .typing-area {
+    clear: both;
+    margin-top: 210px;
+    text-align: center;
+}
+
+#activity-container .stage-type-word .user-input {
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid #000;
+    min-width: 200px;
+    clear: both;
+    font-size: 16px;
+    margin: 40px 0 10px;
+}
+
+#activity-container .stage-type-word .shuffle-letters {
+    clear: both;
+    text-align: center;
+    height: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#activity-container .stage-type-word .letter-active,#activity-container .stage-type-word .letter-inactive {
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 28px;
+    cursor: pointer;
+    border: 1px solid #D9D9D9;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+}
+
+#activity-container .stage-type-word .letter-active {
+    background-color: #d9d9d9;
+}
+
+#activity-container .stage-type-word .letter-inactive {
+    box-shadow: inset 0 20px 36px -24px #d9d9d9;
+    -moz-box-shadow: inset 0 20px 36px -24px #d9d9d9;
+    -webkit-box-shadow: inset 0 20px 36px -24px #d9d9d9;
+}
+
+#activity-container .stage-choose-word {
+    text-align: center;
+}
+
+#activity-container .stage-choose-word .clue,.stage-correct-word .clue {
+    width: 600px;
+    height: 60px;
+    font-size: 16px;
+    border: 1px solid #fde4bf;
+    background-color: #ffffd1;
+    text-align: left;
+    margin: 40px auto 20px;
+    padding: 40px 20px;
+}
+
+#activity-container .stage-choose-word .clue .blank {
+    font-weight: 700;
+}
+
+#activity-container .stage-choose-word .choices {
+    clear: both;
+    width: 662px;
+    border-spacing: 10px;
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    margin: 0 auto 40px;
+}
+
+#activity-container .stage-choose-word .choices .row {
+    display: table-row;
+}
+
+#activity-container .stage-choose-word .choices .word {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: inset 0 10px 56px -22px #e0e0e0;
+    -moz-box-shadow: inset 0 10px 56px -22px #e0e0e0;
+    -webkit-box-shadow: inset 0 10px 56px -22px #e0e0e0;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+#activity-container .stage-choose-word .choices .word-active {
+    border: 1px solid #78b832;
+    background: #92d050;
+    color: #FFF;
+    font-weight: 700;
+    padding: 20px 8px;
+}
+
+.right-button,.wrong-button {
+    float: left;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+#activity-container .stage-correct-word .true-false-container {
+    background-color: #f5f5f5;
+    min-height: 20px;
+    width: 600px;
+    margin: 30px auto;
+    padding: 8px 20px 9px;
+}
+
+.inputtext {
+    height: 20px;
+    margin-left: 20px;
+    width: 360px;
+    background-color: #fff;
+    margin-top: 2px;
+    font-family: "Segoe UI";
+    border: 1px solid #e0e0e0;
+    -moz-box-shadow: inset 0 16px 17px -21px #fff;
+    -webkit-box-shadow: inset 0 16px 17px -21px #fff;
+    box-shadow: inset 0 16px 17px -21px #fff;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+
+.explain {
+    min-height: 60px;
+    color: #0062ac;
+    text-align: center;
+    font-style: italic;
+}
+
+#infor-guide {
+    visibility: hidden;
+    text-align: center;
+    font-style: italic;
+    color: #0062ac;
+    margin: 0 auto;
+}
+
+#activity-container #tab-contents .tab-content,#activity-container .stage-look-picture,#activity-container .stage-choose-picture,#activity-container .stage-type-word,#activity-container .stage-choose-word,#activity-container .stage-correct-word {
+    display: none;
+}
+
+#activity-container .stage-choose-word .clue .blank-done,.blank-done {
+    color: #f68d36;
+    font-weight: 700;
+}
+
+.continue,.show-answer {
+    margin: 10px auto 20px;
+}

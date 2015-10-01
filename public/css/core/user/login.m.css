@@ -1,0 +1,81 @@
+#user-login {
+    margin-top: 20px;
+    padding: 20px 20px 40px 20px;  
+}
+
+#login {
+    margin-top: 60px !important;
+}
+
+#ucan-login, #social-login {
+    display: table-cell;
+    padding: 10px;
+}
+
+#user-login .icon-login {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px 30px;
+}
+
+#user-login .icon-login i {
+    font-size: 80px;
+}
+
+#ucan-login {
+    width: 480px;
+}
+
+#social-login {
+    width: 480px;
+}
+
+#social-login-box, #ucan-login-box {
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    padding: 10px 20px 20px 20px;
+    height: 300px;
+}
+
+
+
+.login-form-element-label {
+    display: none;
+}
+
+.login-form-element {
+    margin-top: 16px;
+}
+
+#login {
+    width: 100%;
+    margin-top: 16px;
+}
+
+#user-login input {
+    width: 100%;
+}
+
+#user-login h2 {
+    color: #F36D00;
+}
+
+.social-login-img {
+    margin-right: 6px;
+}
+
+.social-login-img:hover {
+    cursor: pointer;
+}
+
+#forgot-password {
+	margin-top: -100px;
+	display: block;
+	margin-bottom: 80px;
+	float: right;
+}
+
+#register {
+	float: right;
+	margin: 20px 0px 30px;
+}

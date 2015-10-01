@@ -1,0 +1,89 @@
+#discussion-list {
+    padding: 0 20px;
+}
+#discussion-list .number-info {
+    text-align: center;
+}
+#discussion-list .item:nth-child(odd) .number-info {
+    background: #FBFBFB;
+}
+#discussion-list .item {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    margin-top: 40px;
+    display: table;
+    width: 100%;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+}
+#discussion-list .title {
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #555555;
+}
+#discussion-list .creator-name {
+    font-weight: bold;
+    font-style: italic;
+    color: #F36D00;
+    text-decoration: none;
+}
+#discussion-list .creator-name:hover,
+#discussion-list .title:hover {
+    text-decoration: underline;
+}
+
+#discussion-list .number-like {
+    padding-left: 20px;
+    background: url('../../../img/icons/social.png') no-repeat 0px -50px;
+}
+#discussion-list .number-answer {
+    padding-left: 20px;
+    background: url('../../../img/icons/social.png') no-repeat 0px -15px;
+    margin-left: 10px;
+}
+#discussion-list .item .number-info {
+    width: 100px;
+    border-right: 1px solid #dbdbdb;
+}
+
+#discussion-list .item .number-info,
+#discussion-list .item .avatar,
+#discussion-list .item .content {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+}
+#discussion-list .item .avatar {
+    width: 100px;
+    border-left: 1px solid #dbdbdb;
+}
+
+#discussion-list .created-time {
+    color: #888;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+#discussion-pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#discussion-list .content .header {
+    border-bottom: 1px dashed #dbdbdb;
+    padding-bottom: 10px;
+}
+#discussion-list .content .footer {
+    border-top: 1px dashed #dbdbdb;
+    padding-top: 10px;
+}
+
+#discussion-list .footer a {
+    text-decoration: none;
+    color: #0070C0;
+    float: right;
+    margin-left: 20px;
+}
+#discussion-list .footer a:hover {
+    text-decoration: underline;
+}

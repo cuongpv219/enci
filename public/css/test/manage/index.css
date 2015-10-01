@@ -1,0 +1,10 @@
+#organization-admin-content .test-list li a{
+	padding-right: 30px;
+	float: right;
+}
+
+#pagination {
+  clear: both;
+  margin: 30px 0;
+  text-align: center;
+}

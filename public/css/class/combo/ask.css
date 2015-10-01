@@ -1,0 +1,119 @@
+#front-content {
+    background: #F8F8F8 !important;
+}
+
+#feedback-box {
+    width: 600px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E8E8E8;
+    padding: 20px 20px 20px 20px;
+    background: white;
+}
+
+#title-header {
+    color: #F36D00;
+}
+
+#subtitle-header {
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.register-form-element {
+    margin-top: 16px;
+}
+
+.register-form-element-label {
+    width: 140px;
+    display: inline-block;
+}
+
+input[type="text"], input[type="password"] {
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+    height: 24px;
+    width: 100%;
+    margin-top: 4px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea#question:focus {
+    outline: none;
+    background: #FFF7CC;
+    box-shadow: none;
+}
+
+textarea#question {
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    font-family: "Segoe UI";
+    border: 1px solid #D8D8D8;
+    outline: none;
+    width: 100%;
+    resize: vertical;
+    margin-top: 4px;
+}
+
+#content-label .register-form-element-label {
+    vertical-align: top;
+}
+
+#add_feedback_button {
+    margin-left: 144px;
+    font-size: 14px;
+    padding: 8px 14px 8px 14px;
+    width: 183px;
+    margin-top: 28px;
+}
+
+.errors {
+    color: red;
+}
+
+#feedback-box form {
+    border-top: 1px dashed #E8E8E8;
+}
+
+#thanks-feedback {
+    font-size: 16px;
+}
+
+#return-homepage {
+    clear: both;
+    text-decoration: none;
+    color: #0070C0;
+}
+#return-homepage:hover {
+    text-decoration: underline;
+}
+
+#label-captcha {
+    width: 140px;
+    margin-bottom: 40px;
+}
+
+#recaptcha_area {
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+#recaptcha_response_field {
+    background: white;
+}
+#recaptcha_widget_div {
+    border-bottom: 1px dashed #E8E8E8;
+    padding-bottom: 20px;
+}
+
+.submit-ask {
+    margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+#create-new-class-announcement-header {
+    font-weight: bold;
+    padding: 10px 40px 26px 40px;
+    border-bottom: 1px solid #F0F0F0;
+    color: #B00000;
+}
+
+#create-new-class-announcement-form-box {
+    padding: 0px 40px;
+}
+
+.class-announcement-item-selected {
+    padding-left: 36px;
+    line-height: 24px;
+    background: #FAFAFA;
+    display: table;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.class-announcement-item-selected:hover {
+    background: #F6F6F6;
+}
+
+.class-announcement-item-selected a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+.class-announcement-item-selected a:hover {
+    text-decoration: underline;
+    color: #F36D00;
+}
+
+.class-announcement-item-selected-delete {
+    width: 20px;
+/*    height: 16px;*/
+    background-image: url('../../../img/icons/delete-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: hidden;
+    opacity: 0.5;
+/*    display: inline-block;*/
+}
+
+.class-announcement-item-selected-delete, .class-announcement-item-selected-link {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.class-announcement-item-selected:hover .class-announcement-item-selected-delete {
+    visibility: visible;
+}
+
+.class-announcement-item-selected-link {
+    padding-left: 10px;
+}
+
+.class-announcement-item-selected-delete:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#add-success-message {
+    padding-left: 40px;
+}

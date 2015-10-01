@@ -1,0 +1,45 @@
+#user-setting-content {
+    padding: 10px;
+}
+
+#user-setting-content form {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.register-form-element-label {
+    width: 140px;
+    display: inline-block;
+}
+
+.register-form-element {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.register-form-element:last-child {
+    border-bottom: 1px solid;
+}
+
+#edit_basic_info_button {
+    /*width: 180px;*/
+    /*margin-left: 146px;*/
+    display: block;
+    margin-top: 20px;
+}
+
+#sex-0.sex {
+    margin-left: 149px;
+}
+
+.ui-state-default {
+    background: #e8e8e8 !important;
+}
+
+.ui-corner-all {
+    border-radius: 0 !important;
+}
+
+.form-control-wrapper {
+    margin-top: -10px;
+}

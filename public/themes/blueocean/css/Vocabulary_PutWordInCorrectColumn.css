@@ -1,0 +1,115 @@
+.global-blue-bar {
+    width: auto;
+}
+#activity-container{
+    width: 1000px;
+}
+#word-list {
+    width: 100%;
+    background: #FFFFD1;
+    border: 1px solid #FDE4BF;
+    margin-bottom: 20px;
+    min-height: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#word-list.over {
+    background-color: #ffffb4;
+}
+
+#groups-container{
+    display: table;
+    table-layout: fixed;
+    width:100%;
+}
+#groups-container-title {
+    display: table-row;
+}
+
+#groups-container-image{
+    display: table-row;
+}
+
+#groups-container-content {
+    display: table-row;
+}
+
+#loadResult {
+    float: right;
+}
+.item-title {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #00B0F0;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+#groups-container-title .item-picture{
+    display: table-cell;
+    border-right: 1px solid #eaeaea;
+}
+
+.item-content .true-icon {
+    margin: -9px 0px -3px 5px;
+}
+.item-content .false-icon {
+    margin: -5px 0px -3px 5px;
+}
+
+.item-image {
+    border-right: 1px solid #eaeaea;
+    display: table-cell;
+    text-align: center;
+    padding-top: 15px;
+}
+.item-image:last-child {
+    border-right: none;
+}
+.item-image .item-picture {
+    width: 145px;
+}
+.item-image .item-picture:last-child {
+    border-right: none;
+}
+
+#groups-container-content .item-content {
+    display: table-cell;
+    border-right: 1px solid #EAEAEA;
+    height: 100px;
+    vertical-align: top;
+    line-height: 24px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+#groups-container-content .item-content:last-child {
+    border-right: none;
+}
+
+.item-content .word {
+    display: block;
+    clear: both;
+}
+
+#key-row {
+    display: table-row;
+}
+
+#key-row .key:last-child {
+    border-right: none !important;
+}
+#key-row .key > * {
+    vertical-align: top;
+    line-height: 24px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+#key-row .key {
+    border-top: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    color: #0D6FDB;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: none;
+}

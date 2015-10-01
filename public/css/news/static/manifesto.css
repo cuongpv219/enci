@@ -1,0 +1,18 @@
+#front-content {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    width: 1000px !important;
+    line-height: 24px;
+}
+
+
+#creativity-quote {
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+    padding: 20px 20px 20px 40px;
+    background-image: url('../../../img/global/start_quote.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+/*    color: #B00000;*/
+}

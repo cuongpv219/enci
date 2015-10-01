@@ -1,0 +1,35 @@
+#working-title, #working-list-title {
+    line-height: 30px;
+    color: #F36D00;
+}
+
+#working-subtitle {
+    color: #888;
+}
+
+#working-list .activity {
+    list-style: square;
+}
+
+#working-list .activity a {
+    text-decoration: none;
+    color: #0070C0;
+}
+
+#working-subtitle a {
+    text-decoration: none;
+    color: #b00000;
+    font-weight: bold;
+}
+
+#working-list .activity a:hover, #working-subtitle a:hover {
+    text-decoration: underline;
+}
+
+#working-detail-button-box {
+    margin: 40px -20px 40px -20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F6F6F6;
+}

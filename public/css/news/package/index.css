@@ -1,0 +1,20 @@
+#package-intro-box {
+    position: relative;
+}
+
+#package-intro-box a {
+    position: relative;
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+}
+
+#go-to-vip {
+    left: 110px;
+}
+
+#go-to-vip-star {
+    right: 110px;
+}

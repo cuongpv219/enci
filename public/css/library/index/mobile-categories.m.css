@@ -1,0 +1,72 @@
+/**/
+.library-index-btn {
+	margin: 0 10px;
+}
+.library-index-btn50-left{
+	padding: 0;
+	padding-right: 5px;
+}
+.library-index-btn50-right{
+	padding: 0;
+	padding-left: 5px;
+}
+
+#library-index-container {
+	padding: 30px 10px 10px 10px;
+}
+
+.library-index-box {
+	height: 180px;
+	min-height: 180px;
+	overflow: hidden;
+}
+
+.library-index-box .panel{
+	height: 168px;
+}
+
+.library-index-box .panel-body {
+	padding: 10px 5px 5px 5px;
+}
+
+.library-index-box .panel-body .panel-body-title{
+	padding: 5px;
+}
+.library-index-box .panel-body a {
+	text-decoration: none;
+}
+
+.library-index-box .panel-body a h5 {
+	color: #000;
+	font-weight: medium;
+	text-align: center;
+}
+
+#library-index-container .list-group-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#library-index-container .list-group-item i{
+	font-size: 36px;
+}
+
+#library-index-container .list-group a h4 {
+	color: #000;
+	font-weight: medium;
+}
+#library-index-container .list-group a:hover h4{
+	/*text-decoration: underline;*/
+}
+
+#library-index-container .list-group a:hover p{
+	/*text-decoration: underline;*/
+}
+
+#library-index-container .list-group a:hover .list-group-item {
+	background: #E0E0E0;
+}
+
+.list-group .list-group-separator {
+	margin: 0;
+}

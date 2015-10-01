@@ -1,0 +1,48 @@
+#announcement-detail-content-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#announcement-detail-menu {
+    padding: 20px 20px 20px 40px;
+}
+
+#announcement-detail-menu li, #featured-announcement-activity-list li {
+    list-style: square;
+    line-height: 24px;
+}
+
+#announcement-detail-menu li a, #featured-announcement-activity-list li a {
+    color: #0070C0;
+    text-decoration: none;
+}
+
+#announcement-detail-menu li a:hover, #featured-announcement-activity-list li a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#detail-announcement-subtitle {
+    padding-top: 0px;
+    margin-top: -10px;
+    color: #888;
+}
+
+#featured-announcement-content {
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+#announcement-title {
+    color: black;
+}
+
+#class-announcement-detail-title {
+    color: #B00000;
+    text-decoration: none;
+}
+
+#class-announcement-detail-title:hover {
+    color: #F36D00;
+}

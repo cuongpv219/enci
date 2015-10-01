@@ -1,0 +1,146 @@
+#hint-outer {
+    background: white;
+    width: 650px;
+    top: 100px;
+    position: absolute;
+    z-index: 15;
+    display: none;
+    box-shadow: 0px 0px 10px 0px #888;
+}
+
+#hint-outer .hint-header span {
+    padding-left: 10px;
+    line-height: 33px;
+}
+#hint-outer .hint-header {
+    width: 650px;
+    height: 36px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#hint-outer .content {
+    padding: 0 20px 0px 20px;
+    text-align: justify;
+    width: 610px;
+    color: black;
+    height: 420px;
+    line-height: 24px;
+    outline: none;
+}
+
+#hint-outer .content blockquote {
+    border: 1px solid #ffafaf;
+    background-color: #ffe1e1;
+    margin: 20px 30px;
+    padding-left: 10px;
+}
+
+/* Help */
+#video-board-outer {
+    width: 640px;
+    height: 360px;
+    padding: 12px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    z-index: 30;
+    top: 100px;
+    display: none;
+    box-shadow: 0px 0px 10px 0px #888;
+    border-radius: 5px;
+}
+
+#video-board-outer:hover {
+    cursor: move;
+}
+
+#video-board-outer .btn-close-help {
+    position: absolute;
+    top: -16px;
+    right: -14px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 24px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 0px 4px 0px #888;
+}
+
+#video-board-outer .embed-video {
+    width: 640px;
+    height: 360px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#video-board-outer .bottom-text {
+    margin-top: 15px;
+    height: 30px;
+    color: #7f7f95;
+}
+
+#video-board-outer .bottom-text .text-sample {
+    font-size: 17px;
+}
+
+#video-board-outer .bottom-text .text-close {
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+#video-board-outer .bottom-text img {
+    margin-top: 2px;
+    width: 20px;
+}
+/* END HELP*/
+
+#icon-hint:hover, 
+#icon-help:hover {
+    color: #f5770f;
+    border-color: #f5770f;
+}
+
+#icon-hint, 
+#icon-help {
+    line-height: 23px;
+    font-family: 'Times new romance' !important;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
+    margin-left: 4px;
+    color: #838383;
+    width: 24px;
+    height: 24px;
+    border-radius: 13px;
+} 
+
+#video-help-player {
+    display:block;
+    min-width: 640px;
+    min-height: 360px; 
+    text-align:center;
+    margin:0 15px 15px 0;
+    float:left;
+}
+
+#video-help-player img {
+    margin-top: 160px;
+    border:0px;
+}
+
+#video-help-player object {
+    min-height: 360px;
+}

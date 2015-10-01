@@ -1,0 +1,63 @@
+.editor-form-element-label {
+    width: 160px;
+    display: inline-block;
+    /*    font-weight: bold;*/
+}
+
+.editor-form-element {
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+/*    background-color: #F8F8F8;
+    border: 1px solid #F2F2F2;*/
+}
+
+.form-editor-basic-block {
+    padding-left: 20px;
+}
+
+input[type=text], input[type=textarea] {
+    moz-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    -webkit-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    border: 1px solid #D8D8D8;
+    height: 20px;
+}
+
+#courseitem_preview_button, #courseitem_submit_button {
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+}
+
+.form-editor-button-block {
+    margin: 20px auto 20px auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.editor-repeat-button-placeholder {
+    margin: 20px 0px 0px 0px;
+}
+
+.editor-form-element-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2;
+}
+
+.editor-form-element-group-numbering {
+    float: left;
+    position: absolute;
+    margin: -20px -20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #AB190F;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+.errors {
+    color: red;
+}

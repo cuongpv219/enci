@@ -1,0 +1,15 @@
+#path-to-root-bar {
+    font-size: 14px;
+    padding:0px 40px 16px 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#path-to-root-bar a {
+/*    text-decoration: none;*/
+    color: black;
+}
+
+#path-to-root-bar a:hover {
+    color: #B00000;
+}

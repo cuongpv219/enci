@@ -1,0 +1,12 @@
+#organization-admin-content .test-item li a{
+	padding-right: 30px;
+	float: right;
+	text-decoration: none;
+}
+
+.fa-angle-double-up{
+	color: #0F97FF;
+}
+.fa-angle-double-down{
+	color: #4E7E18;
+}

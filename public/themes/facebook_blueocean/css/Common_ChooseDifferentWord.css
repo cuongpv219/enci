@@ -1,0 +1,121 @@
+.jplayer-container{
+    margin: 30px;
+    float: left;
+}
+
+.word-list-short{
+    float: left;
+    width: 800px;
+    border-left: 1px solid #f2f2f2;
+    display: table-cell;
+}
+
+.wordchoice{
+    float: left;
+    margin-left:20px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid transparent;
+}
+
+.wordchoice-short{
+    width: 140px;
+}
+
+.wordchoice-long{
+    width: 130px;
+}
+
+.wordchoice:hover {
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding-top: 9px;
+}
+
+.wordchoice-click {
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    margin-left:20px;
+    padding-bottom:10px;
+    padding-top: 7px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    webkit-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -moz-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -o-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    -ms-box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    box-shadow: inset 0px -5px 10px 0px #F6F6F6;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: white;
+    color: #F36D00;
+    text-shadow: 1px 1px 0px white;
+}
+.sentence {
+    clear: both;
+    margin-top: 12px;
+    float: left;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 2px;
+    height: 50px;
+}
+
+.sentence-short{
+    width: 832px;
+}
+
+.sentence-long{
+    width: 780px;
+}
+
+.choice-container {
+    margin-left:20px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    height: 30px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    float: left;
+}
+.exactly {
+    color: #f8883c;
+    font-weight: bold;
+}
+
+.sentence-number {
+    width: 17px;
+    height: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 16px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid 1px #E0E0E0;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    color: #FFFFFF;
+    border: 1px solid #CF630A !important;
+    background-color: #F36D00 !important;
+    background-image: -webkit-gradient(linear,0% 0,0% 100%,from(#F58223),to(#F36D00)) !important;
+    background-image: -webkit-linear-gradient(top,#F58223,#F36D00) !important;
+    background-image: -moz-linear-gradient(top,#F58223,#F36D00) !important;
+    background-image: -ms-linear-gradient(top,#F58223,#F36D00) !important;
+    background-image: -o-linear-gradient(top,#F58223,#F36D00) !important
+}

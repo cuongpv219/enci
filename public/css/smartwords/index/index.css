@@ -1,0 +1,179 @@
+#wordgroups {
+    font-size: 16px;
+    font-weight: bold;
+    color: #B00000;
+}
+
+#smartwords-completed {
+    color: #888;
+}
+
+#word-nav {
+    margin: 40px 40px 20px 40px;
+}
+
+#word-title {
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid #e7e7e7;
+}
+
+#word-info-box {
+    padding: 0;
+}
+
+.bs-callout-info {
+    background-color: #F8F8F8;
+    border-color: #5bc0de;
+    border-left: 3px solid #5bc0de;
+}
+
+.bs-callout-success {
+    background-color: #F8F8F8;
+    border-color: #5CB85C;
+    border-left: 3px solid #5CB85C;
+}
+
+.bs-callout {
+    margin: 20px 0;
+    padding: 20px;
+    min-height: 1000px;
+}
+
+.bs-callout-info h3 {
+    color: #5bc0de;
+    font-weight: bold;
+}
+
+.bs-callout h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.short-meaning {
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.full-meaning .phanloai {
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #F36D00;
+    text-transform: uppercase;
+}
+
+.full-meaning b {
+    font-weight: normal;
+}
+
+#word-image-edit-box {
+    padding-right: 0px;
+}
+
+#google-link {
+    width: 400px;
+}
+
+#flickr-search-box {
+    padding-right: 0px;
+    margin-right: -20px;
+}
+
+#word-image {
+    max-width: 600px;
+}
+
+.flickr-thumb {
+    width: 54px;
+    height: 54px;
+}
+
+.flickr-thumb-item {
+    margin-right: 6px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.flickr-thumb-item:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#flickr-search-in-progress {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background: #F0F0F0;
+    padding-top: 40px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#flickr-buttons {
+    background: #F0F0F0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+
+#image-crop-buttons, #simlar-words {
+    margin-top: 10px;
+    text-align: left;
+    background: #F0F0F0;
+}
+
+#picture-select-hint {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+#word-image-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.suggested-word-img {
+    width: 140px;
+    z-index: 0;
+    /*margin-bottom: 10px;*/
+}
+
+.suggested-word {
+    width: 140px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.suggested-word-title {
+    background: #5BC0DE;
+    color: white;
+    padding: 6px 0px;
+    text-align: center;
+}
+
+.suggested-word-img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.word-selected {
+    /*float: right;*/
+    width: 24px;
+    height: 24px;
+    padding-top: 2px;
+    text-align: center;
+    /*border-radius: 50%;*/
+    z-index: 100;
+    position: absolute;
+    margin-right: 0;
+    margin-top: 0;
+}

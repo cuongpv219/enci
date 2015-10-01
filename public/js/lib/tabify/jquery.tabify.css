@@ -1,0 +1,68 @@
+.tabify-menu { 
+    padding: 0; clear: both; 
+    margin-top: 40px;
+}
+
+.tabify-menu li { 
+    display: inline;
+
+}
+
+.tabify-menu li a { 
+    background-color: #0089EA;
+    float:left; 
+    font-weight: bold;
+    padding: 6px 12px 6px 12px;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    font-weight: bold;
+    background-image: linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -o-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -moz-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -webkit-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -ms-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #0089EA), color-stop(0.5, #0F97FF) );
+    border: none;
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    text-decoration: none;
+    margin-right: 4px;
+    margin-left: -1px;
+        margin-bottom: -1px;
+    color: white;
+    white-space: nowrap;
+}
+
+.tabify-menu li.active a { 
+    background-color: #EB6F0A;
+    padding: 6px 12px 6px 12px;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    font-weight: bold;
+    background-image: linear-gradient(bottom, #EB6F0A 0%, #F68326 84%);
+    background-image: -o-linear-gradient(bottom, #EB6F0A 0%, #F68326 84%);
+    background-image: -moz-linear-gradient(bottom, #EB6F0A 0%, #F68326 84%);
+    background-image: -webkit-linear-gradient(bottom, #EB6F0A 0%, #F68326 84%);
+    background-image: -ms-linear-gradient(bottom, #EB6F0A 0%, #F68326 84%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #EB6F0A), color-stop(0.84, #F68326) );
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    border: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+.tabify-content { 
+    clear: both; 
+/*    background-color: white;*/
+    border-top: 1px solid #E5E5E5;
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(180, 180, 180, 0.6);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(180, 180, 180, 0.6);
+    box-shadow: 0px 1px 1px 1px rgba(180, 180, 180, 0.6);
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}

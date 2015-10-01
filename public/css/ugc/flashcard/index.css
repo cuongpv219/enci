@@ -1,0 +1,246 @@
+#ugc-intro-buttons a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#banner-box {
+    margin: 0px -20px 20px !important;
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#ugc-intro-box {
+    display: table;
+}
+
+#ugc-intro-logo {
+    width: 340px;
+}
+
+#ugc-intro-logo img {
+    width: 96px;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+#ugc-intro-logo, #ugc-intro-message {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#ugc-intro-message p {
+    line-height: 24px;
+}
+
+#ugc-intro-buttons {
+    margin-top: 40px;
+}
+#ugc-categories-list-box {
+    margin-top: 20px;
+    border: 1px solid #E0E0E0;
+    -webkit-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -moz-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -o-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    -ms-box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+    box-shadow: inset 0px -5px 20px 0px #F0F0F0;
+
+}
+#categories-list-header {
+
+    font-size: 16px;
+
+    font-weight: bold;
+    background: #F6F6F6;
+}
+
+.category-title {
+    text-decoration: none;
+    padding: 20px 20px 10px 5px;
+    color: #0070C0;
+    line-height: 30px;
+}
+
+.category-title:hover {
+    color: #F36D00;
+}
+
+.icon-1x {
+    font-size: 20px;
+    color: #333;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+#ugc-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#ugc-list-header a {
+    color: #F36D00;
+    text-decoration: none;
+}
+
+#ugc-list-header a:hover {
+    text-decoration: underline;
+}
+
+#series-filter-menu li a {
+    padding-bottom: 11px;
+    line-height: 24px;
+}
+
+#ugc-flash-card-list {
+    margin-top: 20px;
+    margin-right: -20px;
+    min-height: 400px;
+}
+
+#ugc-filter-menu {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+#ugc-filter-box {
+    background: #F8F8F8;
+}
+
+#form-ugc-filter-by-level .level-item {
+    height: 24px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#form-ugc-filter-by-level .level-item > * {
+    cursor: pointer;
+}
+#form-ugc-filter-by-level .level-item:hover > * {
+    color: #F36D00;
+}
+
+#form-ugc-filter-by-level-submit-button {
+    margin: 20px auto 0 auto;
+    width: 100px;
+    display: block;
+}
+
+#ugc-list-header {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#list-clear-both {
+    clear:both;
+}
+
+#list-search, #list-header {
+    display: table-cell;
+    padding: 20px;
+}
+
+#list-search {
+    text-align: right;
+}
+
+#list-search .levels {
+    height: 32px;
+    text-transform: capitalize;
+    padding: 5px 6px;
+    margin-right: 30px;
+    font-family: inherit;
+}
+
+#wordset-search {
+    height: 30px !important;
+    width: 200px;
+    padding: 0px 0px 0px 40px !important;
+    color: #888;
+    background-image: url(../../../img/icons/search.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+}
+
+#categories-list-header {
+    display: table;
+    width: 100%;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.categories-list-box {
+    padding: 20px 20px 20px 20px;
+}
+
+#flashcard-paginator {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #F6F6F6;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.categories-item .fa {
+    opacity: 0.85;
+}
+
+#ugc-filter-title-box {
+    padding: 16px 0;
+    border-radius: 3px;
+    text-indent: 20px;
+    font-size: 18px;
+    animation: bg-filter 4s;
+    -webkit-animation: bg-filter 4s;
+    margin-right: 20px;
+}
+
+@keyframes bg-filter {
+    from {background: #B00000;}
+    to {background: #fff;}
+}
+
+@-webkit-keyframes bg-filter {
+    from {background: #B00000;}
+    to {background: #fff;}
+}
+
+#ugc-flash-card-list .empty {
+    color: #B00000;
+    text-indent: 20px;
+}
+
+#ugc-filter-title-box .title {
+    color: #F36D00;
+}
+
+#ugc-filter-title-box .subject {
+    font-weight: bold;
+    color: #666;
+}
+
+#ugc-filter-title-box .splitter {
+    padding: 0 6px;
+    font-size: 20px;
+}
+
+#ugc-filter-title-box .total-collection {
+    margin-left: 10px;
+    text-transform: none;
+    padding-top: 4px;
+    color: #888;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+#ugc-flash-card-list-box {
+    margin-top: 20px;
+}

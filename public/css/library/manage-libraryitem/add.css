@@ -1,0 +1,10 @@
+#organization-admin-add-libraryitem-bar {
+    font-size: 16px;
+    padding:16px 40px 16px 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#add-libraryitem-form-placeholder {
+    padding: 10px 40px 30px 40px;
+}

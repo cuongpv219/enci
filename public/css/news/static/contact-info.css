@@ -1,0 +1,20 @@
+#front-content {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    width: 1000px !important;
+    line-height: 24px;
+}
+
+#about-ucan-info h2 {
+    border-bottom: 10px solid #F6F6F6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#about-ucan-info ul li a {
+    text-decoration: none;
+}
+
+#about-ucan-info ul li a:hover span {
+    color: #888888 !important;
+}

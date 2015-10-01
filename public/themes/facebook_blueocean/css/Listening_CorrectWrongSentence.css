@@ -1,0 +1,141 @@
+.sentences {
+    width: 420px;
+    font-style:normal;
+    float: left;
+    margin-top: 13px;
+    min-height: 32px;
+}
+.exactly {
+    color: #f8883c;
+    font-weight: bold;
+}
+.reset {
+    float: left;
+    margin-top: 13px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.text-container {
+    margin-bottom: -6px;
+}
+.ordering {
+    width: 18px;
+    float: left;
+    margin: 13px 10px 0 20px;
+}
+.true-false {
+    text-align: center;
+    margin-right: 80px;
+}
+.false-icon {
+    margin-top: 8px;
+}
+.true-icon {
+    margin-top :5px;
+}
+.sentences-row {
+    border-bottom: 1px #F1F1F1 solid;
+    border-left: 1px #F1F1F1 solid;
+    float: right;
+    width: 650px;
+}
+.cp-container {
+    position: absolute;
+    top: 46px;
+    left: 10px;
+}
+#activity-container {
+    position: relative;
+}
+#sentences-container {
+    position: relative;
+}
+#sentences thead {
+    background:#F7EBC8;
+}
+#sentences thead td {
+    height:45px;
+}
+.answers {
+    width:50px;
+    text-align: center;
+    float: right;
+}
+#sentences thead tr td {
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+}
+.sentences-choices {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    right: 54px;
+    margin-top: -40px;
+    background-color:#92d050;
+    text-align: center;
+}
+.sentences-choices span {
+    width: 40px; 
+    height:40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    text-align: center;
+    display: inline-block;
+}
+.sentences-title {
+    background-color:#0099d6;
+    padding-left: 15px;
+}
+.sentences-answers {
+    background-color:#0099d6;
+}
+#sentences {
+    float: right;
+}
+.show-result-button {
+    margin:0px;
+}
+
+.ui-button-text {
+    width: 40px; 
+    height:40px;
+    margin-right: 10px;
+    padding-top: 8px;
+    text-align: center;
+    display: inline-block;
+    background-position: 5px 5px;
+}
+.true, .false {
+    margin-left: 36px;
+    float: left;
+    margin-top: 13px;
+}
+
+.inputtext {
+    width: 200px;
+    padding: 6px 0 6px 0px;
+    outline: none;
+    color: #B00000;
+    margin-top: -4px;
+    border: 1px solid #F2F2F2;
+    padding-left: 4px;
+    -moz-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    -webkit-box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    box-shadow: inset 0 32px 60px -42px #D9D9D9;
+    border: 1px solid #D8D8D8;
+    box-shadow: inset 0 32px 60px -42px #E0E0E0;
+}
+.inputtext:focus {
+    outline: none;
+    background: #FFF7CC;
+    box-shadow: none;
+}
+
+#loadResult {
+    margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+#page-title-header {
+    color: #B50000;
+    border-bottom: 1px solid #dbdbdb;
+    margin-left: 40px;
+}
+
+#discussion-post-add-form {
+    padding-left: 40px;
+}
+
+#title-label {
+    display: block;
+}
+
+.add-discussion-form-element {
+    margin-right: 20px;
+}
+
+.add-discussion-form-element-label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+#add_class_discussion_button {
+    margin-top: 20px;
+}
+
+#edit-success-message {
+    margin-left: 40px;
+    margin-top: 20px;
+}

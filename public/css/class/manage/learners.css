@@ -1,0 +1,103 @@
+#learner-quantity {
+/*    display: inline-block;*/
+    
+}
+
+#learner-statistics-content {
+    padding: 16px 40px 16px 40px;
+}
+
+#learner-statistics-content .filter-bar {
+    border: 1px dashed #e1e1e1;
+    background: #f9f9f9;
+    padding: 10px;
+    text-align: right;
+}
+#learner-statistics-content .filter-bar h3 {
+    margin-left: 30px
+}
+
+#form-filter-learner-by-time {
+    display: inline-block;
+}
+#form-search-learner {
+    display: inline-block;
+}
+
+#learner-found {
+    color: #B00000;
+    padding-left: 16px;
+    font-size: 24px;
+}
+
+#view-all-leaner {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+}
+#view-all-leaner a {
+    color: #0070C0;
+    text-decoration: none;
+}
+#view-all-leaner a:hover {
+    text-decoration: underline;
+}
+
+#learner-list-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+
+#learner-list-wrapper .row {
+    display: table-row;
+}
+
+#learner-list-wrapper .cell {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#learner-list-wrapper .title-bar {
+    background: #f9f9f9;
+    font-weight: bold;
+}
+#learner-list-wrapper .title-bar .cell {
+    background: #F6F6F6;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.learner-item .avatar {
+    width: 40px;
+    padding: 2px 20px 2px 2px;
+}
+.learner-item .avatar img {
+    width: 32px;
+    height: 32px;
+}
+
+.cell .email {
+    color: #888888;
+}
+.cell .registration-time {
+    color: #0F97FF;
+}
+.cell .uc {
+    color: #F36D00;
+}
+
+.cell .fullname {
+    font-weight: bold;
+    color: #F36D00;
+}
+
+#user-pagination {
+    margin: 30px 0;
+    text-align: center;
+}

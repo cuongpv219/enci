@@ -1,0 +1,84 @@
+#front-content {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    width: 1000px !important;
+    line-height: 24px;
+}
+
+#about-ucan-info {
+    padding-right: 0px !important;
+}
+
+.team-member {
+    width: 337px;
+    float: left;
+    display: table;
+/*    background: #F8F8F8;*/
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+    background: white;
+    border: 1px solid #E8E8E8;
+/*    background-image: url('../../../img/global/end_quote.png');*/
+    background-repeat: no-repeat;
+    background-position: 328px 10px;
+    border-radius: 10px;
+/*    box-shadow: inset 0px 1px 0px 0px white;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, white), color-stop(0.8, #F6F6F6) );*/
+}
+
+.member-avatar, .member-info {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.member-info {
+    padding-left: 10px;
+    border-left: 1px solid #E8E8E8
+}
+
+.member-avatar img {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.facebook {
+    width: 16px;
+}
+
+.member-name {
+    margin-top: -6px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+/*    font-size: 14px;*/
+    color: #B00000;
+}
+
+.member-role {
+    color: #888888;
+/*    font-weight: bold;*/
+    font-style: italic;
+}
+
+.member-quote {
+/*    margin-top: 10px;*/
+    border-top: 1px dotted #E8E8E8;
+    padding-top: 10px;
+}
+
+#about-ucan-info h2 {
+    border-bottom: 10px solid #F6F6F6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#team-header {
+    
+/*    padding-right: 20px;*/
+    margin-right: 20px;
+    margin-bottom: 40px !important;
+}
+

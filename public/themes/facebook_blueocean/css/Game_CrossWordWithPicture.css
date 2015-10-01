@@ -1,0 +1,309 @@
+#intro-scene img:first-child {
+    margin-top: 20px;
+}
+
+#main-scene {
+    width: 100%;
+    height: 650px;
+}
+
+#main-scene > p {
+    font-size: 14px;
+    margin-left: 22px;
+    margin-top: 14px;
+    position: absolute;
+    z-index: 2;
+    max-width: 478px;
+    color: #888;
+    width: 620px;
+    font-style: italic;
+}
+
+#game-board {
+    border: 1px solid white;
+    box-shadow: 0 0 8px 6px #f0f0f0;
+    -webkit-box-shadow: 0 0 8px 6px #f0f0f0;
+    -moz-box-shadow: 0 0 8px 6px #f0f0f0;
+    width: 500px;
+    height: 570px;  
+    background: url("../img/Game-CrossWord-Background-Green.jpg") center no-repeat;
+    margin: 68px 0 0 10px;
+    position: relative;
+    float: left;
+}
+
+#game-board #words-wrapper {
+    position: absolute;
+    margin: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#game-board .time {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    font-size: 20px;
+}
+
+#game-board .word-number,
+#info-board .clue-review .number {
+    color: white;
+    font-weight: 700;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    cursor: default;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border: 2px solid #C00000;
+    background-color: #F30;
+    z-index: 3;
+}
+#game-board .word-number-active {
+    background-color: #558ed5;
+    border-color: #416fa7;
+    z-index: 3;
+}
+
+#game-board .word-number:hover {
+    background-color: #558ed5;
+    border-color: #416fa7;
+    cursor: pointer;
+}
+
+#game-board .word-number-small {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 10px;
+}
+
+#game-board .character {
+    border: 1px solid #DBDBDB;
+    box-shadow: inset 0 15px 32px -22px #DBDBDB;
+    -moz-shadow: inset 0 15px 32px -22px #dbdbdb;
+    -webkit-shadow: inset 0 15px 32px -22px #dbdbdb;
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    outline: none;
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 22px;
+    width: 22px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+#game-board .is-key {
+    box-shadow: inset 0 15px 52px -12px yellow;
+    -moz-shadow: inset 0 15px 52px -12px yellow;
+    -webkit-shadow: inset 0 15px 52px -12px yellow;
+}
+
+#game-board .character-active {
+    border: 1px solid #00b0f0;
+    box-shadow: inset 0 15px 52px -22px #00b0f0;
+    -moz-shadow: inset 0 15px 52px -22px #00b0f0;
+    -webkit-shadow: inset 0 15px 52px -22px #00b0f0;
+    z-index: 2;
+}
+
+#info-board {
+    width: 256px;
+    height: 650px;
+    border-left: 1px solid #f2f2f2;
+    float: right;
+}
+
+#score-clue-wrapper {
+    width: 100%;
+    height: 582px;
+    position: relative;
+    overflow: auto;
+}
+
+#score-clue-wrapper .game-score {
+    border: 2px solid #F68D36;
+    margin: 68px auto 0 auto;
+    position: relative;
+    width: 234px;
+    height: 38px;
+}
+
+#score-clue-wrapper .game-score .text {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    padding-left: 15px;
+    width: 84px;
+}
+#score-clue-wrapper .game-score .plus-mark {
+    float: left;
+    width: 17px;
+    color: #F68D36;
+    font-family: 'Segoe UI';
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    display: none;
+}
+#score-clue-wrapper .game-score .value {
+    float: right;
+    width: 70px;
+    background: #f68d36;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+    line-height: 34px;
+}
+
+#score-clue-wrapper .hint {
+    height: 27px;
+    width: 220px;
+    margin: 11px;
+    position: absolute;
+    bottom: 40px;
+}
+
+#score-clue-wrapper > p {
+    color: red;
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+}
+
+#score-clue-wrapper .hint-circle-active,
+#score-clue-wrapper .hint-circle-inactive {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 10px 8px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#score-clue-wrapper .hint-circle-active {
+    background-color: #f68426;
+    border-color: #f57a14;
+}
+#score-clue-wrapper .hint-circle-inactive {
+    background-color: #e1e1e1;
+    border-color: #d9d9d9;
+}
+
+#info-board .clue {
+    margin: 10px;
+    line-height: 24px;
+    min-height: 300px;
+}
+
+#score-clue-wrapper .clue img {
+    max-width: 240px;
+    margin: 20px auto;
+    display: none;
+}
+
+#score-clue-wrapper .highlight {
+    font-weight: bold;
+    color: #f68d36;
+}
+
+#info-board .clue-review {
+    width: 220px;
+    min-height: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+#info-board .clue-review .number {
+    position: static;
+    float: left;
+}
+#info-board .clue-review .content {
+    margin-left: 26px;
+    text-align: justify;
+}
+
+#btn-start {
+    margin: -79px 470px;
+    position: relative;
+}
+
+#btn-endgame {
+    margin: 20px 20px;
+}
+
+.btn-next-activity {
+    float: right;
+}
+
+#intro-scene .submit-div,
+#game-over-wrapper .submit-div {
+    position: relative;
+    margin-top: 105px;
+}
+
+#game-over-wrapper {
+    display: none;
+}
+
+#game-over {
+    box-shadow: inset 0 15px 32px -22px #dbdbdb;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    margin: 40px auto;
+    width: 400px;
+    height: 350px;
+    padding: 10px 18px;
+    position: relative;
+}
+
+#game-over .board-title {
+    color: #6BAE22;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#game-over .text,
+#game-over .number {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#game-over .text {
+    margin-left: 87px;
+    width: 150px;
+}
+#game-over .number {
+    width: 100px;
+    color: #fca302;
+    margin-left: 44px;
+}
+#game-over .review {
+    text-align: center;
+    margin: 34px auto;
+    clear: both;
+}

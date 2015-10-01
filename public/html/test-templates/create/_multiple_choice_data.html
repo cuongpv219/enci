@@ -1,0 +1,23 @@
+<div class="multiple-choice data-list">
+	<ul class="question-list list-unstyled"
+		ng-if="activity.questions.length > 0" ui-sortable="sortableOptions" ng-model="activity.questions">
+		<li class="question" ng-repeat="question in activity.questions track by $index">
+			<div ng-if="question.isDivider" ng-bind-html="question.dividerContent"></div>
+			<div class="content" ng-if="!question.isDivider">
+				<span class="order">{{orderer.computeOrder(question, activity, activities)}}</span>
+				<div class="title" ng-bind-html="question.content"></div>
+				<ul class="answer-list list-unstyled">
+					<li class="answer" 
+						ng-class="{key: $index == question.key, inline: question.inlineAnswers}"
+						ng-repeat="answer in question.answers track by $index">
+						<b ng-if="answer">{{orderer.translateABCD($index)}}. </b> {{answer}}
+					</li>
+				</ul>
+				<div class="explanation" 
+					ng-show="question.explanation.length > 1"
+					ng-bind-html="question.explanation"></div>
+			</div>
+			<question-actions></question-actions>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,16 @@
+
+#curr-element ul{
+    margin: 0;
+    padding: 0;
+}
+#curr-element li{
+    width: 100%;
+    list-style: none;
+    padding-left: 10px;
+}
+
+#curr-element li div {
+    float: left;
+    width: 33%;
+    line-height: 30px;
+}

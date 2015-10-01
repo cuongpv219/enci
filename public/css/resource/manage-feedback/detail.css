@@ -1,0 +1,50 @@
+body {
+    font-family: "Segoe UI", "Arial";
+}
+
+#page-intro {
+    color: #b00000;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px dashed #e5e5e5;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#feedback-detail {
+    list-style: none;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+#feedback-detail .subject {
+    font-weight: bold;
+    width: 20%;
+}
+#feedback-detail .field-detail {
+    display: table-row;
+}
+#feedback-detail .field-detail:hover {
+    background: #f8f8f8;
+}
+#feedback-detail .field-detail > * {
+    display: table-cell;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#navigator {
+    text-align: center;
+    width: 100%;
+}
+
+
+#btn-delete,
+#btn-back-to-list {
+    height: 22px;
+    width: 100px;
+    line-height: 22px;
+}

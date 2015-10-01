@@ -1,0 +1,211 @@
+#class-box {
+    padding: 10px 20px 20px 20px;
+    width: 960px;
+}
+#class-working-result-title a, #working-result-title a {
+    color: #0070c0;
+    font-weight: bold;
+    text-decoration: none;
+}
+#class-working-result-title a:hover, #working-result-title a:hover{
+    color: #f36d00
+}
+#working-result-title {
+    color: #333;
+    font-weight: 600;
+}
+#working-result-button-box {
+    margin-left: -20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F6F6F6;
+}
+#working-result-subtitle {
+    color: #888;
+}
+
+.muster-result-tbl{
+    width: 100%;
+}
+.muster-result-tbl .muster-result-tbl-lbl td:first-child{
+    border-left: 1px solid #e0e0e0;
+    width: 30px;
+}
+.muster-result-tbl .muster-result-tbl-lbl td{
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    box-shadow: 0 -5px 10px 0 #f6f6f6 inset;
+}
+.muster-result-tbl .muster-result-tbl-lbl td a{
+    color: #000;
+    text-decoration: none;
+}
+.muster-result-tbl .muster-result-tbl-lbl td a:hover{
+    color: #888;
+}
+
+.muster-result-tbl td:first-child{
+    border-left: 1px solid #e0e0e0;
+    text-align: left;
+    padding-left: 10px;
+}
+.muster-result-tbl td{
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    box-shadow: 0 -5px 10px 0 #f6f6f6 inset;
+}
+
+
+
+
+.ng-toggle-wrap {
+    display:inline-block;
+    margin:3px;
+    position:relative;
+    width: 62px;
+    height:36px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    z-index:0;
+}
+.ng-toggle-wrap:hover {
+    z-index:1;
+}
+.ng-toggle-wrap.vertical {
+    height: 62px;
+}
+.ng-toggle-wrap .ng-toggle-switch {
+    -webkit-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+}
+.ng-toggle-wrap.vertical .ng-toggle-switch {
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+    transform:translate(-50%, -50%) rotate(-90deg);
+}
+.ng-toggle-switch {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 56px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ddd;
+    border-radius: 25px;
+    -webkit-transition:background-color .25s ease;
+    transition:background-color .25s ease;
+    cursor:pointer;
+}
+.ng-toggle-switch.true {
+    background-color:#68C527;
+}
+.ng-toggle-switch.false {
+    background-color:#ff4d35;
+}
+.ng-toggle-false {
+    position:absolute;
+    left:0;
+    width:50%;
+    height:100%;
+}
+.ng-toggle-true {
+    position:absolute;
+    right:0;
+    width:50%;
+    height:100%;
+}
+.ng-toggle-handle {
+    width:24px;
+    height:24px;
+    border-radius:100%;
+    background-color:white;
+    position:absolute;
+    top:3px;
+    left:16px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition:all .2s ease-out;
+    transition:all .2s ease-out;
+}
+.ng-toggle-switch.true .ng-toggle-handle {
+    left:29px;
+}
+.ng-toggle-switch.false .ng-toggle-handle {
+    left:3px;
+}
+.ng-toggle-tooltip {
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    -webkittransition:opacity .3s ease;
+    transition:opacity .3s ease;
+    transform: translate(5px, -50%) translateZ(0) scale(1.0, 1.0);
+    ;
+    -webkit-transform: translate(5px, -50%) translateZ(0) scale(1.0, 1.0);
+    ;
+    -webkit-backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    color: #CCC;
+    padding: 3px 11px;
+    font-size: 12px;
+    border-radius: 12px;
+    opacity:0;
+    pointer-events:none;
+    text-align:left;
+    white-space:nowrap;
+}
+.ng-toggle-wrap:hover .ng-toggle-tooltip {
+    opacity:1;
+}
+.ng-toggle-tooltip:before {
+    width: 5px;
+    height: 5px;
+    border-style: solid;
+    border-width: 4px 5px 4px 0;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    content:'';
+    pointer-events:none;
+}
+.ng-toggle-tooltip .active {
+    color:white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    -webkit-transition:all .2s ease;
+    transition:all .2s ease;
+}
+
+
+#add-success-message {
+    /* border: 1px solid #E8E8E8; */
+    border: #FFEAB3 1px solid;
+    background: #FFF9E8;
+    padding: 20px;
+    margin-top: 4px;
+}
+
+#add-success-message a {
+    text-decoration: none;
+    color: #B00000;
+}
+
+#add-success-message a:hover {
+    text-decoration: underline;
+}

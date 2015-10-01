@@ -1,0 +1,12 @@
+<div class="modal-footer">
+	<button type="button" class="btn btn-default" data-dismiss="modal" 
+		ng-if="!editting">Đóng</button>
+
+    <button type="button" class="btn btn-primary" 
+    	ng-if="!editting"
+    	ng-click="addQuestion()">Thêm câu hỏi</button>
+
+	<button type="button" class="btn btn-primary" 
+    	ng-if="editting"
+    	ng-click="finishEditting()">Cập nhật câu hỏi</button>
+</div>

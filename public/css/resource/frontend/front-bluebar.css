@@ -1,0 +1,187 @@
+#front-bluebar {
+    background: #0083C4;
+    background-image: -ms-linear-gradient(top, #0083C4 0%, #0073AC 100%);
+    background-image: -moz-linear-gradient(top, #0083C4 0%, #0073AC 100%);
+    background-image: -o-linear-gradient(top, #0083C4 0%, #0073AC 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0083C4), color-stop(1, #0073AC));
+    background-image: -webkit-linear-gradient(top, #0083C4 0%, #0073AC 100%);
+    background-image: linear-gradient(top, #0083C4 0%, #0073AC 100%);
+    height: 60px;
+    padding: 0px;
+}
+
+#front-bluebar-placeholder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: table;
+    padding: 0px;
+}
+
+#ucan-logo {
+    float: left;
+    height: 32px;
+    margin-top: 14px;
+    width: 116px;
+}
+
+.front-bluebar-social-icon {
+    width: 24px;
+    height: 23px;
+    margin-top: 18px;
+}
+
+#front-bluebar-content {
+    width: 800px;
+    text-align: right;
+    float: right;
+    height: 60px;
+    display: table;
+}
+
+#front-bluebar-links, #front-bluebar-social-icons {
+    display: table-cell;
+}
+
+#front-bluebar-social-icons {
+    width: 32px;
+}
+
+.front-bluebar-social-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#front-bluebar-links {
+    vertical-align: middle;
+}
+
+#front-bluebar-links {
+    color: white;
+    padding-top: 16px;
+}
+#front-bluebar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#front-bluebar-links a:hover {
+    text-decoration: underline;
+}
+
+#front-bluebar-links .spliter {
+    color: #fff;
+    padding: 0 8px;
+}
+
+#ucan-logo:hover {
+    cursor: pointer;
+}
+
+#ucan-version {
+    color: white;
+    padding-top: 10px;
+    margin-left: 4px;
+    float: left;
+}
+
+.buy-card{
+    position: relative;
+    margin-left: 470px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.buy-card ul{
+    display: none;
+    position: absolute;
+    border: 2px solid #e8e8e8;
+    list-style: none;
+    padding-left: 0px;
+    color: #888;
+    width: 220px;
+    font-size: 13px;
+    text-align: center;
+    right: -48px;
+    top:23px;
+    /*padding: 20px;*/
+    background: #fff;
+    z-index: 9999;
+    background: #fff;
+}
+.buy-card ul:after, .buy-card ul:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.buy-card .contact .number{
+    color: #c0392b;
+}
+.buy-card .contact{
+    border-top: 1px solid #e8e8e8;
+    color: #444;
+    line-height: 20px;
+}
+
+.buy-card ul:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 9px;
+    margin-left: 38px;
+}
+.buy-card ul:before {
+    border-color: rgba(232, 232, 232, 0);
+    border-bottom-color: #e8e8e8;
+    border-width: 12px;
+    margin-left: 35px;
+}
+
+.buy-card .buy {
+    background: #00b0f0;
+    display: inline;
+    padding: .2em 12px .3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    text-decoration: none !important;
+    
+}
+
+.buy-card a:hover {
+    text-decoration: none;
+}
+
+.buy-card .buy span {
+    font-size: 75%;
+    padding-left: 4px;
+}
+
+
+
+.buy-card ul li{
+    padding: 10px 0px;
+}
+.buy-card ul li:hover{
+    background: #f6f6f6;
+}
+.buy-card ul li a{
+    color: #555  !important;
+    text-decoration: none !important;
+}
+
+.buy-card ul li:hover a{
+    color: #0073AC !important;
+}
+
+.buy-card:hover ul{
+    display: block;
+};

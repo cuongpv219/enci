@@ -1,0 +1,112 @@
+#organization-admin-course-list-bar {
+    font-weight: bold;
+    padding:0px 40px 16px 40px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#course-list {
+    padding: 20px 40px 0px 40px;
+}
+
+.course-item:hover {
+}
+
+.course-image {
+    padding-top: 15px;
+    width: 220px;
+    clip: rect(0px, 220px, 110px, 0px);
+}
+
+#course-list a {
+    text-decoration: none;
+}
+
+.course-item-statistics {
+/*    color: #F36D00;*/
+    font-weight: bold;
+}
+
+.course-item-title {
+/*    padding-top: 10px;*/
+    color: #B00000;
+}
+
+#course-list-box {
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+#course-list-wrapper {
+    margin: 0 auto;
+}
+
+.course-item {
+    float: left;
+    width: 220px;
+    height: 400px;
+    background: white;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 15px 10px 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.course-item:hover {
+    cursor: pointer;
+}
+
+.course-item:hover .course-item-title {
+    color: #F36D00;
+}
+
+.course-item-summary {
+    color: #888;
+}
+
+#clear-both-div {
+    clear: both;
+}
+
+#create-new-course {
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+
+.course-item-actions {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 15px 20px 15px;
+    border-top: 1px solid #E8E8E8;
+    width: 220px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px white;
+    box-shadow: inset 0px 1px 0px 0px white;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #F2F2F2) );
+    background: -moz-linear-gradient( center top, white 5%, #F2F2F2 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F2F2F2');
+    background-color: white;
+    text-align: right;
+    color: #666;
+}
+
+.course-item-link {
+    color: #666;
+}
+
+.course-item-link:hover {
+    text-decoration: underline !important;
+    color: #F37D1D !important;
+}

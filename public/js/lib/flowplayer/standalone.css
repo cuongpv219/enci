@@ -1,0 +1,9 @@
+/* styling for body element */
+body { 
+	margin:50px 100px;
+}
+
+/* remove ugly system borders links */
+a img 	{ 	border:0 }
+a:active { 	outline:none; }
+:focus   { -moz-outline-style:none; }

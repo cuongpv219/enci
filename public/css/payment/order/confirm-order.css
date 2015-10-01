@@ -1,0 +1,73 @@
+#order-summary {
+    width: 850px;
+    margin: 40px auto;
+    border-spacing: 0;
+    color: #555;
+}
+
+#order-summary td {
+    vertical-align: top;
+    border-bottom: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    padding: 20px;
+}
+
+#transport-time,
+#customer-info {
+    border-left: 1px solid #dbdbdb;
+}
+
+#customer-info {
+    font-weight: bold;
+    font-size: 14px;
+    width: 450px;
+}
+
+#customer-info .location,
+#customer-info .mobile {
+    font-weight: normal;
+}
+
+#order-title {
+    background-color: #f2f2f2;
+    color: #B00000;
+    padding: 10px 20px !important;
+    vertical-align: middle;
+    border-top: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    font-weight: bold;
+}
+
+#total-money strong {
+    color: #B00000;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 8px;
+}
+
+#total-money {
+    color: #b00000;
+    text-align: right;    
+    border-left: 1px solid #dbdbdb;
+    color: inherit;
+}
+
+#error {
+    color: #B00000;
+    display: none;
+}
+
+#cmds {
+    margin-top: -20px;
+    text-align: right;
+    padding-right: 54px;
+}
+
+#cmds .btn {
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    font-family: inherit;
+    width: 100px;
+    margin-left: 3px;
+}

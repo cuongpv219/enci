@@ -1,0 +1,155 @@
+/**/
+.flashcard-index-btn {
+	margin: 0 10px;
+}
+.flashcard-index-btn50-left{
+	padding: 0;
+	padding-right: 5px;
+}
+.flashcard-index-btn50-right{
+	padding: 0;
+	padding-left: 5px;
+}
+#flashcard-index-container {
+	padding: 0 10px 10px 10px;
+}
+
+#flashcard-index-container .row {
+	margin: 0;
+}
+
+#flashcard-index-container .row .panel {
+	margin-bottom: 0;
+}
+
+.flashcard-index-box {
+	/*height: 180px;
+	min-height: 180px;*/
+	overflow: hidden;
+}
+
+.flashcard-index-box-left, .flashcard-index-box:nth-child(odd) {
+	padding: 0 5px 10px 0px;
+}
+.flashcard-index-box-right, .flashcard-index-box:nth-child(even) {
+	padding: 0 0px 10px 5px;
+}
+
+.flashcard-index-box .panel{
+	/*height: 168px;*/
+}
+
+.flashcard-index-box .panel-body {
+	padding: 5px;
+	/*padding: 0px 0px 10px 0px;*/
+}
+
+.flashcard-index-box .panel-body .panel-body-title{
+	padding: 5px 0 5px 5px;
+}
+.flashcard-index-box .panel-body a {
+	text-decoration: none;
+}
+
+.flashcard-index-box .panel-body a h5 {
+	height: 48px;
+	font-size: 12px;
+	overflow: hidden;
+	color: #000;
+	font-weight: medium;
+}
+
+.flashcard-index-box .panel-body a h6 {
+	overflow: hidden;
+	display: block;
+	height: 14px;
+}
+.flashcard-index-box .flashcard-item-img{
+	width: 100%;
+}
+
+.btn-view-more{
+	padding: 12px 30px;
+}
+
+.flashcard-user-info .col-xs-3, .flashcard-user-info .col-xs-9{
+	padding: 5px 0;
+}
+.flashcard-user-info .col-xs-3 img{
+	width: 100%;
+}
+.flashcard-user-info .col-xs-9 h5{
+	padding: 0 0 10px 10px;
+	height: auto !important;
+	margin: 0;
+}
+.flashcard-user-info .col-xs-9 h6{
+	padding: 0 0 10px 10px;
+	margin: 0;
+}
+.flashcard-detail-item .ugc-item-desc{
+	height: 60px;
+	overflow: hidden;
+}
+.flashcard-detail-item .ugc-item-level b{
+	color: #111;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+.rating-00, .rating-05, .rating-10, .rating-15, .rating-20, .rating-25, .rating-30, .rating-35, .rating-40, .rating-45, .rating-50 {
+    background-image: url('../../../img/global/ratings.png');
+    width: 100px;
+    background-repeat: no-repeat;
+    height: 16px;
+}
+.rating-00 {
+    background-position: -100px 0px;
+}
+.rating-05 {
+    background-position: -80px -20px;
+}
+.rating-10 {
+    background-position: -80px 0px;
+}
+.rating-15 {
+    background-position: -60px -20px;
+}
+.rating-20 {
+    background-position: -60px 0px;
+}
+.rating-25 {
+    background-position: -40px -20px;
+}
+.rating-30 {
+    background-position: -40px 0px;
+}
+.rating-35 {
+    background-position: -20px -20px;
+}
+.rating-40 {
+    background-position: -20px 0px;
+}
+.rating-45 {
+    background-position: -0px -20px;
+}
+.rating-50 {
+    background-position: 0px 0px;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}

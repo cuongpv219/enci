@@ -1,0 +1,108 @@
+#activity-container .global-blue-bar { 
+    float: left;
+    width: 510px;
+}
+
+#activity-container .global-orange-bar { 
+    width: 480px;
+    display: table;
+    table-layout: fixed;
+    float: right;
+}
+
+#activity-container {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.answers {
+    display: table-cell;
+    width: 40px;
+}
+
+#reading-board {
+    overflow: hidden;
+    outline: none;
+    line-height: 24px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+#activity-board {
+    width: 478px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#right-wrapper {
+    float: right;
+    position: relative;
+}
+
+#left-wrapper {
+    position: relative;
+    float: left;
+    width: 488px;
+    vertical-align: top;
+    padding: 0 10px 20px 10px;
+}
+#white {
+    width: 488px;
+    background: #fff;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#sentences-wrapper {
+    display: table;
+    width: 100%;
+}
+.sentence-title{
+    padding-left: 20px;    
+    line-height: 36px;
+    font-weight: bold;
+    color:#FFF;
+    display: table-cell;
+}
+
+.choice-title {
+    width: 40px;
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 16px;
+    color:#FFF;
+    background-color: #ffc000;
+    display: table-cell;
+    text-align: center;
+}
+.sentences-row {
+    display: table-row;
+}
+.sentences-row .cell:not(.sentences) {
+    width: 40px;
+}
+.sentences-row .cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #eaeaea;   
+    line-height: 24px;
+}
+.sentences-row .cell.sentences {
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: left !important;
+}
+.true-icon, .false-icon {
+    width: 18px;
+}
+.sentences {
+    display: table-cell;
+}
+
+#loadResult {
+    margin: 0 auto;
+}

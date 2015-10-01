@@ -1,0 +1,72 @@
+#list-user-discount {
+	list-style: none;
+	padding: 0px 20px 0px 0px;
+	/*margin: 10px 10px 40px 10px;*/
+	display: table;
+	width: 1000px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+#list-user-discount li {
+	display: table-row;
+	height: 30px;	
+}
+
+#list-user-discount li:hover {
+	background: #F0F0F0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.cell {
+	display: table-cell;
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	padding: 8px 10px 10px 10px;
+	border-right: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+
+.order {
+	width: 5%
+}
+
+.name {
+	width: 20%;
+}
+
+.phone {
+	width: 15%;
+}
+
+.career {
+	width: 20%;
+}
+
+.uc {
+	width: 5%;
+}
+
+.created-time {
+	width: 20%;
+}
+
+.is-called {
+	width: 15%;
+}
+
+.address {
+	width: 10%;
+}
+
+.city {
+	width: 10%;
+}
+
+.district {
+	width: 10%;
+}

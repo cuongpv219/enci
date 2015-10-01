@@ -1,0 +1,52 @@
+#image-holder{
+    position: relative;
+}
+
+#map{
+    z-index: 1;
+    position: absolute;
+    border: 1px solid black;
+}
+
+#mark{
+    border: 2px solid white;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    cursor: move;
+    z-index: 2;
+    position: absolute;
+}
+
+#confirm{
+    font-size: 16px;
+    padding: 6px 20px;
+    background-color: #028AEC;
+    background-image: linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -o-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -moz-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -webkit-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -ms-linear-gradient(bottom, #0089EA 0%, #0F97FF 50%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #0089EA), color-stop(0.5, #0F97FF) );
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    padding: 4px 10px 4px 10px;
+    font-family: "Segoe UI";
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#confirm:hover{
+    background-color: #EC700B;
+    background-image: linear-gradient(bottom, #EB6F0A 0%, #F68326 54%);
+    background-image: -o-linear-gradient(bottom, #EB6F0A 0%, #F68326 54%);
+    background-image: -moz-linear-gradient(bottom, #EB6F0A 0%, #F68326 54%);
+    background-image: -webkit-linear-gradient(bottom, #EB6F0A 0%, #F68326 54%);
+    background-image: -ms-linear-gradient(bottom, #EB6F0A 0%, #F68326 54%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #EB6F0A), color-stop(0.54, #F68326) );
+    cursor: pointer;
+}

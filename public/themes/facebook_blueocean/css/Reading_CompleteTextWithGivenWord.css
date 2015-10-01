@@ -1,0 +1,135 @@
+#activity-guide {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+}
+
+#activity-guide-wrap {
+    width: 250px;
+    margin: -9px auto auto;
+}
+
+#activity-guide-wrap img {
+    width: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    background-color: #FFF;
+}
+
+#activity-guide-wrap div {
+    display: inline-block;
+    color: #8c8c8c;
+    position: absolute;
+    background-color: #FFF;
+    padding: 0 10px 0 5px;
+}
+
+#activity-container {
+    overflow: hidden;
+}
+
+#activity-container .global-blue-bar {
+    width: 497px;
+    float: left;
+}
+
+#activity-container .global-orange-bar {
+    width: 497px;
+    float: right;
+    margin-right: -2px;
+}
+
+#reading-board {
+    width: 360px;
+    float: left;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#sentence-list {
+    margin: 0 20px;
+}
+
+#reading-container {
+    overflow-y: auto;
+    outline: none;
+    width: 360px;
+    padding: 10px 20px 10px 0;
+}
+
+.jspVerticalBar {
+    display: none;
+}
+
+.false-icon {
+    height: 18px;
+    margin-top: 1px;
+}
+
+.true-icon {
+    height: 18px;
+}
+
+#activity-board {
+    width: 380px;
+    float: right;
+    padding: 0;
+}
+
+.word {
+    cursor: move;
+    font-weight: 700;
+}
+
+.word:hover {
+    color: #F5770F;
+}
+
+#word-list span {
+    margin-right: 20px;
+}
+
+#word-list {
+    border: 1px solid #e0e0e0;
+    -moz-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    -webkit-box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    box-shadow: inset 0 32px 60px -42px #d9d9d9;
+    min-height: 27px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.blank-over {
+    background: #f0f0f0;
+}
+
+#sentences {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.ui-draggable-dragging {
+    color: #f5770f;
+}
+
+#sentences li span span.word {
+    font-weight: 700;
+    color: #f5770f;
+}
+
+#sentences li {
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.show-result-button {
+    margin: 0;
+}
+
+#loadResult {
+    margin: 0 auto;
+}
+

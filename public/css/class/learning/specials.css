@@ -1,0 +1,100 @@
+#list-block-items {
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+#list-block-items .item:first-child {
+    /*margin-top: 20px;*/
+}
+#list-block-items .item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#list-block-items .top {
+    border-bottom: 1px solid #e9e9e9;
+    position: relative;
+}
+#list-block-items .top:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#list-block-items .order {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    background: #f0f0f0;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    left: -1px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#list-block-items .special-title:hover {
+    text-decoration: underline;
+}
+
+#list-block-items .special-title {
+    margin-left: 50px;
+    font-weight: bold;
+    color: #f36d00;
+    vertical-align: -10px;
+    text-decoration: none;
+}
+
+#list-block-items .bottom {
+    color: #888;
+}
+
+#list-block-items .bottom .special-info {
+    margin-left: 50px;
+}
+
+#list-block-items .bottom .teacher {
+    margin-right: 100px;
+    float: right;
+}
+
+#list-block-items .actions {
+    margin-left: 20px;
+}
+
+#list-block-items .actions .separator {
+    margin: 0 4px;
+}
+
+#list-block-items .actions a {
+    color: #0084c0;
+    text-decoration: none;
+}
+#list-block-items .actions a:hover {
+    color: #F36D00;
+    text-decoration: underline;
+}
+
+#list-block-items .join {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    font-size: 13px;
+    padding: 4px 10px !important;
+}
+
+#special-pagination {
+    background: #F6F6F6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -20px;
+}

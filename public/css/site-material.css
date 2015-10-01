@@ -1,0 +1,46 @@
+body {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff !important;
+}
+
+.ucan-logo {
+  width: 30px;
+  margin-top: -6px;
+}
+
+.tbl-footer-categories {
+    margin-bottom: 0;
+}
+.tbl-footer-categories td{
+    padding-left: 20px !important;
+}
+.ucan-footer {
+    margin-bottom: 0px;
+    padding: 20px 20px 10px 20px;
+}
+.ucan-footer p{
+    margin-bottom: 5px;
+}
+.ucan-footer p a{
+    color: #FFF;
+}
+
+header .navbar-fixed-top {
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+header .navbar-collapse a:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.user-avatar {
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px; 
+    cursor: pointer;
+    width: 32px;
+}

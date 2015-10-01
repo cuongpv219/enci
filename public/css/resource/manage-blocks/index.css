@@ -1,0 +1,69 @@
+body {
+    font-family: "Segoe UI", "Arial";
+}
+#page-intro {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page-intro .title {
+    color: #B00000;
+}
+
+#btn-create-new {
+    height: 22px;
+    float: right;
+}
+
+#block-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 10px;
+    display: table;
+    width: 100%;
+}
+
+#block-list .block-item-wrapper {
+    display: table-row;
+}
+#block-list .block-item-wrapper:hover {
+    background: #f8f8f8;
+}
+
+#block-list .cell {
+    display: table-cell;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 10px 20px 10px;
+}
+
+#block-list .link-details:hover,
+#block-list .link-edit:hover,
+#block-list .show-hide:hover {
+    text-decoration: underline;
+}
+#block-list .show-hide {
+    color: #0F97FF;
+}
+
+#block-list .show-hide,
+#block-list .link-edit,
+#block-list .link-details {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#block-list .link-details {
+    color: #F37D1D;
+}
+#block-list .link-edit {
+    color: #4E7E18;
+}
+
+#block-list .navigator {
+    padding-right: 6px;
+    width: 300px;
+    text-align: right;
+}

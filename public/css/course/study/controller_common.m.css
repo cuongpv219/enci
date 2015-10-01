@@ -1,0 +1,17 @@
+.course-structure-toggle {
+    font-size: 14px;
+    background: #999;
+    cursor: pointer;
+    padding: 2px 6px;
+    color: #fff !important;
+    text-decoration: none !important;
+    position: absolute;
+    right: 0px;
+    top: -3px;
+}
+
+.course-structure-toggle i {
+    font-size: 20px;
+    vertical-align: -4px;
+    margin-right: 2px;
+}

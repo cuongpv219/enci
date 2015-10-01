@@ -1,0 +1,183 @@
+#front-content {
+	font-size: 13px!important;
+	padding-bottom: 100px !important;
+}
+
+#front-bluebar-user-space-box {
+	padding-top: 20px;
+}
+
+#header-content {
+	background: #7f7f7f;
+	/*margin: -20px;*/
+	height: 380px;
+	overflow: hidden;
+	position: relative;
+}
+
+#fanpage {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 270px ;
+}
+
+#header-content .content {
+ 	width: 40%;
+ 	float: left;
+ 	padding: 20px;
+ 	color: #fff;
+ 	box-sizing: border-box;
+}
+
+#thumbnail {
+	width: 60%;
+	float: right;
+}
+
+p, li {
+	line-height: 20px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 40px;
+	margin-top: 0px;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 28px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #000;
+	border-bottom: 10px solid #F6F6F6;
+	padding-bottom: 20px
+}
+
+strong {
+	color: #b00000;
+}
+
+ul {
+	list-style: none;
+	padding-left: 20px;
+	margin-top: -10px;
+}
+
+li {
+	padding-top: 5px;
+}
+
+i {
+	font-size: 20px; 
+	margin-right: 10px;
+	color: #0f9d58;
+}
+
+
+#description {
+	margin-top: 40px;
+}
+
+.address {
+	margin-top: -10px;
+}
+
+.table {
+	list-style: none;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0px;
+	margin-top: 20px;
+}
+
+.table li {
+	display: table;
+	width: 100%;
+	padding-top: 0px;
+}
+
+.cell {
+	display: table-cell;
+	padding: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+}
+
+ul li:first-child .cell {
+	border-top: 1px solid #e8e8e8;
+}
+
+ul li:last-child .cell {
+	/*border-bottom: 1px solid #e8e8e8;*/
+}
+
+.left {
+	width: 25%;
+	border-left: 1px solid #e8e8e8;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.right.head {
+	font-weight: bold;
+}
+
+.center {
+	/*box-sizing: border-box;*/
+	/*border-right: 2px solid #e8e8e8;*/
+}
+
+ul li ul {
+	padding-left: 0px;
+}
+
+ul li ul li {
+	line-height: 24px;
+}
+
+.document i {
+	color: #b00000;
+	font-size: 20px; 
+	/*margin-top: 1px;*/
+	margin-right: 10px;
+}
+
+.document {
+	position: relative;
+}
+
+#icon-pdf {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.document a {
+	color: #038ACF;
+	text-decoration: none;
+}
+
+.document a:hover {
+	text-decoration: underline;
+}
+
+.clear-both {
+	clear: both;
+}
+
+#benefit h2 {
+	color: #b00000;	
+}
+
+.border-box {
+	padding: 20px;
+	border: 1px solid #e8e8e8;
+	margin-top: 40px;
+	box-shadow: inset 0px -5px 20px 0px #F2F2F2;
+}
+
+.border-box h2 {
+	margin-top: 0px;
+}

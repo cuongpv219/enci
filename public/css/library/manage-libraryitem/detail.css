@@ -1,0 +1,77 @@
+/*#path-to-root-bar {
+    font-size: 14px;
+    padding:16px 40px 16px 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#path-to-root-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#path-to-root-bar a:hover {
+    color: #B00000;
+}*/
+
+#libraryitem-children {
+    padding: 10px 40px 30px 40px;
+    width: 25%;
+    display: table-cell;
+    border-right: 1px solid #E0E0E0;
+}
+
+#libraryitem-detail {
+    padding: 10px 40px 30px 40px;
+    width: 75%;
+    display: table-cell;
+
+}
+
+#delete-libraryitem-button, #edit-libraryitem-button {
+    padding: 4px 12px 4px 12px !important;
+    margin-left: 10px;
+    font-size: 13px !important;
+}
+
+#add-libraryitem-button {
+    padding: 4px 12px 4px 12px !important;
+    font-size: 13px !important;
+}
+
+.library-item-child a {
+    text-decoration: none;
+    color: black;
+}
+
+.library-item-child {
+    padding: 4px 0px 4px 20px;
+}
+
+.library-item-child:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+
+}
+
+#add-sub-element, #edit-sub-element, #delete-element {
+    float: right;
+    margin-top:8px;
+}
+
+#library-item-content {
+    display: table;
+    width: 100%;
+}
+
+#live-view-libraryitem-button {
+    
+    padding: 4px 12px 4px 12px !important;
+    margin-left: 10px;
+    font-size: 13px !important;
+}
+
+#live-view-element {
+    float: right;
+    margin-top: 8px;
+}

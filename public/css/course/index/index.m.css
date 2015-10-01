@@ -1,0 +1,81 @@
+/**/
+.course-index-btn {
+	margin: 0 10px;
+}
+.course-index-btn50-left{
+	padding: 0;
+	padding-right: 5px;
+}
+.course-index-btn50-right{
+	padding: 0;
+	padding-left: 5px;
+}
+#course-index-container {
+	padding: 0 10px 10px 10px;
+}
+
+#course-index-container .row {
+	margin: 0;
+}
+
+#course-index-container .row .panel {
+	margin-bottom: 0;
+}
+
+.course-index-box {
+	/*height: 180px;
+	min-height: 180px;*/
+	overflow: hidden;
+}
+
+.course-index-box-left, .course-index-box:nth-child(odd) {
+	padding: 0 5px 10px 0px;
+}
+.course-index-box-right, .course-index-box:nth-child(even) {
+	padding: 0 0px 10px 5px;
+}
+
+.course-index-box .panel{
+	/*height: 168px;*/
+}
+
+.course-index-box .panel-body {
+	padding: 5px;
+	/*padding: 0px 0px 10px 0px;*/
+}
+
+.course-index-box .panel-body .panel-body-title{
+	padding: 5px 0 5px 5px;
+}
+.course-index-box .panel-body a {
+	text-decoration: none;
+}
+
+.course-index-box .panel-body a h5 {
+	min-height: 32px;
+	color: #000;
+	font-weight: medium;
+}
+
+.course-index-box .panel-body a h6 {
+	overflow: hidden;
+	display: block;
+	height: 14px;
+}
+.course-index-box .course-item-img{
+	width: 100%;
+}
+
+.btn-view-more{
+	padding: 12px 30px;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}

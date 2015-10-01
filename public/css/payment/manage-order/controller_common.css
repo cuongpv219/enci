@@ -1,0 +1,184 @@
+#front-content-box, #front-content {
+	width: 100% !important;
+	margin: auto !important; 
+	padding: 0px !important;
+}
+
+#front-menu, #front-footer {
+	display: none !important;
+}
+
+#list-user-discount {
+	list-style: none;
+	background: #fff;
+	padding-left: 0px;
+	/*margin: 10px 10px 40px 10px;*/
+	display: table;
+	/*width: 100%;*/
+	/*margin-left: -20px;*/
+	/*margin-right: -20px;*/
+}
+
+#list-user-discount li {
+	display: table-row;
+	height: 30px;	
+}
+
+#list-user-discount li:hover {
+	background: #F0F0F0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.cell {
+	display: table-cell;
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	padding: 8px 10px 10px 10px;
+	border-right: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+
+.order {
+	width: 5%
+}
+
+.name {
+	width: 13%;
+}
+
+.phone {
+	width: 10%;
+}
+
+.status {
+	width: 10%;
+}
+
+.career {
+	width: 20%;
+}
+
+.uc {
+	width: 5%;
+}
+
+.created-time {
+	width: 10%;
+}
+
+.is-called {
+	width: 15%;
+}
+
+.note {
+	width: 15%;
+}
+
+.address {
+	width: 15%;
+}
+
+.city {
+	width: 10%;
+}
+
+.district {
+	width: 10%;
+}
+
+.edit {
+	width: 13%;
+}
+
+#manage-groups-menu {
+	float: left;
+}
+
+#manage-groups-menu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	border-right: 1px solid #888;
+	padding: 15px 20px;
+}
+
+#manage-groups-menu a:hover, .type-active {
+	background: #555;
+	color: #fff !important;
+}
+
+.clear-both {
+	clear: both;
+}
+
+#menu-manage {
+	background: #f1f1f1;
+	border-bottom: 1px solid #888;
+	border-top: 1px solid #888;
+}
+
+#statistics-order:hover .nav-statistics{
+	display: block;
+}
+
+.nav-statistics {
+    position: absolute;
+    bottom: -193px;
+    border-top: 1px solid #888;
+    right: 0px;
+    list-style: none;
+    background: #f1f1f1;
+    margin: 0px;
+    padding-left: 0px;
+    display: none;
+    z-index: 9999;
+}
+
+.nav-statistics li a {
+	display: block;
+	width: 200px;
+	padding: 15px 40px;
+	border: 1px solid #888;
+	border-top: 0px;
+}
+
+#list-type-order {
+    position: relative;
+}
+
+#menu-type-order {
+	background: #f1f1f1;
+	border-bottom: 1px solid #888;
+	border-top: 1px solid #888;
+	/*height: 30px;*/
+	/*padding: 10px 10px;*/
+}
+
+#list-type-order {
+	float: left;
+}
+
+#list-type-order a , #statistics-order{
+	display: block;
+	float: left;
+	text-decoration: none;
+	/*font-weight: bold;*/
+	color: #000;
+	border-right: 1px solid #888;
+	padding: 15px 10px;
+}
+
+#list-type-order a:hover, .type-active {
+	background: #555;
+	color: #fff !important;
+}
+
+.clear-both {
+	clear: both;
+}

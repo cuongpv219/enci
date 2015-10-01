@@ -1,0 +1,46 @@
+#audio-container{
+    float: left;
+    width: 130px;
+    padding-top: 14px;
+}
+
+#paragraph-container{
+    float: left;
+    border-left: 1px solid #EAEAEA;
+    width: 606px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+.cp-container {
+    margin: auto;
+}
+
+.choice {
+    background-color: white;
+    cursor: pointer;
+    color: #4375b1;
+    font-weight: bold;
+    border: 1px solid #F0F0F0;
+    padding: 1px 5px 1px 5px;
+    cursor: pointer;
+}
+
+.true-icon{
+    margin:-10px 2px 0px 1px;
+    box-shadow: none;
+    border:none;
+    width:18px;
+    height:18px;
+}
+.false-icon {
+    margin: -5px 2px 0px 1px;
+    box-shadow: none;
+    border: none;
+    width: 18px;
+    height: 18px;
+}
+
+#loadResult {
+    margin: 0 auto;
+}

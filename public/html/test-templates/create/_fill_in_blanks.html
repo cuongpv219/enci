@@ -1,0 +1,65 @@
+<div class="choose-correct-answer input-question" ng-controller="fillInBlanks">
+	<divider></divider>
+
+	<div ng-if="!temp.isDivider">
+		<h4>Nhập nội dung</h4>
+	    <div class="tutorial">
+	        <div class="example">
+	        	Hướng dẫn: mỗi ô trống (một câu hỏi) tương ứng 1 [x]. Nếu 1 câu có nhiều ô trống, thì các ô trống đó có cùng 1 chỉ số. Nội dung các đáp án nhập ở dưới (click "Thêm câu mới" để có chỗ nhập nội dung đáp án). Ví dụ: 
+	        	<br><br>
+	        	<pre>Mr Obama [0] he was [0] to work with the new Congress to make the next two years as productive as possible". The election campaign [1] characterised by widespread frustration expressed by voters about the inability of Congress to work together.
+	        	</pre>
+	        </div>
+	    </div>
+	    <textarea class="ck-editor" ng-model="temp.paragraph"></textarea>
+
+	    <h4>Nhập đáp án tương ứng vào từng câu</h4>
+
+	    <button class="btn btn-success" ng-click="addEmptyQuestion(temp.list)">Thêm câu mới</button>
+	    <p ng-if="temp.list.length === 0">Chưa có câu nào. Bấm vào nút ở trên để thêm.</p>
+
+	    <div class="panel-group" id="accordion-groups" role="tablist" aria-multiselectable="true">
+
+	    	<!-- Repeat question -->
+
+		    <div class="panel panel-default activity-data" ng-repeat="question in temp.list">
+		    	<div class="panel-heading" role="tab" id="heading{{$index}}">
+			      <h4 class="panel-title actions clearfix">
+			        <a data-toggle="collapse" data-parent="#accordion-groups" href="#collapse-group-{{$index}}" aria-expanded="true" aria-controls="collapse{{$index}}">
+			          Câu [{{temp.list.indexOf(question)}}]
+			        </a>
+			        <span class="pull-right">
+			        	<a class="btn btn-info" ng-click="addEmptyAnswer(question)">Thêm trả lời</a>
+			        	<a class="btn btn-danger" ng-click="removeQuestion(question, temp.list)">&times;</a>
+		        	</span>
+			      </h4>
+			    </div>
+		    	<div id="collapse-group-{{$index}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{$index}}">
+			      <div class="panel-body">
+			      		<p ng-if="question.answers.length === 0">Chưa có đáp án nào nào. Bấm vào nút "Thêm đáp án" để thêm mới.</p>
+					    <ul class="list-unstyled">
+
+					    	<!-- Repeat answer -->
+
+					    	<li class="input-group" ng-repeat="answer in question.answers track by $index">
+						     	<span class="input-group-btn">
+							        <button class="btn btn-default" type="button" title="Xóa đáp án này"
+							        	ng-click="removeAnswer(answer, question)">&times;</button>
+							    </span>
+					    		<input type="text" class="answer-input form-control" 
+					    			placeholder="Nhập từ tương ứng với [{{temp.list.indexOf(question)}}], từ trên xuống dưới, từ trái qua phải" 
+					    			ng-model="question.answers[$index]">
+					    	</li>
+					    </ul>
+					    <div class="explanation" ng-if="question.answers.length > 0">
+							<h4>Giải thích</h4>
+							<textarea class="ck-editor" ng-model="question.explanation"></textarea>
+						</div>
+			      </div>
+			    </div>
+		  	</div>
+	  	</div>
+    </div>
+
+  	<modal-footer-actions></modal-footer-actions>
+</div>

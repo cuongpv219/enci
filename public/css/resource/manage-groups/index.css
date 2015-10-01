@@ -1,0 +1,69 @@
+body {
+    font-family: "Segoe UI", "Arial";
+}
+#page-intro {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page-intro .title {
+    color: #B00000;
+}
+
+#btn-create-new {
+    height: 22px;
+    float: right;
+}
+
+#group-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 10px;
+    display: table;
+    width: 100%;
+}
+
+#group-list .group-item-wrapper {
+    display: table-row;
+}
+#group-list .group-item-wrapper:hover {
+    background: #f8f8f8;
+}
+
+#group-list .cell {
+    display: table-cell;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 10px 20px 10px;
+}
+
+#group-list .link-details:hover,
+#group-list .link-edit:hover,
+#group-list .show-hide:hover {
+    text-decoration: underline;
+}
+#group-list .show-hide {
+    color: #0F97FF;
+}
+
+#group-list .show-hide,
+#group-list .link-edit,
+#group-list .link-details {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#group-list .link-details {
+    color: #F37D1D;
+}
+#group-list .link-edit {
+    color: #4E7E18;
+}
+
+#group-list .navigator {
+    padding-right: 6px;
+    width: 300px;
+    text-align: right;
+}
